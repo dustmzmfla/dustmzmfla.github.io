@@ -1,0 +1,271 @@
+@charset "utf-8";
+
+
+.modal-header {
+    box-shadow: -1px 20px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.modal-footer {
+    box-shadow: -1px -20px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.modal-header img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+.modal-header p {
+    position: relative;
+    top: 10px;
+    left: 40px;
+    float: left;
+    font-weight: bold;
+    cursor: default;
+}
+
+.modal-title img {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.modal-title p {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    cursor: default;
+}
+
+#modal-photoshop .modal-body {
+    opacity: 0.9;
+    height: 400px;
+    background: url(../img/Photoshop_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+#modal-premier .modal-body {
+    opacity: 0.9;
+    height: 400px;
+    background: url(../img/PremierePro_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+#modal-aftereffect .modal-body {
+    opacity: 0.9;
+    height: 400px;
+    background: url(../img/aftereffect_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+#modal-illustrator .modal-body {
+    opacity: 0.9;
+    height: 400px;
+    background: url(../img/Illustrator_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+#modal-lightroom .modal-body {
+    opacity: 0.9;
+    height: 400px;
+    background: url(../img/lightroom_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+#modal-animate .modal-body {
+    opacity: 0.9;
+    height: 400px;
+    background: url(../img/animate_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+#modal-audition .modal-body {
+    opacity: 0.9;
+    height: 400px;
+    background: url(../img/audition_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+#modal-indesign .modal-body {
+    opacity: 0.9;
+    height: 400px;
+    background: url(../img/InDesign_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+#modal-mediaencoder .modal-body {
+    opacity: 0.9;
+    height: 400px;
+    background: url(../img/MediaEncoder_img.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+#modal-acrobat .modal-body {
+    opacity: 0.9;
+    height: 400px;
+    background: url(../img/Acrobat_img.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.modal-body h1 {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: -1px 0 black,
+        0 1px black,
+        1px 0 black,
+        0 -1px black;
+    cursor: default;
+}
+
+#modal-premier .modal-body h1 {
+    position: relative;
+    top: 130px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: -1px 0 black,
+        0 1px black,
+        1px 0 black,
+        0 -1px black;
+    cursor: default;
+}
+
+#modal-aftereffect .modal-body h1 {
+    position: relative;
+    top: 130px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: -1px 0 black,
+        0 1px black,
+        1px 0 black,
+        0 -1px black;
+    cursor: default;
+}
+
+#modal-audition .modal-body h1 {
+    position: relative;
+    top: 130px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: -1px 0 black,
+        0 1px black,
+        1px 0 black,
+        0 -1px black;
+    cursor: default;
+}
+
+.modal-body h2 {
+    position: relative;
+    top: 150px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-shadow: -1px 0 black,
+        0 1px black,
+        1px 0 black,
+        0 -1px black;
+    cursor: default;
+    font-weight: bold;
+}
+
+#modal-premier .modal-body h2 {
+    position: relative;
+    top: 130px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    text-shadow: -1px 0 black,
+        0 1px black,
+        1px 0 black,
+        0 -1px black;
+    cursor: default;
+    font-weight: bold;
+}
+
+#modal-audition .modal-body h2 {
+    position: relative;
+    top: 130px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    text-shadow: -1px 0 black,
+        0 1px black,
+        1px 0 black,
+        0 -1px black;
+    cursor: default;
+    font-weight: bold;
+}
+
+#modal-mediaencoder .modal-body h2 {
+    position: relative;
+    top: 130px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    text-shadow: -1px 0 black,
+        0 1px black,
+        1px 0 black,
+        0 -1px black;
+    cursor: default;
+    font-weight: bold;
+}
+
+#modal-acrobat .modal-body h2 {
+    position: relative;
+    top: 130px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    text-shadow: -1px 0 black,
+        0 1px black,
+        1px 0 black,
+        0 -1px black;
+    cursor: default;
+    font-weight: bold;
+}
+
+.modal-footer button {
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid black;
+}
+
+.modal-footer button:hover {
+    color: white;
+    background: blue;
+}

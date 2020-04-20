@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scal=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>게임 스페이스 - Nintendo</title>
+    <link rel="icon" type="imges/png" href="../gamespace/img/logo.png">
+    <link rel="icon" type="imges/png" href="../gamespace/img/logo.png">
+    <link rel="stylesheet" type="text/css" href="../gamespace/css/common.css">
+    <link rel="stylesheet" type="text/css" href="../gamespace/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../gamespace/plugins/ajax/ajax_helper.css">
+    <link rel="stylesheet" type="text/css" href="../gamespace/css/nintendo.css">
+</head>
+
+<body -ms-overflow-style: none; oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+    <!-- top 시작 -->
+    <div class="navbar navbar-inverse navbar-fixed-top" id="top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="file:///D:/SHW/popl/list_one.htmlbs-example-navbar-collapse-1">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="file:///D:/SHW/popl/main.html" id="logo">
+                    <img src="../gamespace/img/logo.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" id="top-title">
+                    <li>
+                        <a href="../gamespace/pc.html">PC</a>
+                    </li>
+                    <li>
+                        <a href="../gamespace/playstation.html">플레이스테이션</a>
+                    </li>
+                    <li>
+                        <a href="../gamespace/xbox.html">XBOX</a>
+                    </li>
+                    <li>
+                        <a href="../gamespace/nintendo.html">닌텐도</a>
+                    </li>
+                    <li>
+                        <a href="../gamespace/mobile.html">모바일</a>
+                    </li>
+                    <li>
+                        <a href="../gamespace/hit.html">인기게임</a>
+                    </li>
+                    <li>
+                        <a href="../gamespace/commingsoon.html">발매 예정</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="glyphicon glyphicon-user" data-toggle="dropdown"><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../gamespace/login.html">로그인</a></li>
+                            <li><a href="../gamespace/register.html">회원가입</a></li>
+                            <li><a href="../gamespace/mypagelogin.html">마이페이지</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-right" id="search-box">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="검색어 입력">
+                    </div>
+                    <button type="submit" class="btn">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- top 끝 -->
+    <div class="content">
+        <div id="title">
+            <div id="title-box">
+                <div id="title-top">
+                    <select id="title-dropdown">
+                        <option value="">장르 선택</option>
+                        <option value="horror">공포</option>
+                        <option value="rougue-like">로그라이크</option>
+                        <option value="role-playing">롤플레잉</option>
+                        <option value="rhythm">리듬</option>
+                        <option value="board">보드</option>
+                        <option value="shooting">슈팅</option>
+                        <option value="sports">스포츠</option>
+                        <option value="simulation">시뮬레이션</option>
+                        <option value="strategy">전략</option>
+                        <option value="arcade">아케이드</option>
+                        <option value="adventure">어드벤쳐</option>
+                        <option value="puzzle">퍼즐</option>
+                    </select>
+                    <div id="title-bar">
+                        <img src="../gamespace/img/nintendo.png">
+                        <hr />
+                        Nintendo
+                    </div>
+                </div>
+                <!-- -->
+                <div class="visible-xs" id="inside-box-xs">
+                    <div id="list-xs">
+                        <div class="col-xs-12">
+                            <a href="../gamespace/list-atelier_ryza.html" class="thumbnail">
+                                <img src="../gamespace/game/list/atlierryza/Atelier_Ryza.jpg" class="img-responsive" />
+                                <h4>라이자의 아틀리에</h4>
+                            </a>
+                        </div>
+                        <div class="col-xs-12">
+                            <a href="../gamespace/list-pokemon_swrod&shield.html" class="thumbnail">
+                                <img src="../gamespace/game/list/pokemonsword/pokemonster.jpg" class="img-responsive" />
+                                <h4>포켓몬스터 소드&실드</h4>
+                            </a>
+                        </div>
+                        <div class="col-xs-12">
+                            <a href="../gamespace/list_one.html" class="thumbnail">
+                                <img src="../gamespace/game/list/stardewvalley/stardewvalley.png" class="img-responsive" />
+                                <h4>스타듀밸리</h4>
+                            </a>
+                        </div>
+                        <div class="col-xs-12">
+                            <a href="../gamespace/list-fire_emblem.html" class="thumbnail">
+                                <img src="../gamespace/game/list/fireemblemthreehouses/fireemblem.jpg" class="img-responsive" />
+                                <h4>파이어 엠블램:풍화설월</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- -->
+                <div class="visible-lg" id="inside-box-lg">
+                    <div id="list-lg">
+                        <div class="col-md-3">
+                            <a href="../gamespace/list-atelier_ryza.html" class="thumbnail">
+                                <img src="../gamespace/game/list/atlierryza/Atelier_Ryza.jpg" class="img-responsive" />
+                                <h4>라이자의 아틀리에</h4>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="../gamespace/list-pokemon_swrod&shield.html" class="thumbnail">
+                                <img src="../gamespace/game/list/pokemonsword/pokemonster.jpg" class="img-responsive" />
+                                <h4>포켓몬스터 소드&실드
+                                </h4>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="../gamespace/list-stardew_valley.html" class="thumbnail">
+                                <img src="../gamespace/game/list/stardewvalley/stardewvalley.png" class="img-responsive" />
+                                <h4>스타듀 밸리</h4>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="../gamespace/list-fire_emblem.html" class="thumbnail">
+                                <img src="../gamespace/game/list/fireemblemthreehouses/fireemblem.jpg" class="img-responsive" />
+                                <h4>파이어 엠블램 : 풍화설월</h4>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="../gamespace/list-luigis_mention.html" class="thumbnail">
+                                <img src="../gamespace/game/list/luigismansion3/luigismansion.jpg" class="img-responsive" />
+                                <h4>루이지 맨션 3</h4>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="../gamespace/list-supermario_maker_2.html" class="thumbnail">
+                                <img src="../gamespace/game/list/supermariomaker2/supermariomaker2.jpg" class="img-responsive" />
+                                <h4>슈퍼마리오 메이커 2</h4>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="../gamespace/list-legend_of_zelda_breath_of_the_wild.html" class="thumbnail">
+                                <img src="../gamespace/game/list/thelegendofzeldabreathofwild/thelezendofzelda.jpg" class="img-responsive" />
+                                <h4>젤다의 전설 : 브레스 오브 더 와일드</h4>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="../gamespace/list-supermaio_odyssey.html" class="thumbnail">
+                                <img src="../gamespace/game/list/supermarioodyseey/supermarioodyssey.png" class="img-responsive" />
+                                <h4>슈퍼마리오 오디세이</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- -->
+                <div class="visible-md" id="inside-box-md">
+                    <div id="list-md">
+                        <div class="col-md-3">
+                            <a href="../gamespace/list-atelier_ryza.html" class="thumbnail">
+                                <img src="../gamespace/game/list/atlierryza/Atelier_Ryza.jpg" class="img-responsive" />
+                                <h4>라이자의 아틀리에</h4>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="../gamespace/list-pokemon_swrod&shield.html" class="thumbnail">
+                                <img src="../gamespace/game/list/pokemonsword/pokemonster.jpg" class="img-responsive" />
+                                <h4>포켓몬스터 소드&실드
+                                </h4>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="../gamespace/list-stardew_valley.html" class="thumbnail">
+                                <img src="../gamespace/game/list/stardewvalley/stardewvalley.png" class="img-responsive" />
+                                <h4>스타듀 밸리</h4>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="../gamespace/list-fire_emblem.html" class="thumbnail">
+                                <img src="../gamespace/game/list/fireemblemthreehouses/fireemblem.jpg" class="img-responsive" />
+                                <h4>파이어 엠블램 : 풍화설월</h4>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="../gamespace/list-luigis_mention.html" class="thumbnail">
+                                <img src="../gamespace/game/list/luigismansion3/luigismansion.jpg" class="img-responsive" />
+                                <h4>루이지 맨션 3</h4>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="../gamespace/list-supermario_maker_2.html" class="thumbnail">
+                                <img src="../gamespace/game/list/supermariomaker2/supermariomaker2.jpg" class="img-responsive" />
+                                <h4>슈퍼마리오 메이커 2</h4>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="../gamespace/list-legend_of_zelda_breath_of_the_wild.html" class="thumbnail">
+                                <img src="../gamespace/game/list/thelegendofzeldabreathofwild/thelezendofzelda.jpg" class="img-responsive" />
+                                <h6>젤다의 전설 : 브레스 오브 더 와일드</h6>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="../gamespace/list-supermaio_odyssey.html" class="thumbnail">
+                                <img src="../gamespace/game/list/supermarioodyseey/supermarioodyssey.png" class="img-responsive" />
+                                <h4>슈퍼마리오 오디세이</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- -->
+                <div class="visible-sm" id="inside-box-sm">
+                    <div id="list-sm">
+                        <div class="col-sm-6">
+                            <a href="../gamespace/list-atelier_ryza.html" class="thumbnail">
+                                <img src="../gamespace/game/list/atlierryza/Atelier_Ryza.jpg" class="img-responsive" />
+                                <h4>라이자의 아틀리에</h4>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="../gamespace/list-pokemon_swrod&shield.html" class="thumbnail">
+                                <img src="../gamespace/game/list/pokemonsword/pokemonster.jpg" class="img-responsive" />
+                                <h4>포켓몬스터 소드&실드
+                                </h4>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="../gamespace/list-stardew_valley.html" class="thumbnail">
+                                <img src="../gamespace/game/list/stardewvalley/stardewvalley.png" class="img-responsive" />
+                                <h4>스타듀 밸리</h4>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="../gamespace/list-fire_emblem.html" class="thumbnail">
+                                <img src="../gamespace/game/list/fireemblemthreehouses/fireemblem.jpg" class="img-responsive" />
+                                <h4>파이어 엠블램 : 풍화설월</h4>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="../gamespace/list-luigis_mention.html" class="thumbnail">
+                                <img src="../gamespace/game/list/luigismansion3/luigismansion.jpg" class="img-responsive" />
+                                <h4>루이지 맨션 3</h4>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="../gamespace/list-supermario_maker_2.html" class="thumbnail">
+                                <img src="../gamespace/game/list/supermariomaker2/supermariomaker2.jpg" class="img-responsive" />
+                                <h4>슈퍼마리오 메이커 2</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- -->
+                </div>
+                <div id="button-lg">
+                    <a href="#" class="glyphicon glyphicon-chevron-left"></a>
+                    <a href="#">
+                        1
+                    </a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#" class="glyphicon glyphicon-chevron-right"></a>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.com"></script>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"> </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="../gamespace/plugins/ajax/ajax_helper.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scal=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>회원가입 - 게임 스페이스</title>
+    <link rel="icon" type="imges/png" href="../gamespace/img/logo.png">
+    <link rel="stylesheet" type="text/css" href="../gamespace/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../gamespace/css/register.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="plugins/datepicker/datepicker.min.css" />
+</head>
+
+<body -ms-overflow-style: none; oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+    <div class="content">
+        <div id="background">
+            <img src="img/login.png" class="login_background" />
+        </div>
+        <div class="regist_box">
+            <div id="header">
+                <div class="top">
+                    <img src="../gamespace/img/logo.png">
+                    <p>
+                        <button class="btn btn-default" id="click" onclick="goback()">
+                            <span class="glyphicon glyphicon-remove" aria-hidden="true">
+                            </span>
+                        </button>
+                    </p>
+                </div>
+            </div>
+            <form class="form-horizontal" name="join_form" id="join_form" action="" method="POST">
+                <div id="main">
+                    <legend>회원가입</legend>
+                    <div class="form-group">
+                        <label for='user_id' class="col-xs-2">아이디 <span class='identify'>*</span></label>
+                        <div class="col-md-10">
+                            <input type="text" name="user_id" id="user_id" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for='user_pw' class="col-xs-2">비밀번호 <span class='identify'>*</span></label>
+                        <div class="col-md-10">
+                            <input type="password" name="user_pw" id="user_pw" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for='user_pw' class="col-xs-2">비밀번호 확인 <span class='identify'>*</span></label>
+                        <div class="col-md-10">
+                            <input type="password" name="user_pw_re" id="user_pw_re" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for='email' class="col-xs-2">이메일 <span class='identify'>*</span></label>
+                        <div class="col-md-10">
+                            <input type="email" name="email" id="email" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for='gender1' class="col-xs-2">성별 <span class='identify'>*</span></label>
+                        <div class="col-md-10">
+                            <label><input type='radio' name='gender' id='gender1' value='M' checked>남자</label>
+                            <label><input type='radio' name='gender' id='gender2' value='F'>여자</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for='birth' class="col-xs-2">생년월일 <span class='identify'>*</span></label>
+                        <div class="col-md-10">
+                            <input type="text" name="user_birth" id="datepicker" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <legend></legend>
+                    <div class="buttons">
+                        <button type="submit" class="btn btn-primary btn-block">확 인</button>
+                        <button type="button" class="btn btn-primary btn-block" onclick="goback()">취소</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js">
+    </script>
+    <script src="../gamespace/plugins/datepicker/datepicker.min.js"></script>
+    <script src="../gamespace/plugins/datepicker/i18n/datepicker.ko-KR.js"></script>
+    <script src="../gamespace/regex.js"></script>
+    <script src="../gamespace/js/register.js">
+    </script>
+</body>
+
+</html>

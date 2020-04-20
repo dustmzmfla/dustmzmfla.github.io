@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+body {
+    overflow: hidden;
+}
+
+.content {
+    width: 100%;
+    height: 990px;
+    background: url(D:/SHW/popl/img/list-Background-1.jpg);
+}
+
+#box {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 800px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#board_box {
+    position: relative;
+    top: 25px;
+    margin: auto;
+    width: 1000px;
+    height: 700px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 5px 5px black;
+    border: 1px solid white;
+}
+
+.buttons {
+    width: 100%;
+    height: 20px;
+}
+
+.buttons button {
+    position: relative;
+    right: 10px;
+    float: right;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.table {
+    margin: auto;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.table a {
+    color: black;
+}
+
+
+.search {
+    position: relative;
+    top: 30px;
+    margin: auto;
+    width: 1000px;
+    height: 50px;
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+#search_box {
+    position: relative;
+    top: 10px;
+    margin: auto;
+    width: 500px;
+}
+
+#search_box select {
+    height: 26px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#search_box input {
+    width: 350px;
+
+    border-radius: 5px 5px 5px 5px;
+}
+
+#search_box button {
+    border-radius: 5px 5px 5px 5px;
+}

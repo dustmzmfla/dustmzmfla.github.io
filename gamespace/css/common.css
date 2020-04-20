@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+* {
+    font-family: "나눔고딕", "맑은고딕", "굴림", "Helvetica";
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    display: none;
+}
+
+body {
+    background: black;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+
+    display: none;
+
+}
+
+#top {
+    background: black;
+    border-bottom: 2px solid rgba(40, 243, 199, 0.7);
+}
+
+#logo img {
+    position: relative;
+    bottom: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+#top-title a {
+    font-size: 12px;
+}
+
+#search-box button:hover {
+    border: 1px solid white;
+    background: black;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    left: 50px;
+}

@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+.blue {
+    position: relative;
+    bottom: 200px;
+    width: 100%;
+    height: 200px;
+    background: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.blue .wave {
+    position: absolute;
+    width: 100%;
+    height: 143px;
+    bottom: 0;
+    left: 0;
+    background: url(../img/wave.png);
+    animation: wave 10s linear infinite;
+}
+
+.blue .wave:before {
+    content: "";
+    width: 100%;
+    height: 143px;
+    background: url(../img/wave.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    animation:
+        wave-reverse 10s linear infinite;
+}
+
+.blue .wave:after {
+    content: "";
+    width: 100%;
+    height: 143px;
+    background: url(../img/wave.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    animation-delay: -5s;
+    animation:
+        wave 20s linear infinite;
+}
+
+@keyframes wave {
+    0% {
+        background-position-x: 0;
+
+    }
+
+    100% {
+        background-position-x: 1360px;
+
+    }
+}
+
+@keyframes wave-reverse {
+    0% {
+        background-position-x: 1360px;
+    }
+
+    100% {
+        background-position-x: 0;
+    }
+}

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scal=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>게임 스페이스 - 발매 예정 게임</title>
+    <link rel="icon" type="imges/png" href="../gamespace/img/logo.png">
+    <link rel="icon" type="imges/png" href="../gamespace/img/logo.png">
+    <link rel="stylesheet" type="text/css" href="../gamespace/css/common.css">
+    <link rel="stylesheet" type="text/css" href="../gamespace/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../gamespace/plugins/ajax/ajax_helper.css">
+    <link rel="stylesheet" type="text/css" href="../gamespace/css/commingsoon.css">
+</head>
+
+<body -ms-overflow-style: none; oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+    <!-- top 시작 -->
+    <div class="navbar navbar-inverse navbar-fixed-top" id="top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../gamespace/main.html" id="logo">
+                    <img src="img/logo.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" id="top-title">
+                    <li>
+                        <a href="../gamespace/pc.html">PC</a>
+                    </li>
+                    <li>
+                        <a href="../gamespace/playstation.html">플레이스테이션</a>
+                    </li>
+                    <li>
+                        <a href="../gamespace/xbox.html">XBOX</a>
+                    </li>
+                    <li>
+                        <a href="../gamespace/nintendo.html">닌텐도</a>
+                    </li>
+                    <li>
+                        <a href="../gamespace/mobile.html">모바일</a>
+                    </li>
+                    <li>
+                        <a href="../gamespace/hit.html">인기게임</a>
+                    </li>
+                    <li>
+                        <a href="../gamespace/commingsoon.html">발매 예정</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="glyphicon glyphicon-user" data-toggle="dropdown"><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../gamespace/login.html">로그인</a></li>
+                            <li><a href="../gamespace/register.html">회원가입</a></li>
+                            <li><a href="../gamespace/mypagelogin.html">마이페이지</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-right" id="search-box">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="검색어 입력">
+                    </div>
+                    <button type="submit" class="btn">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- top 끝 -->
+    <div class="content">
+        <div id="title">
+            <div id="title-box">
+                <div id="title-top">
+                    <div id="title-bar">
+                        발매 예정 게임
+                    </div>
+                </div>
+                <!-- -->
+                <div class="visible-xs" id="inside-box-xs">
+                    <div id="list-xs">
+                        <div class="col-xs-12">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/cyberpunk2077/Cyberpunk2077.jpg" class="img-responsive" />
+                                <h4>사이버 펑크 2077</h4>
+                                <p>
+                                    발매일 : 2020.09.17
+                                </p>
+                                <p>
+                                    플랫폼 : PC, PS, XBOX
+                                </p>
+                                <p>
+                                    가격 : 66.000원
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-xs-12">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/thelastofus2/thelastofus2.jpg" class="img-responsive" />
+                                <h4>더 라스트 오브 어스 파트 2</h4>
+                                <p>
+                                    발매일 : 2020.05.29
+                                </p>
+                                <p>
+                                    플랫폼 : PS
+                                </p>
+                                <p>
+                                    가격 : 64.800원
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- -->
+                <div class="visible-lg" id="inside-box-lg">
+                    <div id="list-lg">
+                        <div class="col-md-3">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/cyberpunk2077/Cyberpunk2077.jpg" class="img-responsive" />
+                                <h4>사이버 펑크 2077</h4>
+                                <p>
+                                    발매일 : 2020.09.17
+                                </p>
+                                <p>
+                                    플랫폼 : PC, PS, XBOX
+                                </p>
+                                <p>
+                                    가격 : 66.000원
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/thelastofus2/thelastofus2.jpg" class="img-responsive" />
+                                <h4>더 라스트 오브 어스 파트 2</h4>
+                                <p>
+                                    발매일 : 2020.05.29
+                                </p>
+                                <p>
+                                    플랫폼 : PS
+                                </p>
+                                <p>
+                                    가격 : 64.800원
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/finalfantasy4remake/finalfantasy4remake.jpg" class="img-responsive" />
+                                <h4>파이널 판타지 4 리메이크</h4>
+                                <p>
+                                    발매일 : 2020.04.10
+                                </p>
+                                <p>
+                                    플랫폼 : PS
+                                </p>
+                                <p>
+                                    가격 : 69.800원
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/biohazard3/residentevil3.jpg" class="img-responsive" />
+                                <h4>레지던트 이블 3 리메이크</h4>
+                                <p>
+                                    발매일 : 2020.04.03
+                                </p>
+                                <p>
+                                    플랫폼 : PC, PS, XBOX
+                                </p>
+                                <p>
+                                    가격 : 68.400원
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/onepiecepiratewarriors4/onepiecepiratewarriors4.png" class="img-responsive" />
+                                <h4>원피스 해적무쌍 4</h4>
+                                <p>
+                                    발매일 : 2020.03.26
+                                </p>
+                                <p>
+                                    플랫폼 : PC, PS, XBOX, Nintendo
+                                </p>
+                                <p>
+                                    가격 : 64.800원
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/animalcrossingnewhorizons/animalcrossing.jpg" class="img-responsive" />
+                                <h4>모여봐요 동물의 숲</h4>
+                                <p>
+                                    발매일 : 2020.03.20
+                                </p>
+                                <p>
+                                    플랫폼 : Nintendo
+                                </p>
+                                <p>
+                                    가격 : 64.800원
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/doometernal/doometernal.png" class="img-responsive" />
+                                <h4>둠 이터널</h4>
+                                <p>
+                                    발매일 : 2020.03.20
+                                </p>
+                                <p>
+                                    플랫폼 : PC, PS, XBOX, Nintendo
+                                </p>
+                                <p>
+                                    가격 : 67.000원
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/diablo4/diablo4.png" class="img-responsive" />
+                                <h4>디아블로 4</h4>
+                                <p>
+                                    발매일 : -
+                                </p>
+                                <p>
+                                    플랫폼 : -
+                                </p>
+                                <p>
+                                    가격 : -
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- -->
+                <div class="visible-md" id="inside-box-md">
+                    <div id="list-md">
+                        <div class="col-md-3">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/cyberpunk2077/Cyberpunk2077.jpg" class="img-responsive" />
+                                <h4>사이버 펑크 2077</h4>
+                                <p>
+                                    발매일 : 2020.09.17
+                                </p>
+                                <p>
+                                    플랫폼 : PC, PS, XBOX
+                                </p>
+                                <p>
+                                    가격 : 66.000원
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/thelastofus2/thelastofus2.jpg" class="img-responsive" />
+                                <h5>더 라스트 오브 어스 파트 2</h5>
+                                <p>
+                                    발매일 : 2020.05.29
+                                </p>
+                                <p>
+                                    플랫폼 : PS
+                                </p>
+                                <p>
+                                    가격 : 64.800원
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/finalfantasy4remake/finalfantasy4remake.jpg" class="img-responsive" />
+                                <h5>파이널 판타지 4 리메이크</h5>
+                                <p>
+                                    발매일 : 2020.04.10
+                                </p>
+                                <p>
+                                    플랫폼 : PS
+                                </p>
+                                <p>
+                                    가격 : 69.800원
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/biohazard3/residentevil3.jpg" class="img-responsive" />
+                                <h4>레지던트 이블 3 리메이크</h4>
+                                <p>
+                                    발매일 : 2020.04.03
+                                </p>
+                                <p>
+                                    플랫폼 : PC, PS, XBOX
+                                </p>
+                                <p>
+                                    가격 : 68.400원
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/onepiecepiratewarriors4/onepiecepiratewarriors4.png" class="img-responsive" />
+                                <h4>원피스 해적무쌍 4</h4>
+                                <p>
+                                    발매일 : 2020.03.26
+                                </p>
+                                <p>
+                                    플랫폼 : PC, PS, XBOX, Nintendo
+                                </p>
+                                <p>
+                                    가격 : 64.800원
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/animalcrossingnewhorizons/animalcrossing.jpg" class="img-responsive" />
+                                <h4>모여봐요 동물의 숲</h4>
+                                <p>
+                                    발매일 : 2020.03.20
+                                </p>
+                                <p>
+                                    플랫폼 : Nintendo
+                                </p>
+                                <p>
+                                    가격 : 64.800원
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/doometernal/doometernal.png" class="img-responsive" />
+                                <h4>둠 이터널</h4>
+                                <p>
+                                    발매일 : 2020.03.20
+                                </p>
+                                <p>
+                                    플랫폼 : PC, PS, XBOX, Nintendo
+                                </p>
+                                <p>
+                                    가격 : 67.000원
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/diablo4/diablo4.png" class="img-responsive" />
+                                <h4>디아블로 4</h4>
+                                <p>
+                                    발매일 : -
+                                </p>
+                                <p>
+                                    플랫폼 : -
+                                </p>
+                                <p>
+                                    가격 : -
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- -->
+                <div class="visible-sm" id="inside-box-sm">
+                    <div id="list-sm">
+                        <div class="col-sm-6">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/cyberpunk2077/Cyberpunk2077.jpg" class="img-responsive" />
+                                <h5>사이버 펑크 2077</h5>
+                                <p>
+                                    발매일 : 2020.09.17
+                                </p>
+                                <p>
+                                    플랫폼 : PC, PS, XBOX
+                                </p>
+                                <p>
+                                    가격 : 66.000원
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/thelastofus2/thelastofus2.jpg" class="img-responsive" />
+                                <h5>더 라스트 오브 어스 파트 2</h5>
+                                <p>
+                                    발매일 : 2020.05.29
+                                </p>
+                                <p>
+                                    플랫폼 : PS
+                                </p>
+                                <p>
+                                    가격 : 64.800원
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/finalfantasy4remake/finalfantasy4remake.jpg" class="img-responsive" />
+                                <h5>파이널 판타지 4 리메이크</h5>
+                                <p>
+                                    발매일 : 2020.04.10
+                                </p>
+                                <p>
+                                    플랫폼 : PS
+                                </p>
+                                <p>
+                                    가격 : 69.800원
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a class="thumbnail">
+                                <img src="../gamespace/game/list/biohazard3/residentevil3.jpg" class="img-responsive" />
+                                <h4>레지던트 이블 3 리메이크</h4>
+                                <p>
+                                    발매일 : 2020.04.03
+                                </p>
+                                <p>
+                                    플랫폼 : PC, PS, XBOX
+                                </p>
+                                <p>
+                                    가격 : 68.400원
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- -->
+                </div>
+                <div id="button-lg">
+                    <a href="#" class="glyphicon glyphicon-chevron-left"></a>
+                    <a href="#">
+                        1
+                    </a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#" class="glyphicon glyphicon-chevron-right"></a>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="../gamespace/plugins/ajax/ajax_helper.js"></script>
+</body>
+
+</html>

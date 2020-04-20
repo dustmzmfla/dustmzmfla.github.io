@@ -1,0 +1,1188 @@
+@charset "utf-8";
+
+
+
+
+#slide_toggle1 button {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: -20px;
+    color: white;
+    background: black;
+    left: 80px;
+    border: 0;
+}
+
+#slide_toggle2 button {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: -20px;
+    color: white;
+    background: black;
+    left: 20px;
+    border: 0;
+}
+
+#search {
+    margin: auto;
+    width: 100px;
+    height: 50px;
+    background: red;
+}
+
+#list_box {
+    position: relative;
+    top: -10px;
+    width: 100%;
+    height: 30px;
+    background: black;
+    border-bottom: 1px solid rgba(40, 243, 199, 0.7);
+}
+
+/***/
+#pc1 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 60px;
+    cursor: pointer;
+}
+
+#pc1:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+#pc2 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 120px;
+    cursor: pointer;
+}
+
+#pc2:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+#pc3 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 180px;
+    cursor: pointer;
+}
+
+#pc3:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+#pc4 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 240px;
+    cursor: pointer;
+}
+
+#pc4:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+#pc5 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 300px;
+    cursor: pointer;
+}
+
+#pc5:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+#pc6 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 360px;
+    cursor: pointer;
+}
+
+#pc6:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+#pc7 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 15px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 420px;
+    cursor: pointer;
+}
+
+#pc7:hover {
+    color: orange;
+    text-shadow: 0 0 15px orange;
+}
+
+/***/
+#pc11 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 60px;
+    cursor: pointer;
+}
+
+#pc11:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+#pc21 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 90px;
+    cursor: pointer;
+}
+
+#pc21:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+#pc31 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 120px;
+    cursor: pointer;
+}
+
+#pc31:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+#pc41 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 150px;
+    cursor: pointer;
+}
+
+#pc41:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+#pc51 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 180px;
+    cursor: pointer;
+}
+
+#pc51:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+#pc61 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 210px;
+    cursor: pointer;
+}
+
+#pc61:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+#pc71 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 15px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 240px;
+    cursor: pointer;
+}
+
+#pc71:hover {
+    color: orange;
+    text-shadow: 0 0 15px orange;
+}
+
+/***/
+
+#pc12 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 40px;
+    cursor: pointer;
+}
+
+#pc12:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+#pc22 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 60px;
+    cursor: pointer;
+}
+
+#pc22:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+#pc32 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 80px;
+    cursor: pointer;
+}
+
+#pc32:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+#pc42 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 100px;
+    cursor: pointer;
+}
+
+#pc42:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+#pc52 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 120px;
+    cursor: pointer;
+}
+
+#pc52:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+#pc62 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 140px;
+    cursor: pointer;
+}
+
+#pc62:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+#pc72 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 15px rgba(40, 243, 199, 1);
+    float: left;
+    top: -15px;
+    left: 160px;
+    cursor: pointer;
+}
+
+#pc72:hover {
+    color: orange;
+    text-shadow: 0 0 15px orange;
+}
+
+#list-sm button {
+    width: 50px;
+    height: 30px;
+    position: relative;
+    float: right;
+    top: -1px;
+    right: 20px;
+    background: rgba(40, 243, 199, 0.7);
+    border: 0;
+
+}
+
+/***/
+#pc13 {
+    position: relative;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -20px;
+    left: 10px;
+    cursor: pointer;
+}
+
+#pc13 img {
+    width: 30px;
+    height: 30px;
+}
+
+
+#pc23 {
+    position: relative;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+#pc23 img {
+    width: 30px;
+    height: 30px;
+}
+
+#pc33 {
+    position: relative;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -17px;
+    left: 30px;
+    cursor: pointer;
+}
+
+#pc33 img {
+    width: 25px;
+    height: 25px;
+}
+
+#pc43 {
+    position: relative;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -20px;
+    left: 40px;
+    cursor: pointer;
+}
+
+#pc43 img {
+    width: 30px;
+    height: 30px;
+}
+
+#pc53 {
+    position: relative;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -20px;
+    left: 50px;
+    cursor: pointer;
+}
+
+#pc53 img {
+    width: 30px;
+    height: 28px;
+}
+
+#pc63 {
+    position: relative;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -12px;
+    left: 60px;
+    cursor: pointer;
+}
+
+#pc63:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+#pc73 {
+    position: relative;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    float: left;
+    top: -12px;
+    left: 70px;
+    cursor: pointer;
+}
+
+#pc73:hover {
+    color: orange;
+    text-shadow: 0 0 15px orange;
+}
+
+#list-xs button {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    float: right;
+    right: -40px;
+    top: -1px;
+    background: rgba(40, 243, 199, 0.7);
+    border: 0;
+
+}
+
+/***/
+.input-group {
+    position: relative;
+    right: 20px;
+    width: 220px;
+    float: right;
+}
+
+.input-group input {
+    height: 29px;
+    background: black;
+    color: white;
+    border: 0;
+    border-left: 1px solid rgba(40, 243, 199, 0.7);
+}
+
+.input-group img {
+    position: relative;
+    top: -2px;
+    width: 20px;
+    height: 20px;
+}
+
+.input-group button {
+    width: 50px;
+    height: 29px;
+    background: rgba(40, 243, 199, 0.7);
+    border: 0;
+    border-radius: 0 0 0 0;
+}
+
+.input-group button:hover {
+    background: rgba(40, 243, 199, 1);
+}
+
+#list-sm button:hover {
+    background: rgba(40, 243, 199, 1);
+}
+
+#list-xs button:hover {
+    background: rgba(40, 243, 199, 1);
+}
+
+#mem_list {
+    position: relative;
+    float: right;
+    top: -30px;
+    width: 200px;
+    height: 150px;
+    background: white;
+    border: 2px solid gray;
+    z-index: 1000;
+}
+
+#mem_list a {
+    text-decoration: none;
+}
+
+#mem_list h1 {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#mem_list h1:hover {
+    color: white;
+    text-shadow: 0 0 3px black;
+}
+
+.content {
+    width: 100%;
+    height: 2000px;
+}
+
+#adv {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 550px;
+    background: black;
+}
+
+.carousel-inner .item img {
+    width: 100%;
+    height: 600px;
+    cursor: pointer;
+}
+
+#recommend {
+    position: relative;
+    top: 80px;
+    width: 100%;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#recommend_box {
+    margin: auto;
+    width: 700px;
+    height: 100%;
+}
+
+#recommend_box h1 {
+    position: relative;
+    top: 120px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px white;
+    font-size: 60px;
+}
+
+#recommend_box h2 {
+    position: relative;
+    top: 150px;
+    text-align: center;
+    color: orange;
+    text-shadow: 0 0 10px orange;
+    font-size: 20px;
+}
+
+#recommend_box2 h1 {
+    position: relative;
+    top: 80px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 20px white;
+    font-size: 60px;
+}
+
+#recommend_box2 h2 {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: orange;
+    text-shadow: 0 0 20px orange;
+    font-size: 20px;
+}
+
+#select_recommend {
+    position: relative;
+    top: -150px;
+    margin: auto;
+    width: 400px;
+    height: 50px;
+}
+
+#select_recommend button {
+    background: black;
+    color: white;
+    font-size: 15px;
+    text-shadow: 0 0 10px white;
+    border: 1px solid white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 5px 0 white;
+}
+
+#select_recommend button:hover {
+    color: rgba(40, 243, 199, 1);
+    text-shadow: 0 0 10px rgba(40, 243, 199, 1);
+    box-shadow: 0 0 5px 0 rgba(40, 243, 199, 1);
+    border: 1px solid rgba(40, 243, 199, 1);
+}
+
+.select {
+    width: 150px;
+    height: 50px;
+}
+
+#okay {
+    position: relative;
+    left: 30px;
+}
+
+#okay2 {
+    position: relative;
+    left: 60px;
+}
+
+#pc_box {
+    position: relative;
+    top: 80px;
+    width: 100%;
+    height: 700px;
+}
+
+.slides-pagination {
+    text-indent: -10000px;
+}
+
+#pc_slide {
+    width: 100%;
+    height: 700px;
+    z-index: 0;
+}
+
+
+#pc-info {
+    position: relative;
+    top: -170px;
+    width: 100%;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+#pc-info h1 {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px 0 rgba(40, 243, 199, 1);
+    cursor: default;
+}
+
+#pc-button {
+    position: relative;
+    top: 40px;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+}
+
+#pc-info button {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background: black;
+    color: white;
+}
+
+#pc-info button:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+#ps-box {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 20px 0 black inset;
+}
+
+#ps_slide {
+    position: relative;
+    left: 200px;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    text-indent: -10000px;
+}
+
+
+#ps-info h1 {
+    position: relative;
+    text-align: center;
+    bottom: 450px;
+    left: -250px;
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.1);
+    cursor: default;
+    text-shadow: 0 0 3px black;
+}
+
+#ps-button {
+    position: relative;
+    bottom: 430px;
+    right: 260px;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+}
+
+#ps-button button {
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px 0 black;
+    background: rgba(255, 255, 255, 0.0);
+    color: rgba(255, 255, 255, 0.1);
+    text-shadow: 0 0 1.5px black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#ps-button button:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#xbox {
+    position: relative;
+    top: 125px;
+    width: 100%;
+    min-height: 500px;
+}
+
+#video video {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+#video-box {
+    position: relative;
+    margin: auto;
+    bottom: 100px;
+    width: 100%;
+    height: 50px;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
+#video-box-button {
+    position: relative;
+    margin: auto;
+    top: 4px;
+    width: 150px;
+    height: 40px;
+}
+
+#video-box-button button {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    background: green;
+    color: white;
+    box-shadow: 0 0 2px 0 black inset;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+#video-box-button button:hover {
+    background: white;
+    color: green;
+    text-shadow: 0 0 2px green;
+    box-shadow: 0 0 5px 0 black inset;
+}
+
+#nintendo {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/nintendo_back.jpg);
+    background-position: center center;
+    box-shadow: 0 0 40px black inset;
+}
+
+
+.section {
+    height: 500px;
+    position: relative;
+}
+
+
+.box {
+    /* 왼쪽 상단을 부모 요소 중심에 맞춤 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* 세로축으로 높이의 반만큼 위로 이동시켜 중앙에 맞춤 */
+    margin-top: -200px;
+    /* 글자 위치, 색상 */
+    text-align: center;
+    color: white;
+    line-height: 200px;
+    font-size: 40px;
+}
+
+/* 첫 번째 박스는 자신의 사이즈 + 50(여백)만큼 왼쪽으로 이동 */
+.box-left {
+    width: 250px;
+    height: 200px;
+    margin-left: -450px;
+    color: white;
+    text-shadow: 0 0 3px white;
+    cursor: default;
+}
+
+/* 두 번째 박스는 50(여백)만큼 오른쪽으로 이동 */
+.box-right {
+    width: 620px;
+    height: 400px;
+    box-shadow: 0 0 10px 0 black;
+    margin-left: -220px;
+}
+
+#ninbtn {
+    position: relative;
+    left: 50px;
+    font-size: 10px;
+    border: 3px solid white;
+    border-radius: 20px 20px 20px 20px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#ninbtn h1 {
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+}
+
+#ninbtn:hover {
+    background: blue;
+}
+
+#nin_slide {
+    width: 100%;
+    height: 100%;
+}
+
+#mobile {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 690px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#mobile2 {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 670px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#mob {
+    margin: auto;
+    width: 1600px;
+    height: 100%;
+}
+
+#mob2 {
+    margin: auto;
+    width: 780px;
+    height: 100%;
+}
+
+.mobile-picbox {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    float: left;
+    display: inline-block;
+    border: 2px solid black;
+    box-shadow: 0 0 10px 0 black;
+}
+
+.mobile-picbox img {
+    width: 100%;
+    height: 100%;
+}
+
+.mobile-picbox2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 250px;
+    height: 200px;
+    float: left;
+    display: inline-block;
+    border: 2px solid black;
+    box-shadow: 0 0 10px 0 black;
+}
+
+.mobile-picbox2 img {
+    width: 100%;
+    height: 100%;
+}
+
+#box1,
+#box2,
+#box3,
+#box4,
+#box5,
+#box6,
+#box7,
+#box9,
+#box10,
+#box11,
+#box12,
+#box13,
+#box14,
+#box15 {
+    visibility: hidden;
+}
+
+#box111,
+#box21,
+#box31,
+#box41,
+#box61,
+#box71,
+#box81,
+#box91 {
+    visibility: hidden;
+}
+
+#box8,
+#box51 {
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid black;
+    box-shadow: 0 0 10px black;
+}
+
+#box8 h1,
+#box51 h1 {
+    position: relative;
+    top: 30px;
+    color: white;
+    text-align: center;
+    cursor: default;
+}
+
+#mob-go {
+    position: relative;
+    top: 40px;
+    margin: auto;
+    background: red;
+    width: 130px;
+    height: 30px
+}
+
+#mob-go button {
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+}
+
+#mob-go button:hover {
+    width: 100%;
+    height: 100%;
+    background: white;
+    color: black;
+}
+
+#last-box {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px 0 black inset;
+}
+
+#share-lg {
+    position: relative;
+    top: 100px;
+    margin: auto;
+    width: 1400px;
+    height: 300px;
+}
+
+.hcbox-lg {
+    width: 600px;
+    height: 300px;
+    border: 3px solid black;
+    box-shadow: 0 0 10px 0 black;
+    cursor: pointer;
+}
+
+#hot-lg {
+    float: left;
+}
+
+#comming-lg {
+    float: right;
+}
+
+#share {
+    position: relative;
+    top: 100px;
+    margin: auto;
+    width: 800px;
+    height: 300px;
+}
+
+.hcbox {
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    border: 3px solid black;
+    box-shadow: 0 0 5px 0 black;
+    cursor: pointer;
+}
+
+#hot {
+    position: relative;
+    right: 40px;
+    float: left;
+}
+
+#comming {
+    position: relative;
+    left: 40px;
+    float: right;
+}
+
+.top-bar {
+    position: relative;
+    top: -315px;
+    width: 100%;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    color: white;
+
+}
+
+.top-bar h1 {
+    position: relative;
+    top: 2px;
+    text-align: center;
+    font-size: 30px;
+    cursor: default;
+}
+
+
+#go-top {
+    width: 50px;
+    height: 50px;
+    z-index: 10000;
+}
+
+
+#go-top img {
+    width: 50px;
+    height: 50px;
+}

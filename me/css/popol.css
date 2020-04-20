@@ -1,0 +1,121 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+.popol {
+    position: relative;
+    bottom: 200px;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(7, 66, 170);
+}
+
+.setting {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    display: flex;
+
+}
+
+.setting .popolbox {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.setting .popolbox .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    clip-path: circle(400px at center 100px);
+    transition: 0.5s;
+
+}
+
+.setting .popolbox:hover .imgBx {
+    clip-path: circle(80px at center 100px);
+    transition-delay: 0s;
+}
+
+.setting .popolbox .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 2000px;
+    object-fit: cover;
+
+}
+
+.setting .popolbox .content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 55%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.setting .popolbox .content h4 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    cursor: default;
+}
+
+.setting .popolbox .content p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    cursor: default;
+}
+
+.setting .popolbox .content a {
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10px 10px 10px 10px;
+    color: #fff;
+    padding: 5px;
+    display: inline-block;
+    font-family: 'Gugi', cursive;
+}
+
+
+.setting .popolbox .content h4,
+.setting .popolbox .content p,
+.setting .popolbox .content a {
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(20px);
+}
+
+.setting .popolbox:hover .content h4 {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.5s
+}
+
+.setting .popolbox:hover .content p {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.7s
+}
+
+.setting .popolbox:hover .content a {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.9s
+}

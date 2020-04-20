@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+#top_bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 70px;
+    background: white;
+    animation-duration: 500ms;
+    border-bottom: 2px solid black;
+}
+
+#top_bar img {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+    float: left;
+
+}
+
+#top_bar h1 {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    font-size: 20px;
+    float: left;
+    cursor: pointer;
+
+}
+
+#menu_box {
+    position: relative;
+    top: 20px;
+    left: 250px;
+    width: 1000px;
+    height: 50px;
+    margin: auto;
+}
+
+.menu {
+    position: relative;
+    width: 180px;
+    height: 50px;
+    float: right;
+
+}
+
+.menu h2 {
+    text-align: center;
+    font-weight: normal;
+    cursor: pointer;
+    color: gray;
+    font-size: 20px;
+}
+
+.menu h2:hover {
+    color: black;
+}
+
+.content {
+    width: 100%;
+    height: 3920px;
+}
+
+.main_img {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background: url(../img/main.jpg) no-repeat;
+    background-position: center;
+    background-size: 2000px 1000px;
+    border-bottom: 2px solid gray;
+}
+
+.main_img img {
+    width: 1890px;
+    height: 800px;
+    z-index: 0;
+}
+
+.main_img h1 {
+    position: relative;
+    top: 300px;
+    color: white;
+    text-shadow: -1px 0 black,
+        0 1px black,
+        1px 0 black,
+        0 -1px black;
+    font-size: 40px;
+    text-align: center;
+    cursor: default;
+}
+
+.main_img p {
+    position: relative;
+    top: 350px;
+    color: white;
+    text-shadow: 1px 3px black;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: -1px 0 black,
+        0 1px black,
+        1px 0 black,
+        0 -1px black;
+    cursor: default;
+}
+
+.flip-box {
+    position: relative;
+    top: 400px;
+    margin: auto;
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+}
+
+
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+
+.flip-box-front,
+.flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+.flip-box-back {
+    position: relative;
+    top: 40px;
+    left: 75px;
+    border-radius: 10px 10px 10px 10px;
+    width: 150px;
+    height: 30px;
+    color: white;
+    transform: rotateY(180deg);
+    cursor: pointer;
+    background: red;
+}
+
+.flip-box-back h2 {
+    position: relative;
+    top: 7px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.flip-box-back:hover {
+    background: orange;
+}
+
+.text1 {
+    position: relative;
+    top: 320px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    cursor: default;
+    text-shadow: -1px 0 black,
+        0 1px black,
+        1px 0 black,
+        0 -1px black;
+}
