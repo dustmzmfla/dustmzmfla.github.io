@@ -138,7 +138,7 @@
         border-bottom: 1px solid #dfdfdf;
     }
     .dark-mod .sec02 .inner .contents ul li .logo {
-        background-color: #eee;
+        background-color: #f7f7f7;
     }
 
     .sec02 .inner .contents ul li .logo {
@@ -147,6 +147,7 @@
         justify-content: space-between;
         align-items: center;
         height: 30px;
+        background-color: #f7f7f7;
     }
 
     .sec02 .inner .contents ul li .logo svg {
@@ -164,7 +165,7 @@
 
     .sec02 .inner .contents ul li .grid {
         padding: 30px;
-        background-color: #f7f7f7;
+        background-color: #fff;
         display: none;
         border-top: 1px solid #dfdfdf;
     }
@@ -262,7 +263,7 @@
         font-size: 14px;
     }
 
-    .popup {
+    .pop-box {
         display: none;
     }
 
@@ -278,5 +279,29 @@
         background-color: #3584f9;
         border-radius: 50%;
         box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.5);
+    }
+
+    .popup-wrapper {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+
+    .popup-inner {
+        width: 100%;
+    }
+
+    .popup-inner .preview ul li {
+        width: 50%;
+        height: 200px;
+    }
+
+    .popup-inner .popup-body .visit {
+        font-size: 14px;
+        padding: 13px 0;
+    }
+
+    .popup-inner .popup-body p.explain {
+        font-size: 14px;
+        line-height: 1.5;
     }
 }

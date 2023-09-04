@@ -45,6 +45,10 @@
     color: #303030;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .sec-inner {
     position: relative;
     width: 500px;

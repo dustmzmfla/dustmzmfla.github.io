@@ -207,18 +207,39 @@ $(document).ready(function(){
     });
     
     $('.popup-close').click(function(){
+        $('html').css('overflow', 'auto');
+        $('.popup-background').removeClass('fade');
+        $('.popup-wrapper').removeClass('up');
         $('.popup').removeClass('show');
-        $('html').css('overflow', 'auto'); 
     });
     $('.popup-background').click(function(){
         $('.popup').removeClass('show');
         $('html').css('overflow', 'auto'); 
+        $('.popup-background').removeClass('fade');
+        $('.popup-wrapper').removeClass('up');
     });
 
     $('.datail-btn').click(function(){
         let tabData = $(this).attr('data-tab');
         $('#' + tabData).addClass('show');
         $('html').css('overflow', 'hidden'); 
+        setTimeout(function(){
+            $('.popup-background').addClass('fade');
+        },100)
+        setTimeout(function(){
+            $('.popup-wrapper').addClass('up');
+        },200)
+    });
+    $('.grid-img').click(function(){
+        let tabData = $(this).attr('data-tab');
+        $('#' + tabData).addClass('show');
+        $('html').css('overflow', 'hidden'); 
+        setTimeout(function(){
+            $('.popup-background').addClass('fade');
+        },100)
+        setTimeout(function(){
+            $('.popup-wrapper').addClass('up');
+        },200)
     });
 
     

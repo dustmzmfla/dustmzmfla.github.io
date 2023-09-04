@@ -708,6 +708,25 @@ footer p {
     top: 0;
     background-color: rgba(0, 0, 0, 0.4);
     z-index: 10;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.popup-background.fade {
+    opacity: 1;
+}
+
+.popup-wrapper {
+    position: relative;
+    transition: all 0.5s;
+    opacity: 0;
+    bottom: -30px;
+    z-index: 11;
+}
+
+.popup-wrapper.up {
+    bottom: 0;
+    opacity: 1;
 }
 
 .popup-inner {
@@ -767,6 +786,10 @@ footer p {
     cursor: pointer;
 }
 
+.popup-inner .preview ul li.yes {
+    display: none;
+}
+
 .popup-inner .preview ul li img {
     width: 100%;
     height: 100%;
@@ -798,5 +821,5 @@ footer p {
 }
 
 .popup-inner .popup-body .visit.no {
-    display: none;
+    display: none !important;
 }

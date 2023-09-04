@@ -6,7 +6,7 @@ for (let data of projects) {
         for (let j=0; j<data.title.length; j++) {
             const template = `
                 <div class="grid-children">
-                    <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
+                    <div class="grid-img" data-tab="${data.tab[j]}"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
                         <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
@@ -37,7 +37,7 @@ for (let data of projects) {
         for (let j=0; j<data.title.length; j++) {
             const template = `
                 <div class="grid-children">
-                    <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
+                    <div class="grid-img" data-tab="${data.tab[j]}"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
                         <h3 class="title ${data.responsive[j]}">${data.title[j]}</h3>
                         <div class="detail">
@@ -55,7 +55,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="datail-btn">설명보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn" data-tab="${data.tab[j]}">설명보기<div class="color"></div></button>
                             <a class="pc" href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
                             <a class="mo" href="${data.moURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
@@ -68,7 +68,7 @@ for (let data of projects) {
         for (let j=0; j<data.title.length; j++) {
             const template = `
                 <div class="grid-children">
-                    <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
+                    <div class="grid-img" data-tab="${data.tab[j]}"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
                         <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
@@ -86,7 +86,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns ${data.code[j]}">
-                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn" data-tab="${data.tab[j]}">설명보기<div class="color"></div></button>
                             <a href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
@@ -98,7 +98,7 @@ for (let data of projects) {
         for (let j=0; j<data.title.length; j++) {
             const template = `
                 <div class="grid-children">
-                    <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
+                    <div class="grid-img" data-tab="${data.tab[j]}"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
                         <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
@@ -127,7 +127,7 @@ for (let data of projects) {
         for (let j=0; j<data.title.length; j++) {
             const template = `
                 <div class="grid-children">
-                    <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
+                    <div class="grid-img" data-tab="${data.tab[j]}"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
                         <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
@@ -145,7 +145,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn" data-tab="${data.tab[j]}">설명보기<div class="color"></div></button>
                             <a href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
@@ -157,7 +157,7 @@ for (let data of projects) {
         for (let j=0; j<data.title.length; j++) {
             const template = `
                 <div class="grid-children">
-                    <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
+                    <div class="grid-img" data-tab="${data.tab[j]}"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
                         <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
@@ -175,7 +175,7 @@ for (let data of projects) {
                             <div class="graph my${data.percentage[j]}">${data.percentage[j]}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn" data-tab="${data.tab[j]}">설명보기<div class="color"></div></button>
                             <a href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
@@ -187,7 +187,7 @@ for (let data of projects) {
         for (let j=0; j<data.title.length; j++) {
             const template = `
                 <div class="grid-children">
-                    <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
+                    <div class="grid-img" data-tab="${data.tab[j]}"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
                         <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
@@ -205,7 +205,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn" data-tab="${data.tab[j]}">설명보기<div class="color"></div></button>
                             <a href="${data.moURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
@@ -217,7 +217,7 @@ for (let data of projects) {
         for (let j=0; j<data.title.length; j++) {
             const template = `
                 <div class="grid-children">
-                    <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
+                    <div class="grid-img" data-tab="${data.tab[j]}"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
                         <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
@@ -235,7 +235,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn" data-tab="${data.tab[j]}">설명보기<div class="color"></div></button>
                             <a href="${data.moURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
@@ -247,7 +247,7 @@ for (let data of projects) {
         for (let j=0; j<data.title.length; j++) {
             const template = `
                 <div class="grid-children">
-                    <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
+                    <div class="grid-img" data-tab="${data.tab[j]}"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
                         <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
@@ -265,7 +265,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn" data-tab="${data.tab[j]}">설명보기<div class="color"></div></button>
                             <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
@@ -277,7 +277,7 @@ for (let data of projects) {
         for (let j=0; j<data.title.length; j++) {
             const template = `
                 <div class="grid-children">
-                    <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
+                    <div class="grid-img" data-tab="${data.tab[j]}"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
                         <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
@@ -295,7 +295,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn" data-tab="${data.tab[j]}">설명보기<div class="color"></div></button>
                             <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
@@ -307,7 +307,7 @@ for (let data of projects) {
         for (let j=0; j<data.title.length; j++) {
             const template = `
                 <div class="grid-children">
-                    <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
+                    <div class="grid-img" data-tab="${data.tab[j]}"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
                         <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
@@ -325,7 +325,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn" data-tab="${data.tab[j]}">설명보기<div class="color"></div></button>
                             <a class="pc" href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
                             <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
@@ -338,7 +338,7 @@ for (let data of projects) {
         for (let j=0; j<data.title.length; j++) {
             const template = `
                 <div class="grid-children">
-                    <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
+                    <div class="grid-img" data-tab="${data.tab[j]}"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
                         <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
@@ -356,7 +356,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn" data-tab="${data.tab[j]}">설명보기<div class="color"></div></button>
                             <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
@@ -368,7 +368,7 @@ for (let data of projects) {
         for (let j=0; j<data.title.length; j++) {
             const template = `
                 <div class="grid-children">
-                    <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
+                    <div class="grid-img" data-tab="${data.tab[j]}"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
                         <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
@@ -386,7 +386,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn" data-tab="${data.tab[j]}">설명보기<div class="color"></div></button>
                         </div>
                     </div>
                 </div>
@@ -397,7 +397,7 @@ for (let data of projects) {
         for (let j=0; j<data.title.length; j++) {
             const template = `
                 <div class="grid-children">
-                    <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
+                    <div class="grid-img" data-tab="${data.tab[j]}"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
                         <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
@@ -415,7 +415,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn" data-tab="${data.tab[j]}">설명보기<div class="color"></div></button>
                             <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
@@ -427,7 +427,7 @@ for (let data of projects) {
         for (let j=0; j<data.title.length; j++) {
             const template = `
                 <div class="grid-children">
-                    <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
+                    <div class="grid-img" data-tab="${data.tab[j]}"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
                         <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
@@ -445,7 +445,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn" data-tab="${data.tab[j]}">설명보기<div class="color"></div></button>
                             <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
