@@ -1,0 +1,217 @@
+@charset "utf-8"; 
+/* ------------------------------------------
+* Filename:education.css
+* Author:MADIVE
+------------------------------------------ */
+
+#container.certification {background:#fff}
+.certification p {word-break:keep-all}
+
+/* 통합인증 */
+.certification_check {text-align:center}
+.certification_check strong {display:block; background:url('../images/certification/img_step01.png') center 64px no-repeat; background-size:132px auto; padding-top:220px}
+.certification h4 {word-break:keep-all}
+.certification h4 strong {color:#1646c2}
+.certification .step_00 {padding:60px 18px 0px}
+.certification .step_00 > p {font-size:20px; line-height:32px}
+.certification .step_00 .square_btn a {padding:25px 20px; text-align:left; margin-left:0; position:relative}
+.certification .step_00 .square_btn a::after {content:""; position:absolute; top:29px; right:20px; width:60px; height:60px; background:url('../images/certification/icon_certification.png') -70px -90px  no-repeat; background-size:250px auto}
+.certification .step_00 .square_btn a.several {margin-top:12px}
+.certification .step_00 .square_btn a.several::after {background-position: 0 -90px}
+.certification .step_00 .square_btn a strong {position:relative; display:block; font-size:18px}
+.certification .step_00 .square_btn a p {font-size:14px;color:#555;margin-top:10px}
+.certification .step_00 .square_btn .combined strong span {display: inline-block; vertical-align: middle; margin-left: 7px; padding: 0 8px; height: 22px; line-height: 22px; font-size: 11px; background-color: #FFDF00; border: solid 1px #555; border-radius: 12px;}
+
+.certification .certify_00 .checkbox li img {width:24px; display:inline-block; margin-right:12px}
+.certification .certify_00 .checkbox li span {display:inline-block}
+/* .certification .certify_00 .checkbox li div.ci_img {float:left} */
+.certification .certify_00 .checkbox li em {display:block; position:absolute; top:0; right:0; height:24px; line-height:24px; font-size:14px; color:#1746c3; font-weight:400 !important;}
+.certificate_btn {margin-top:10px}
+.certificate_btn a {display:block; position:relative; margin-top:12px; line-height:32px; padding:18px 0 18px 64px; border:solid 1px #ddd; border-radius:14px; font-weight:900}
+.certificate_btn a::before {content:""; display:block; position:absolute; background:url('../images/certification/icon_01.png') 0 0 no-repeat; background-size:250px 250px}
+.certificate_btn a:first-child {margin-top:0px}
+.certificate_btn a:hover {border:solid 1px #1746c3; background:#f7f9ff}
+.certificate_btn a.active {border:solid 1px #1746c3; background:#f7f9ff; position:relative; padding-right:40px}
+
+/* .certificate_btn a.active::after {content:''; display:block; width:24px; height:24px; position:absolute; top:18px; right:12px; background:url('../images/common/check_on.png') center center no-repeat; background-size:24px 24px} */
+.certificate_btn a.active::after {content:'사용중'; display:block; width:50px; height:24px; color:#1746c3; position:absolute; top:18px; right:12px; font-size: 12px}
+
+.certificate_btn a span {font-weight:400; padding-left:5px}
+.certificate_btn a.public::before {width:21px; height:26px; background-position-x:0; left:25px; top:20px}
+.certificate_btn a.payco::before {width:27px; height:27px; background-position:-118px -35px; left:22px; top:21px}
+.certificate_btn a.naver::before {width:26px; height:26px; background-position-x:-58px; left:23px; top:21px}
+.certificate_btn a.toss::before {width:25px; height:25px; background-position-x:-89px; left:23px; top:23px}
+.certificate_btn a.banksalad::before {width:26px; height:25px; background-position-x:-119px; left:23px; top:22px}
+.certificate_btn a.manage::before {width:26px; height:29px; background-position-x:-150px; left:23px; top:20px}
+.certificate_btn a.plus::before {width:26px; height:29px; background-position-x:-209px; left:23px; top:20px}
+.certificate_btn a.pin::before {width:28px; height:18px; background-position:-20px -35px; left:23px; top:25px}
+.certificate_btn a.bio_fingerprint::before {width:26px; height:25px; background-position:-53px -35px; left:23px; top:20px}
+.certificate_btn a.bio_face::before {width:24px; height:25px; background-position:-84px -35px; left:23px; top:20px}
+.certificate_btn a.pass::before {width:25px; height:25px; background-position-x:-27px; left:23px; top:20px}
+.certificate_btn a.kakao::before {width:26px; height:23px; background-position-x:-180px; left:23px; top:20px}
+.certificate_btn a.hide {background:#f8f8f8; pointer-events:none; font-weight:400; color:#555}
+.certificate_btn th {text-align:left; font-weight:400}
+.certificate_btn.public a{padding-left: 50px;}
+.certificate_btn.public a::before {width:20px; height:26px; left:20px; top:22px; background-position-y:-34px}
+.certificate_btn.public a:after {content:''; display:block; clear:both}
+.certificate_btn.public li:after {content:''; display:block; clear:both}
+.certificate_btn.public a span{float: left;width:calc(100% - 60px);font-size: 14px;padding-left: 0;}
+.certificate_btn.public a span.title{width: 60px;color:#555}
+
+
+.certification .step_03_pop {padding:40px 0}
+.certification .step_03_pop p {text-align:center; padding-top:135px; background:url('../images/certification/img_certificate_01.png') 50% 4px no-repeat; background-size:112px auto}
+.certification .step_03_pop p.fingerprint_pop {background:url('../images/certification/img_certificate_02.png') 50% 4px no-repeat; background-size:112px auto}
+.certification .step_03_pop p.kakao_pop {background:url('../images/certification/img_kakao.png') 50% 4px no-repeat; background-size:112px auto}
+.certification .step_03_pop p.toss_pop {background:url('../images/certification/img_toss.png') 50% 4px no-repeat; background-size:112px auto}
+.certification .step_03_pop .button_area {margin-top:24px}
+.certification .step_03_public {padding:25px 0 40px}
+.certification .step_03_public h5.sub_title {display:block; font-size:16px; font-weight:900; margin-top:30px}
+.certification .step_03_public .star_dot {margin-top:10px}
+.certification .step_03_public .mt_15 + div {margin:45px 0}
+.certification .step_03_public div input {width:calc(33% - 8px); font-size:20px; line-height:18px; font-weight:900; text-align:center}
+.certification .step_03_public .public_info {position:relative; margin-top:40px; text-align:center}
+.certification .step_03_public .public_info::before {content:""; display:inline-block; width:244px; height:72px; background:url('../images/certification/icon_certification.png') 0 0px no-repeat; background-size:250px auto}
+.certification .step_03_public .public_info ul li {margin-top:28px; text-align:left}
+.certification .step_03_public .public_info ul li > strong {display:inline-block; border-bottom:2px solid #1746c3; color:#1746c3}
+.certification .step_03_public .public_info ul li > p {padding:8px 0 0}
+.certify_01 {margin-top:10px;}
+.certify_01 > div {margin-top:40px}
+.certify_01 > div:first-child {margin-top:30px}
+.certify_01 > div.checkbox.all + div {margin-top:30px}
+.certify_01 > div > strong {display:block; padding-bottom:15px; font-size:18px}
+.certify_01 li .toggle_contents {padding:13px 18px 20px}
+.certify_01 li.none .toggle_contents {display:block !important}
+.certify_01 li.none .toggle_btn::after {display:none}
+.certify_01 .interlock_none {font-size:14px}
+.certify_01 .toggle_btn  img {margin-right: 12px;width: 24px; height:24px;}
+.certify_01 .toggle_btn .interlock {position:absolute; top:18px; right:36px; font-size:14px; line-height:24px; color:#1746c3}
+.certify_01 .toggle_btn .interlock.none {color:#555; padding-right:36px; right:0}
+.certify_01 .interlock.none::after {content:""; display:block; width:16px; height:16px; background:url('../images/common/icon_01.png') -166px -72px no-repeat; background-size:250px 250px; position:absolute; top:2px; right:0px}
+.certify_01 .interlock.mark {padding-right:36px; right:0}
+.certify_01 .interlock.mark::after {content:""; display:block; width:16px; height:16px; background:url('../images/common/icon_01.png') -187px -72px no-repeat; background-size:250px 250px; position:absolute; top:2px; right:0px}
+
+.certify_01 .toggle_btn:disabled{background:#fff;}
+.certification .step_02_pop {padding:40px 0}
+.certification .step_02_pop p {text-align:center; padding-top:135px; background:url('../images/certification/img_certificate_01.png') 50% 4px no-repeat; background-size:112px auto}
+.certification .step_02_pop p.fingerprint_pop {background:url('../images/certification/img_certificate_02.png') 50% 4px no-repeat; background-size:112px auto}
+.certification .step_02_pop p.kakao_pop {background:url('../images/certification/img_kakao.png') 50% 4px no-repeat; background-size:112px auto}
+.certification .step_02_pop p.toss_pop {background:url('../images/certification/img_toss.png') 50% 4px no-repeat; background-size:112px auto}
+.certification .step_02_pop .button_area {margin-top:24px}
+.certification .step_03 {padding:10px 0 20px}
+.certification .step_03 > div {padding-bottom:20px}
+.certification .step_03 > div > strong {display:block; padding:40px 0 15px; font-size:18px}
+.certification .step_03 > div > ul > li {position:relative}
+.certification .step_03 > div > ul > li > img {position:absolute; top:18px; left:0; width:24px; height:24px}
+.certification .step_03 .checkbox.all {border-bottom:1px solid #eaeaea; padding:20px 0; font-size:18px}
+.certification .step_03 .interlock_none {padding:20px; background:#f8f8f8; font-size:14px}
+.certification .step_03 .toggle_contents {padding:0px 0px 18px}
+.certification .toggle_right.t_right {position:relative; height:24px}
+.certification .toggle_right span {display:block; line-height:24px; font-size:14px; position:absolute; top:0; right:50px}
+.certification .toggle_right .toggle {display:inline-block}
+.certification .toggle_right .toggle label {width:40px; color:transparent}
+.certification .toggle_btn {padding:18px 0 18px 46px}
+.certification .certify_01 .toggle_btn {padding:18px 0; position:relative;}
+.certification .certify_02 {padding:25px 0 40px}
+.certification .certify_02 > div {margin-top:45px}
+.certification .certify_02 h5 {font-size:14px}
+.certification .certify_02 .objective_box {background:#f8f8f8; border-radius:15px; margin-top:15px; padding:20px}
+.certification .certify_02 .months {position:relative}
+.certification .certify_02 .months input {width:100%; padding-right:40px; font-weight:900; font-size:18px}
+.certification .certify_02 .months p {position:absolute; top:0; right:0; width:auto; height:48px; line-height:48px}
+.certification .certify_02 .months span {display:inline-block; margin-top:12px; font-size:14px}
+.certification .step_06 {text-align:center}
+.certification .step_06 > strong {display:block; font-size:18px; line-height:28px; padding-top:220px; background:url('../images/certification/img_step06.png') 50% 64px no-repeat; background-size:132px 132px}
+.certification .certify_01.step_07 .checkbox li {padding:12px 44px 12px 0}
+.certification .step_07_box {background:#f5f5f5; padding:20px 0; border-radius:20px; border:none; margin-top:10px}
+.certification .step_07_box::after {content:""; display:block; clear:both}
+.certification .step_07_box dl {display:block; float:left; width:50%; position:relative}
+.certification .step_07_box dl::before {content:""; display:block; width:1px; height:100%; background:#ddd; position:absolute; top:0; left:0}
+.certification .step_07_box dl:first-child::before {display:none}
+.certification .step_07_box dt {display:block; float:none; width:100%; text-align:center; color:#121212; line-height:40px}
+.certification .step_07_box dd {display:block; float:none; width:100%; text-align:center; Font-size:20px; font-weight:900; color:#121212; line-height:30px; margin-top:5px}
+.certification .step_07_box dl:last-child dt {line-height:20px}
+.certification .step_07_box dl:last-child dt em {display:block; font-size:13px}
+
+.payco_certification {padding-bottom:40px}
+.payco_certification .img {display:block; width:90px; height:90px; margin:40px auto 0}
+.payco_certification .img img {object-fit:cover; object-position:50% 0; width:100%; height:100%}
+.payco_certification .button_area {margin-top:40px; }
+.payco_certification .button_area.num a {position: relative;}
+.payco_certification .button_area.num a:after {position: absolute; left: 30px; top: calc(50% - 10px); width: 20px; height: 20px;  color:#1746c3; font-size: 12px; line-height: 20px; border-radius:10px; background-color: #fff; font-weight: 800}
+.payco_certification .button_area.num a:nth-of-type(1):after {content:"1";} 
+.payco_certification .button_area.num a:nth-of-type(2):after {content:"2";} 
+
+/* 개별인증 */
+.eachcertify_01 .radio {margin-top:25px}
+.eachcertify_01 .radio li {margin-top:25px}
+.eachcertify_01 .radio li:first-child {margin-top:0}
+.eachcertify_02 {margin-top:25px; padding-bottom:40px}
+.eachcertify_02 h5 {display:block; font-size:16px; font-weight:900}
+.eachcertify_02 .radio {margin-top:30px}
+.eachcertify_02 .radio li {margin-top:30px}
+.eachcertify_02 .radio li:first-child {margin-top:0}
+.eachcertify_02 .radio img {height:24px; width:auto}
+.eachcertify_02 .radio strong {color:#121212; padding-left:8px}
+
+.eachcertify_03 {}
+
+.note_wrap .eachcertify dt {line-height:20px}
+.note_wrap .eachcertify dd, .note_wrap .eachcertify li {margin:15px 0 30px; font-size:14px; line-height:22px}
+.eachcertify_04 h4 {display:block; color:#121212; font-size:18px; font-weight:900}
+.eachcertify_04 h5 {display:block; color:#121212; font-size:18px; font-weight:900; margin:45px 0 15px}
+.eachcertify_04 .gray_box {background:#f5f5f5; border-radius:16px; padding:28px 20px; margin:24px 0 20px}
+.eachcertify_04 .gray_box li {margin-top:15px; line-height:30px}
+.eachcertify_04 .gray_box li::after {content:""; display:block; clear:both}
+.eachcertify_04 .gray_box li:first-child {margin-top:0}
+.eachcertify_04 .gray_box p {float:left; width:70px; font-size:14px}
+.eachcertify_04 .gray_box strong {display:block; float:right; text-align:right; width:calc(100% - 70px); font-size:20px; font-weight:900}
+.eachcertify_04 .item {margin:0 -18px}
+.eachcertify_04 .item .ci_img {padding:18px 18px}
+.eachcertify_04 .item ul {padding:28px 18px 40px; background:#f8f8f8}
+.eachcertify_04 .item li {margin-top:28px; line-height:19px}
+.eachcertify_04 .item li:first-child {margin-top:0}
+.eachcertify_04 .item li span {display:block; color:#121212}
+.eachcertify_04 .item li p {font-size:14px; color:#333}
+.eachcertify_05 {text-align:center}
+.eachcertify_05 > strong {display:block; font-size:18px; line-height:28px; padding-top:220px; background:url('../images/certification/img_step06.png') 50% 64px no-repeat; background-size:132px 132px}
+.eachcertify_05 .button_area {margin:17px 0 45px}
+
+/* 토글공통 */
+.toggle_btn {display:block; position:relative; width:100%; height:auto; text-align:left; line-height:24px; padding:18px 0; font-size:16px; font-weight:900}
+.toggle_btn::after {content:""; display:block; width:8px; height:14px; background:url('../images/common/icon_01.png') -117px 0 no-repeat; background-size:250px 250px; position:absolute; top:21px; right:4px; transform:rotate(90deg)}
+.open .toggle_btn::after {transform:rotate(270deg)}
+
+/* 공통 */
+.note_wrap {padding-top:40px}
+.note_wrap > strong {display:block; padding-bottom:16px; margin-bottom:28px; border-bottom:1px solid #eaeaea}
+.note_wrap ul li {position:relative; margin-top:6px; word-break:keep-all}
+.note_wrap ul li:first-child {margin-top:0px}
+.note_wrap ul li p {margin:16px 0 32px; font-size:14px}
+.note_wrap.dot ul li, .note_wrap.dash ul li, .note_wrap.star ul li {padding-left:10px}
+.note_wrap.dot ul li::before {content:""; position:absolute; top:8px; left:0; display:inline-block; width:4px; height:4px; border-radius:2px; background:#121212}
+.note_wrap.dash ul li::before {content:"-"; position:absolute; top:0; left:0; display:inline-block}
+.note_wrap.star ul li::before {content:"*"; position:absolute; top:0; left:0; display:inline-block}
+.note_wrap.small > p {margin-bottom:6px}
+.note_wrap.small ul li {font-size:14px; margin-top:5px}
+.note_wrap.small ul li::before {top:8px; left:0; width:3px; height:3px; border-radius:1px; background:#121212}
+.note_wrap ol.dot li {padding-left:10px}
+.note_wrap ol.dot li::before {content:""; position:absolute; top:8px; left:0; display:inline-block; width:4px; height:4px; border-radius:2px; background:#121212}
+.radio.img span {position:relative; padding-top:56px}
+.radio.img input[type="radio"] + label {padding:12px 0 16px; text-align:center}
+.radio.img input[type="radio"] + label::before {height:20px; top:8px; right:8px}
+.note_wrap ul.dash li::before {content:"-"; display:inline-block; position:absolute; top:0; left:0}
+
+
+
+/* Step5.요청기관확인 */
+.certification .agency_list {padding-bottom:40px; margin-top:30px}
+.agency_list .toggle_btn {text-align:left; padding-left:0}
+.agency_list .toggle_contents h5 {display:block; font-size:18px; font-weight:900; padding:40px 0 15px}
+.agency_list .toggle_contents h5:first-child {padding-top:0}
+.agency_list .toggle_contents li {margin-top:20px; position:relative}
+.agency_list .toggle_contents li:first-child {margin-top:0}
+.agency_list .toggle_contents li::after {content:""; display:block; clear:both}
+.agency_list .toggle_contents li > p {font-size:14px; color:#1746c3; position: absolute; top:0; right:0}
+.agency_list .toggle_contents li > p.none {padding-left:20px; color:#555}
+.agency_list .toggle_contents li > p.none::after {content:""; display:block; width:16px; height:16px; background:url('../images/common/icon_01.png') -166px -72px no-repeat; background-size:250px 250px; position:absolute; top:2px; left:0px}

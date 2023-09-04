@@ -1,0 +1,129 @@
+@charset "utf-8"; 
+/* ------------------------------------------
+* Filename:mypage.css
+* Author:MADIVE
+------------------------------------------ */
+/* 메인 */
+.mypage .sub_main .box.mypage_main_top {padding:28px 0 0; background:#fff}
+.mypage .sub_main .info_box dl dt {width:55%}
+.mypage .sub_main .info_box dl dd {width:45%}
+.mypage #content.sub_main {padding-bottom:64px}
+.mypage_main_top > div {padding:0 30px 40px}
+.mypage_main_top p {font-size:13px; font-weight:200}
+.mypage_main_top .photo {position:relative; width:80px; height:80px; border-radius:50%; background:url('../images/mypage/img_none.png') 0 0px no-repeat; background-size:80px auto}
+.mypage_main_top .photo img {width:80px; height:80px; border-radius:50%}
+.mypage_main_top .photo button {display:block; width:20px; height:20px; background:url('../images/mypage/icon.png') -117px 0px no-repeat; position:absolute; bottom:0; left:60px; background-size:150px auto;}
+.mypage_main_top .name {display:inline-block; font-size:20px; margin-bottom:3px}
+.mypage_main_top .square_btn.small {}
+.mypage_main_top .square_btn.small::after {content:""; display:block; clear:both}
+.mypage_main_top .square_btn.small a {background:#f2f2f2; border-color:#f2f2f2; padding:4px 11px 3px; border-radius:30px; margin-left:8px; float:left}
+.mypage_main_top .square_btn.small a:first-child {margin-left:0}
+/* .mypage_main_top .board_link a {padding:18px 0 15px 0;font-size:13px; font-weight:700}
+.mypage_main_top .board_link a::after {top:20px} */
+.mypage .sub_main h4 {font-size:16px}
+.mypage .sub_main .box {padding:0 18px}
+.mypage .sub_main .title {margin-top:40px}
+.mypage .sub_main .go_mydata {display:block; font-size:14px; position:relative}
+.mypage .sub_main .go_mydata strong {display:block; margin-bottom:3px}
+.mypage .sub_main .go_mydata span {display:inline-block; width:calc(100% - 80px); word-break:keep-all}
+.mypage .sub_main .go_mydata::after {content:""; display:block; width:48px; height:44px; margin-top:-24px; background:url('../images/mypage/icon.png') 0 -92px no-repeat; background-size:150px auto; position:absolute; top:50%; right:0}
+.mypage .sub_main .manage {padding-top:25px; margin-top:25px; border-top:1px solid #eaeaea}
+.mypage .sub_main .manage::after {background-position-x:-70px; width:43px; height:50px; margin-top:-13px}
+.mypage .sub_main .more {position:relative; font-weight:900}
+.mypage .sub_main .more::after {background-position-x:-97px}
+.mypage .sub_main .info_box {padding:0}
+.mypage .sub_main .info_box.border {border-bottom:1px solid #eaeaea; padding-bottom:17px}
+.mypage .sub_main .info_box dl:first-child {padding-top:0}
+.mypage .sub_main .info_box + .reference_text {margin-top:10px}
+.mypage .sub_main .text_btn {position:absolute; top:0; right:0; font-size:14px}
+
+
+/* 설정 */
+.notification_title {padding:28px 0 40px}
+.notification_title strong {display:block; font-size:18px; line-height:28px; margin-bottom:20px}
+.notification_title a {font-size:14px}
+.notification_set {padding:40px 0 0}
+.notification_set li {margin-top:40px}
+.notification_set li:first-child {margin-top:0}
+.notification_set li::after {content:""; display:block; clear:both}
+.notification_set li.all {border-bottom:solid 1px #eaeaea; padding-bottom:24px; margin-top:0}
+.notification_set span {display:block; float:left; line-height:24px; width:calc(100% - 60px)}
+.notification_set li.all span {font-weight:900}
+.notification_set div {float:right; width:44px; margin-top:2px}
+.notification_history {padding-top:28px}
+.notification_history h4 {display:block; font-weight:400; line-height:28px}
+.notification_history h4 strong {font-weight:600}
+.notification_history h5 {display:block; font-weight:900; font-size:16px; margin-top:50px}
+.notification_history h5:first-child {margin-top:40px}
+.notification_history .item {}
+.notification_history table {border-top:solid 1px #eaeaea; margin-top:10px}
+.notification_history thead th {height:40px; background:#f8f8f8; font-size:14px; font-weight:400}
+.notification_history tbody th, .notification_history tbody td {font-size:14px; padding:20px 0; line-height:22px; height:22px; border-bottom:solid 1px #eaeaea}
+.notification_history tbody th {text-align:left; padding-left:16px}
+.notification_history tbody td {text-align:center; color:#555}
+.notification_history tbody td:last-child {font-weight:700; font-size:16px; color:#121212}
+.certificate_btn.public .certificate_detail table {border-bottom:1px solid #eaeaea; font-size:13px}
+.certificate_btn.public .certificate_detail table th {border:1px solid #eaeaea; border-bottom:0; padding:10px 12px; font-weight:900; color:#121212}
+.certificate_btn.public .certificate_detail table td {border:1px solid #eaeaea; border-bottom:0; border-left:0; padding:10px 12px}
+
+
+/* 마이데이터관리 */
+.mapage_main .board_link a {padding:23px 0 25px 42px}
+.agreement_list_top {padding-bottom:35px}
+.agreement_list_top li {font-size:14px; color:#333}
+.agreement_list_top h4 {line-height:28px}
+.agreement_list {padding:40px 0 20px;position:relative;}
+.agreement_list + .agreement_list{padding-top:20px;}
+.agreement_list > strong {position:relative;display:block; padding-bottom:20px; border-bottom:1px solid #eaeaea}
+.agreement_list > p {padding-top:30px; font-weight:700}
+.agreement_list .retract{position:absolute;right:0;top:0;font-size:14px;line-height:24px;font-weight:400;}
+.agreement_list ul li em {font-size: 14px; line-height: 24px; letter-spacing: -0.56px; color: #555; display:block; margin-top: 22px;}
+.agreement_list ul li:first-child em {margin-top: 30px;}
+.agreement_list ul li a {display:block; word-break:keep-all; padding:18px 50px 18px 0; position:relative}
+.agreement_list ul li a::after {content:""; display:block; width:8px; height:14px; background:url('../images/common/icon_01.png') -97px  -52px no-repeat; background-size:250px 250px; position:absolute; right:0; top:50%; margin-top:-7px}
+.receiving_history .toggle_contents a {display:block; width:100%; position:relative}
+.receiving_history .toggle_contents a::before {content:""; display:block; width:8px; height:14px; background:url('../images/common/icon_01.png') -20px -52px no-repeat; background-size:250px 250px; position:absolute; right:0; top:5px}
+.receiving_history .toggle_contents a .ci_img span {padding-right:20px;font-weight:900}
+.receiving_history .date {padding-top:12px}
+.receiving_history .date li:after {content:''; display:block; clear:both}
+.receiving_history .date li {padding:4px 0; font-size:14px}
+.receiving_history .date li span {color:#333}
+.receiving_history .date li strong {float:right; font-weight:700}
+.receiving_history .toggle_contents > div {margin-top:45px}
+.receiving_history .toggle_contents > div:first-child {margin-top:0px}
+.receiving_history.detail > div {padding:28px 0 24px; border-bottom:1px solid #eaeaea}
+.receiving_history.detail > div.ci_img span {font-size:18px; font-weight:900}
+.receiving_history.detail .date {padding-top:30px}
+.receiving_history.detail .date li {padding:6px 0; font-size:16px}
+.mypage .certify_01 h4 {line-height:28px}
+.mypage .certify_01 .square_btn a {font-weight:700}
+.mypage .certify_01 > div > ul > li {position:relative}
+.mypage .certify_01 > div > ul > li .toggle_contents {padding-bottom:40px}
+.mypage .certify_01 > div > ul > li .checkbox.all {padding:18px 0}
+.mypage .certify_01 > div > ul > li .toggle_btn {position:absolute; top:0; right:0; width:35%; height:60px}
+.mypage .certify_01 > div > ul > li .info_text {border-top:1px solid #eaeaea; padding-top:20px; margin-top:5px}
+.mypage .certify_01 > div > ul > li .info_text ul li {font-size:14px; margin-top:0; color:#333}
+.mypage .certify_01 .checkbox.all .ci_img span {word-break:break-all; max-width: calc(100% - 130px); height: auto;}
+
+/* 동의항목변경 */
+.btn_terms_change {position:absolute; right:0; top:4px;display:block; float:left; height:28px; text-align:center; line-height:28px; background:#56585f; color:#fff; font-size:13px; border-radius:30px; padding:0 12px}
+
+/* 탈퇴 */
+.withdrawal_wrap {padding-bottom:20px}
+.withdrawal_wrap .checkbox {border-top:1px solid #eaeaea; margin-top:24px; padding-top:8px}
+.withdrawal_wrap textarea {width:100%; height:240px; border:solid 1px#ddd; border-radius:8px; margin-top:8px; text-align:left; padding:25px 20px; font-size:16px}
+.withdrawal_wrap .text_limit {font-size:14px; color:#555}
+.withdrawal_wrap .t_area {display:none; position:relative; z-index:90}
+.withdrawal_wrap .radio .write:checked ~ .t_area {display:block}
+
+/* 정보수정 */
+.information_modify .gray_point_text {background:#f8f8f8; font-size:14px; line-height:35px; border-radius:17px; padding:0 16px}
+.information_modify table th {padding:8px 0; text-align:left; color:#555; font-weight:400}
+.information_modify table td {padding:8px 0; font-weight:700}
+.information_modify table td.change {padding-right:70px; position:relative}
+.information_modify table td.change a {line-height:30px; font-size:14px; padding:0 16px; border:1px solid #eaeaea; border-radius:6px; position:absolute; top:5px; right:0}
+
+.board_link.passwords a{padding:24px 0 24px 40px}
+.board_link.passwords a.password_pin::before{background:url(../images/mypage/icon_passwords.png) 0 0px no-repeat; background-size:24px auto; width:24px; height:24px}
+.board_link.passwords a.password_finger::before{background:url(../images/mypage/icon_passwords.png) 0 -35px no-repeat; background-size:24px auto; width:24px; height:24px}
+.board_link.passwords a.password_face::before{background:url(../images/mypage/icon_passwords.png) 0 -70px no-repeat; background-size:24px auto; width:24px; height:24px}

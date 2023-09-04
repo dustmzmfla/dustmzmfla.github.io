@@ -1,0 +1,833 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+}
+
+input {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+body {
+    width: 720px; 
+    margin: auto;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+section:nth-child(odd) {
+    background: #F7F5FE;
+    border-top: 1px solid rgba(143, 111, 255, 0.3);
+    border-bottom: 1px solid rgba(143, 111, 255, 0.3);
+}
+ 
+.clearfix::after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.inner,
+.header_inner {
+    position: relative;
+    width: 645px;
+    margin: auto;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.section_inner {
+    position: relative;
+    width: 600px;
+    margin: auto;
+    text-align: left;
+    padding: 170px 0 30px;
+}
+
+.section02_contents,
+.section04_contents,
+.section05_contents {
+    width: 600px;
+}
+
+button {
+    outline: none;
+    background: none;
+    border: 0;
+}
+
+.header {
+    position: fixed;
+    width: 720px;
+    margin: auto;
+    background: #fff;
+    z-index: 10;
+}
+
+.header .inner {
+    position: relative;
+    padding: 25px 0 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.call {
+    position: relative;
+    top: 3px;
+    margin-left: 100px;
+}
+
+.logo {
+    width: 170px;
+}
+
+.menu {
+    width: 45px;
+}
+
+.menu img {
+    width: 100%;
+}
+
+.header_popup_line {
+    display: none;
+}
+
+.header_popup_line .popup_back {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.header_popup_inner {
+    width: 720px;
+    margin: auto;
+    position: absolute;
+    top: 102px;
+}
+
+.header_popup_line .header_popup {
+    border-top: 8px solid #002865;
+    text-align: right;
+}
+
+.header_popup_line a:nth-child(4) {
+    background: #F2F8FF;
+}
+
+.header_popup_line .header_list_child {
+    display: block;
+    text-align: center;
+    background: #fff;
+    padding: 25px 0 22px;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.header_popup_line .close {
+    margin-right: 30px;
+    margin-top: 19px;
+    width: 40px;
+}
+ 
+.close img {
+    width: 100%;
+}
+
+.section01 {
+    background: #F2F8FF;
+}
+
+.section01 .inner {
+    padding: 180px 0 30px;
+}
+
+.section_form {
+    background: #fff;
+    text-align: center;
+    border-radius: 27px;
+    border: 4px solid #002865;
+    margin-top: 45px;
+    padding: 50px 50px 40px;
+}
+
+.form_title {
+    width: 350px;
+    margin-bottom: 51px;
+}
+
+.section_form ul li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_radio {
+    display: flex;
+    align-items: center;
+    margin-left: 54px;
+}
+
+.section_radio li:last-child {
+    margin-left: 15px;
+}
+ 
+.section_radio .radio_list {
+    width: 50%;
+}
+
+.section_radio .radio_list label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_radio .radio_list label::before {
+    display: block;
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #A1A1A1;
+    margin-right: 10px;
+}
+
+.section_radio input[type=radio] {
+    display: none;
+}
+
+.section_radio input[type=radio]:checked + label::before {
+    background-image: url('/cancer_care/m/images/checked.png');
+    background-size: 100% 100%;
+}
+
+.section_form input[type=text],
+.section_form input[type=tel] {
+    width: 100%;
+    border: 0;
+    outline: none;
+    font-size: 30px;
+    padding: 39px 0 15px;
+    border-bottom: 2px solid #A1A1A1;
+    font-weight: 400;
+    letter-spacing: -3px;
+}
+
+.section_form input[type=text]::placeholder,
+.section_form input[type=tel]::placeholder {
+    color: #A1A1A1;
+}
+
+.section_form input[id=section_name] {
+    margin-top: 0;
+    padding: 0;
+    padding-bottom: 15px;
+}
+
+.section_btn {
+    position: relative;
+    display: flex;
+    margin-top: 45px;
+    z-index: 4;
+}
+ 
+.section_btn01,
+.section_btn02 {
+    width: 50%;
+}
+
+.section_btn01 img,
+.section_btn02 img {
+    width: 100%;
+}
+
+.section_btn02 {
+    margin-left: 8px;
+}
+
+.section_calc {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.section_calcbox {
+    border-bottom: 2px solid #a1a1a1;
+    margin: 0 9.5px 0 10.5px;
+}
+
+.section_calcbox p {
+    color: #A1A1A1;
+    padding: 0 20px 5px;
+    font-size: 30px;
+    width: 150px;
+}
+
+.section_insu_line {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.section01_footer {
+    margin-bottom: -6px;
+}
+
+.section01_footer img {
+    width: 100%;
+}
+
+.footer_list {
+    text-align: center;
+}
+
+.footer01 {
+    background: #D1D1D1;
+    padding: 65px 0;
+}
+
+.footer02 {
+    background: #A7A7A7;
+    padding: 65px 0 180px;
+     
+}
+.footer01 img {
+    width: 600px;
+    margin: auto;
+}
+
+.bottom {
+    width: 720px;
+    bottom: -200px;
+    position: fixed;
+    display: flex;
+    transition: all 0.5s ease;
+    z-index: 1;
+}
+ 
+.bottom_bar_list {
+    width: 50%;
+}
+
+.bottom_bar_list button {
+    width: 100%;
+}
+
+.bottom img {
+    width: 100%;
+}
+
+.bottom_popup_line {
+    position: relative;
+    z-index: 10; 
+}
+
+.bottom_popup_back {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.bottom_popup_inner {
+    width: 720px;
+    margin: auto;
+    position: relative;
+    top: 55px;
+    background: none;
+}
+
+.bottom_popup_line .bottom_on {
+    width: 720px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom_popup_line .bottom_on .bottom_popup {
+    position: fixed;
+    bottom: 80px;
+    text-align: right;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.bottom_popup_line .close {
+    margin-bottom: 10px;
+    width: 40px;
+}
+
+.bottom_popup_line.on {
+    display: block;
+}
+
+.bottom_popup_line.hide {
+    display: none;
+}
+
+.bottom_popup {
+    width: 620px;
+    margin: auto;
+}
+
+.bottom_popup .popup_form {
+    background: #fff;
+    padding: 50px 50px 60px;
+    text-align: center;
+    border-radius: 27px;
+    border: 4px solid #002865;
+}
+
+.bottom_popup .form_title {
+    margin-bottom: 51px;
+}
+
+.bottom_popup ul li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom_popup .popup_radio {
+    margin-left: 54px;
+    display: flex;
+    align-items: center;
+}
+
+.bottom_popup .popup_radio li:last-child {
+    margin-left: 14px;
+}
+ 
+.bottom_popup .popup_radio .radio_list {
+    width: 50%;
+}
+
+.bottom_popup .popup_radio input[type=radio] {
+    display: none;
+}
+
+.bottom_popup label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom_popup label[for=btm_agree] {
+    background: none;
+    height: auto;
+    width: auto;
+}
+
+.bottom_popup .radio_list label::before {
+    display: block;
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #A1A1A1;
+    margin-right: 10px;
+}
+
+.bottom_popup input[type=radio]:checked + label::before {
+    background-image: url('/cancer_care/m/images/checked.png');
+    background-size: 100% 100%;
+}
+
+.bottom_popup input[type=text],
+.bottom_popup input[type=tel] {
+    width: 100%;
+    border: 0;
+    outline: none;
+    font-size: 30px;
+    padding: 39px 0 15px;
+    margin-top: 20px;
+    border-bottom: 2px solid #A1A1A1;
+    font-weight: 400;
+    letter-spacing: -3px;
+}
+
+.bottom_popup input[type=text]::placeholder,
+.bottom_popup input[type=tel]::placeholder {
+    color: #A1A1A1;
+}
+
+.bottom_popup input[id=popup_name] {
+    margin-top: 0;
+    padding: 0;
+    padding-bottom: 15px;
+}
+
+.popup_calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup_calcbox {
+    width: 150px;
+    text-align: center;
+    border-bottom: 2px solid #a1a1a1;
+    margin: 0 13.5px 0 9.5px;
+}
+
+.popup_calcbox p {
+    color: #a1a1a1;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.real_btn {
+    position: fixed;
+    display: flex;
+    width: 720px;
+    z-index: 10;
+    bottom: -10px;
+}
+ 
+.real_btm_btn_list {
+    width: 50%;
+}
+
+.real_btm_btn_list button {
+    width: 100%;
+}
+
+.real_btn img {
+    width: 100%;
+}
+
+.agree_line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agree_line input {
+    display: none;
+}
+
+.agree_line label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px 0;
+}
+
+.agree_line label::before {
+    display: block;
+    content: '';
+    width: 45px;
+    height: 45px;
+    border: 2px solid #A1A1A1;
+    border-radius: 50%;
+    margin-right: 13px;
+}
+
+.agree_line input:checked + label::before {
+    background: #A1A1A1;
+}
+
+.popup01,
+.popup02,
+.popup03 {
+    display: none;
+}
+
+.popup_back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup01 .popup_inner {
+    border: 4px solid #002865;
+    background: #fff;
+    border-radius: 17px;
+    width: 583px;
+    padding: 40px 40px 20px;
+}
+
+.popup_nav {
+    width: 100%;
+    display: flex;
+    border: 1px solid #002865;
+    margin-top: 30px;
+}
+
+.popup_nav li {
+    width: 50%;
+    font-size: 27px;
+    letter-spacing: -2px;
+    text-align: center;
+    padding: 15px 0 10px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #002865;
+}
+
+.popup_nav .nav_on {
+    background: #002865;
+    color: #fff;
+}
+
+.popup_nav img {
+    width: 100% !important;
+}
+
+.popup_nav .for_act {
+    display: none;
+}
+
+.nav_on .default {
+    display: none;
+}
+
+.nav_on .for_act {
+    display: block;
+}
+
+.popup_contents01,
+.popup_contents02 {
+    display: none;
+    border: 1px solid #505050;
+    border-top: 0;
+    padding: 20px;
+}
+
+.popup_contents .active {
+    display: block;
+}
+
+.popup_contents img {
+    width: 530px;
+}
+
+.pop_agree_line {
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.popup_btn,
+.btm_popup_btn {
+    position: relative;
+}
+
+.popup_btn button {
+    position: absolute;
+    right: 0;
+    width: 40px;
+    top: 0;
+}
+
+.btm_popup_btn button {
+    position: absolute;
+    top: 0;
+    width: 40px;
+    right: 0;
+}
+
+.popup_btn button img,
+.btm_popup_btn button img {
+    width: 100%;
+}
+
+.radio_line {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: 29px 0;
+}
+
+.radio_line li {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio_line input {
+    display: none;
+}
+
+.radio_line label {
+    display: flex;
+    align-items: center;
+}
+
+.radio_line label::before {
+    content: '';
+    display: block;
+    width: 33px;
+    height: 33px;
+    margin-right: 13px;
+    border: 2px solid #A1A1A1;
+    border-radius: 50%;
+}
+
+.radio_line input:checked + label::before {
+    background-image: url('/cancer_care/m/images/checked.png');
+    background-size: 100% 100%;
+}
+
+.radio_line label img {
+     width: auto;
+}
+
+.all_chk img {
+    width: 100%;
+}
+
+.btm_agree_line {
+    margin: 35px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btm_agree_line input {
+    display: none;
+}
+
+.btm_agree_line label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btm_agree_line label::before {
+    display: block;
+    content: '';
+    width: 45px;
+    height: 45px;
+    border: 2px solid #A1A1A1;
+    border-radius: 50%;
+    margin-right: 13px;
+}
+
+.btm_agree_line input:checked + label::before {
+    background: #A1A1A1;
+}
+
+.coffee_coupon {
+    position: fixed;
+    bottom: 80px;
+    right: 0px;
+    z-index: 3;
+    width: 300px;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.coffee_close {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    width: 28px;
+}
+
+.coffee_coupon img {
+    width: 100%;
+}
+
+.popup02 .popup_inner,
+.popup03 .popup_inner {
+    position: relative;
+    background: #fff;
+    padding: 0;
+    text-align: center;
+}
+
+.complete_header button {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.complete_header img {
+    width: 40px;
+}
+
+.complete_body {
+    padding: 87px 80px 91px;
+}
+
+.complete_body img {
+    width: 450px;
+}
+
+.complete_body .complete_logo {
+    width: 170px;
+    margin-bottom: 62px;
+}
+
+.complete_body li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.complete_body li:nth-child(3) {
+    margin-top: 24px;
+    align-items: flex-end;
+}
+
+.complete_body li .complete_name {
+    color: #676767;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.complete_body li .complete_calc {
+    width: 255px;
+}
+
+.complete_body li .complete_price {
+    width: 185px;
+    padding: 0 10px 5px;
+    border-bottom: 5px solid #002865;
+    font-size: 40px;
+}
+
+.complete_body li .won {
+    width: 36px;
+    margin: 0 0 5px 11px;
+}
+
+.complete_text {
+    margin-top: 56px;
+}
+
+.complete_footer {
+    background: #F2F2F2;
+    padding: 33px 0 27px;
+}
+
+.complete_footer img {
+    width: 440px;
+}

@@ -1,0 +1,21 @@
+.cont-etc {text-align:center; padding: 0px 20px;}
+.cont-etc h1{padding-top:100px;font-size:0;line-height:0;}
+.cont-etc h1 img{height:48px;}
+.cont-etc .txt-etc{position:relative;padding-top:60px;}
+.cont-etc .txt-etc::before{content:'';display:inline-block;width:152px;height:152px;background:url('../images/etc/img_warning.png') 50% 50% no-repeat; background-size:152px auto;}
+.cont-etc .txt-etc p.txt-type01{padding-top:24px;font-size:20px;line-height:24px;}
+.cont-etc .txt-etc p.txt-type02{padding-top:16px;font-size:18px;line-height:24px;}
+.cont-etc .app-link-box{display:flex; justify-content: center; margin-top:60px;font-size:0;}
+.cont-etc .app-link-box a{display: block; width:200px; height:60px;margin:0 10px;font-size:0;line-height:0; margin-top: 5px;}
+.cont-etc .app-link-box a img{display:inline-block;height:60px;}
+.cont-etc .br_w {display: none;}
+
+@media (max-width: 500px){
+    .cont-etc {position: absolute; display: flex; flex-direction: column; justify-content: center; width: 100vw; height: 100vh;}
+    .cont-etc h1{padding-top: 0px;}
+    .cont-etc .br_w {display: block;}
+    .cont-etc .txt-etc{padding-top: 40px;}
+    .cont-etc .app-link-box {flex-direction: column; align-items: center; margin-top: 40px; padding-bottom: 20px;}
+    .cont-etc .app-link-box a {display:block;}
+    
+}

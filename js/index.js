@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+    history.scrollRestoration = "manual"
+
     function shadow() {
         var color_change = '#' + Math.floor(Math.random() * 16777216).toString(16);
         var imgBox = document.querySelector('.shadow');
@@ -117,9 +119,10 @@ $(document).ready(function(){
 
     $('.close-btn').click(function(){
         $('.popup').css('bottom', '-1000px');
+        $('.popup').css('opacity', '0');
         setTimeout(function(){
             $('.popup').remove();
-        }, 800);
+        }, 100);
     });
 
     $('.wing li').click(function(){
@@ -136,12 +139,62 @@ $(document).ready(function(){
     setTimeout(function(){ $('.profile ul li:nth-child(1)').addClass('up'); }, 300);
     setTimeout(function(){ $('.profile ul li:nth-child(2)').addClass('up'); }, 450);
     setTimeout(function(){ $('.profile ul li:nth-child(3)').addClass('up'); }, 600);
-    setTimeout(function(){ $('.contact').addClass('up'); }, 750);
-    setTimeout(function(){ $('.sec02 nav').addClass('draw');  }, 900);
-    setTimeout(function(){ $('.nav-first').css('opacity', '1'); }, 1500);
-    setTimeout(function(){ $('.sec02 .inner').addClass('up'); }, 1700);
+    setTimeout(function(){ $('.profile ul li:nth-child(4)').addClass('up'); }, 750);
+    setTimeout(function(){ $('.contact').addClass('up'); }, 900);
+    setTimeout(function(){ $('.sec02 nav').addClass('draw');  }, 1050);
+    setTimeout(function(){ $('.nav-first').css('opacity', '1'); }, 1650);
+    setTimeout(function(){ $('.sec02 .inner').addClass('up'); }, 1800);
 
 
+    // 안내 메시지
+    const eachTemplate = `
+        <div class="work">
+            <div class="dev">PC | MO</div>
+            <div class="notice">
+                <p>바로가기 버튼을 눌렀을 때 PC화면에서는 PC로, 모바일 화면에선 모바일로 연결됩니다</p>
+            </div>
+        </div>
+    `;
+    const bothTemplate = `
+        <div class="work">
+            <div class="dev">반응형</div>
+            <div class="notice">
+                <p>반응형으로 작업된 페이지입니다</p>
+            </div>
+        </div>
+    `;
+
+    const mobileTemplate = `
+        <div class="work">
+            <div class="dev">MOBILE</div>
+            <div class="notice">
+                <p>해당 페이지는 모바일 전용으로 작업되어, 모바일 환경으로 보시는 걸 추천드립니다</p>
+            </div>
+        </div>
+    `;
+    $('.each').append(eachTemplate);
+    $('.both').append(bothTemplate);
+    $('.mobileOnly').append(mobileTemplate);
+
+    $('.each .work').mouseover(function(){
+        $(this).find('.notice').addClass('hover');
+    });
+    $('.both .work').mouseover(function(){
+        $(this).find('.notice').addClass('hover');
+    });
+    $('.mobileOnly .work').mouseover(function(){
+        $(this).find('.notice').addClass('hover');
+    });
+    $('.each .work').mouseout(function(){
+        $(this).find('.notice').removeClass('hover');
+    });
+    $('.both .work').mouseout(function(){
+        $(this).find('.notice').removeClass('hover');
+    });
+    $('.mobileOnly .work').mouseout(function(){
+        $(this).find('.notice').removeClass('hover');
+    });
+    
 
     
 });

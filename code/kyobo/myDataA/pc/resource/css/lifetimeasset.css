@@ -1,0 +1,471 @@
+@charset "utf-8"; 
+/* ------------------------------------------
+* Filename:lifetimeasset.css
+* Author:MADIVE
+------------------------------------------ */
+
+.lifetimeasset {}
+.lifetimeasset img {width:100%}
+.lifetimeasset .w_100 {width:100%}
+
+.goal_setting {}
+.goal_setting h4 {line-height:24px; position:relative; font-size:20px; line-height:32px}
+.goal_setting p.before {background:url('../images/lifetimeasset/img_goal_setting_02.png') 8px 6px no-repeat; background-size:40px 40px; padding-left:60px; font-size:14px; line-height:24px; font-weight: 900;}
+.goal_setting .goal_setting_top {position: relative;}
+
+.goal_setting .goal_setting_top > div {position:relative; margin-top: 28px;}
+.goal_setting .goal_setting_top .tit_goal {position:relative; font-size: 16px; line-height: 24px; font-weight:200}
+.goal_setting .goal_setting_top .before + a {width:32px; height:32px; background:none; position:absolute; right:0; top:50%; transform: translateY(-50%);}
+.goal_setting .goal_setting_top .before + a::after {content:""; display:block; width:8px; height:14px; background:url('../images/common/icon_01.png') -117px 0 no-repeat; background-size:250px 250px; position:absolute; top:9px; right:12px}
+.goal_setting .goal_setting_top a {display:block; width:32px; height:32px; background:url('../images/common/icon_01.png') -92px -136px no-repeat; background-size:250px 250px; position:absolute; top:calc(50% - 16px); right:4px}
+
+.goal_setting .goal_setting_top .goal_setting_btn {}
+.goal_setting .goal_setting_top .goal_setting_btn a {display: block; width: 100%; height: auto; position:relative; background:url('../images/lifetimeasset/img_goal_setting_02.png') 8px 6px no-repeat; background-size:40px 40px; padding-left:60px; font-size:14px; line-height:24px; font-weight: 900;}
+.goal_setting .goal_setting_top .goal_setting_btn a::after {content:""; position:absolute; top:16px; right:12px; display:block; width:8px; height:14px; background:url('../images/common/icon_01.png') no-repeat -117px 0 / 250px 250px; }
+
+.goal_setting .hashtags_box {margin:5px 0 48px}
+.goal_setting .hashtags_box::after {content:""; display:block; clear:both}
+.goal_setting .hashtags_box span {display:block; float:left; max-width:100%; font-size:14px; border:solid 1px #eaeaea; border-radius:4px; padding:0 8px; line-height:28px; margin:8px 8px 0 0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.goal_setting .item {margin-top:28px}
+.goal_setting .item a {display:block; background:#f8f8f8; border-radius:16px; padding:20px; position:relative}
+.goal_setting .item a::after {content:""; display:block; width:7px; height:13px; background:url('../images/common/icon_01.png') -97px -52px no-repeat; background-size:250px 250px; position:absolute; top:50%; right:20px; margin-top:-7px}
+.goal_setting .income_disbursement {}
+.goal_setting .income_disbursement a {margin-top:15px; background:#f8f8f8; border-radius:16px; padding:20px}
+.goal_setting .income_disbursement a:first-child {margin-top:0}
+.goal_setting .income_disbursement .gray_box {margin-top:15px; background:#f8f8f8; border-radius:16px; padding:20px; font-size:14px; color:#333}
+.goal_setting .income_disbursement .gray_box strong {font-size:14px; line-height:24px; margin:0; display:inline; color:#333}
+.goal_setting .income_disbursement .more_btn {margin-top:20px; background:#fff; border-radius:8px; padding:0; font-weight:700; font-size:14px}
+.goal_setting .income_disbursement .more_btn::after {display:none}
+.goal_setting .income_disbursement .more_btn p::after {top:4px}
+
+
+.goal_setting .banner a {padding:0; background:transparent; border-radius:0}
+.goal_setting .banner a::after {display:none}
+.goal_setting h5 {display:block; font-size:14px}
+.goal_setting strong {display:block; color:#121212; font-size:24px; line-height:30px; margin-top:5px}
+.goal_setting .ci {display:block; margin-top:30px; padding-left:6px}
+.goal_setting .ci::after {content:""; display:block; clear:both}
+.goal_setting .ci:empty {display:none}
+.goal_setting .ci p {display:block; float:left; width:24px; height:24px; border:solid 1px #fff; border-radius:50px; overflow:hidden; margin-left:-6px; background:#fff}
+.goal_setting .ci img {width:calc(100% + 2px); margin:-1px 0 0 -1px}
+
+.assetset_info {padding-bottom:40px}
+.assetset_info .age_input span {font-size:20px; line-height:48px}
+.assetset_info .age_input input {line-height:48px; font-weight:900; font-size:22px; text-align:center}
+.assetset_info .age_input .input {display:inline-block; width:80px; text-align:center; margin:0 8px; height:48px; font-weight:900; font-size:22px}
+.assetset_info > button {display:block; font-size:14px; line-height:17px; margin-top:17px; padding:9px 16px; border-radius:4px; border:solid 1px #ddd}
+.assetset_info .text {display:block; font-size:20px; line-height:32px; margin-top:5px}
+.assetset_info .blue_marker > p.list_text {line-height:34px; margin-top:3px}
+
+/* .asset_box .blue_marker{}
+.asset_box .blue_marker::after {content:""; display:block; clear:both}
+.asset_box .blue_marker > p {font-size:20px; line-height:24px; float:left; margin-right:10px}
+.asset_box .blue_marker > p strong {font-size:20px}
+.asset_box .blue_marker > strong {font-size:20px; display:block; float:left; line-height:24px}
+.asset_box .blue_marker > span {font-size:20px; line-height:34px; margin-top:3px}
+.asset_box .blue_marker .point_text::after {height:8px; bottom:3px}
+.asset_box .grey_marker{}
+.asset_box .grey_marker::after {content:""; display:block; clear:both}
+.asset_box .grey_marker > p {font-size:20px; line-height:24px; float:left; margin-right:10px}
+.asset_box .grey_marker > p strong {font-size:20px}
+.asset_box .grey_marker > strong {font-size:20px; display:block; float:left; line-height:24px}
+.asset_box .grey_marker > span {font-size:20px; line-height:34px; margin-top:3px}
+.asset_box .grey_marker .point_text {color:#121212}
+.asset_box .grey_marker .point_text::after {background:#000; bottom:3px} */
+
+/*생아자산진단 설정*/
+.tit_life {font-size: 20px; line-height: 34px; letter-spacing: -0.8px;}
+.tit_life span {font-size: 16px; line-height: 34px; letter-spacing: -0.64px;}
+.asset_box2 dl {display: flex;}
+.asset_box2 dl dt {margin-right: 10px; line-height: 34px;}
+.asset_box2 .point_text {font-size: 16px; line-height: 34px; letter-spacing: -0.64px; margin-bottom: 0;}
+.asset_box2 .grey_marker .point_text {color:#121212}
+.asset_box2 .grey_marker .point_text::after {background:#000; bottom:10px; height:8px; opacity: 0.1;}
+.asset_box2 .blue_marker .point_text::after {height:8px; bottom:10px}
+
+.asset_box3 {border: 1px solid #ddd; background-color: #fff; border-radius: 16px; padding: 20px;font-size: 14px; letter-spacing: -0.56px; }
+.asset_box3 p {line-height: 22px; color: #555;}
+.asset_box3 p.icon_scroll {display: flex; justify-content: center; word-break: break-all;}
+.asset_box3 p.icon_scroll span img {width: 32px; height: 20px; margin-right: 8px;}
+.asset_box3 dl {display: flex; font-weight: 900;}
+.asset_box3 dl dt {margin-right: 8px; font-weight: normal;}
+.asset_box3.controll_guide {display: flex; align-items: center; justify-content: center; height: 149px; text-align:center;}
+.asset_box3.controll_guide p span {display: block;}
+
+.month_list {padding: 40px 0 20px 0;}
+.month_list dl {display: flex; justify-content: space-between; margin-top: 20px;}
+.month_list dl:first-child {margin-top: 0;}
+.month_list dl dt {font-size: 14px; line-height: 24px; letter-spacing: -0.56px; color: #333;}
+.month_list dl dd {letter-spacing: -0.64px; font-weight: 900;}
+
+
+
+.assetset_info .select {display:inline-block; width:170px; padding-right:20px}
+.blue_marker > strong {font-size:20px}
+.blue_marker > p strong {margin-left:10px}
+.blue_marker .list_text {position:relative; padding-left:18px}
+.blue_marker .list_text > span {display: inline-block; width: 35px}
+.blue_marker .list_text::before {display:block; content:""; position:absolute; top:12px; left:0; width:10px; height:10px; background:#26292e; border-radius:10px}
+.blue_marker .list_text:last-child::before {background:none; border:solid 2px #1746c3}
+.blue_marker .point_text {margin-bottom:0}
+.blue_marker .point_text::after {height:12px}
+.assetset_info .graph_area {}
+.target_rate {position:relative; padding-top:132px; margin-top:60px}
+.target_rate .graph_img {width:132px; height:132px; position:absolute; z-index:90; right:0; bottom:0}
+.target_rate .graph_img img {width:100%}
+.target_rate .percentage_graph {width:100%; height:8px; background:#f2f2f2; margin:0; position:relative; z-index:91; padding:0; border-radius:10px}
+.target_rate .percentage_graph::after {content:""; display:block; width:10px; height:9px; background:url('../images/lifetimeasset/icon_grapharrow.png') 0 0 no-repeat; background-size:contain; position:absolute; right:4px; bottom:15px}
+.target_rate .percentage_graph p {background:#26292e; height:8px; position:absolute; top:0; left:0; border-radius:10px; max-width:100%}
+
+.assetset_info .title {display:block; font-size:20px; line-height:34px}
+.assetset_info .tooltip button.btn {border:0; margin:0; padding:0}
+.assetset_info .tooltip .btn::after {content:""; display:block; width:16px; height:16px; background:url('../images/common/icon_01.png') -66px -95px no-repeat; background-size:250px 250px; position:absolute; top:0; left:2px}
+.tooltip .life_pop_cont p {margin-top:5px}
+.tooltip .life_pop_cont p:first-child {margin-top:0px}
+.tooltip .life_pop_cont strong {display:inline-block; margin-top:30px}
+.tooltip .life_pop_cont strong:first-child {margin-top:0px}
+.tooltip .life_pop_cont em {font-weight:700}
+.tooltip .life_pop_cont p.dot, .assetset_info .tooltip .layer_cont p.star {font-size:14px; padding-left:9px; position:relative; color:#333}
+.tooltip .life_pop_cont .dot::before {content:""; position:absolute; top:8px; left:0; width:3px; height:3px; border-radius:50%; background:#121212}
+.tooltip .life_pop_cont .star::before {content:"*"; position:absolute; top:3px; left:0; width:3px; height:3px}
+.assetset_info .list {margin:20px 0}
+.assetset_info .list li {margin-top:10px}
+.assetset_info li {margin-top:5px}
+.assetset_info li::after {display:block; content:""; clear:both}
+.assetset_info li p {float:left; width:50%; font-size:14px; color:#333}
+.assetset_info li strong {float:left; width:50%; text-align:right}
+.assetset_info > .radio {padding-top:24px; border-top:solid 1px #eaeaea}
+.assetset_info .info_box button {display:inline-block; text-decoration:underline; margin:0 12px 0 0; padding:0; border:0; font-size:16px; color:#333}
+.assetset_info .reference_value {padding-top:20px; border-top:solid 1px #eaeaea; position:relative; z-index:90}
+.assetset_info .reference_value::after {content:""; display:block; clear:both}
+.assetset_info .reference_value span {color:#555; font-size:13px; display:block; position:absolute; top:20px; left:50%}
+.assetset_info .reference_value span:first-child {float:left; position:static}
+.assetset_info .reference_value span:last-child {float:right; position:static}
+.assetset_info .reference_value span:first-child:nth-last-child(3), .assetset_info .reference_value span:first-child:nth-last-child(3) ~ span {width:40px; text-align:center}
+
+/* 생애자산설계 챠트 X축 그리기 : 22.01.06 */
+.asset_info .info_box button {display:inline-block; text-decoration:underline; margin:0 12px 0 0; padding:0; border:0; font-size:16px; color:#333}
+.asset_info .reference_value {padding-top:20px; border-top:solid 1px #eaeaea; position:relative; z-index:90}
+.asset_info .reference_value::after {content:""; display:block; clear:both}
+.asset_info .reference_value span {color:#555; font-size:13px; display:block; position:absolute; top:20px; left:50%}
+.asset_info .reference_value span:first-child {float:left; position:static}
+.asset_info .reference_value span:last-child {float:right; position:static}
+.asset_info .reference_value span:first-child:nth-last-child(3), .assetset_info .reference_value span:first-child:nth-last-child(3) ~ span {width:40px; text-align:center}
+
+/* 챠트 범례 공통화 : 22.01.06 */ 
+.graphlegend_item {margin-top:10px; height:30px}
+.graphlegend_item::after {content:""; display:block; clear:both}
+.graphlegend_item span {display:block; float:left; line-height:30px; margin-left:16px; font-size:14px; color:#333}
+.graphlegend_item span:first-child {margin-left:0}
+.graphlegend_item p {width:24px; float:left}
+.graphlegend_item p img {width:100%}
+.graphlegend_item em {display:block; float:left; margin-left:4px}
+.graph_range {position:absolute; bottom:30px; width:100%; height:100%; overflow:hidden; z-index:91;}
+.graph_range label {display:none}
+.graph_range input {display:block; border:0; margin:0; width:100%; height:28px; line-height:unset; position:absolute; bottom:0; background:transparent}
+.graph_range input::-webkit-slider-thumb {-webkit-appearance:none; border:none; height: 500px; width:44px; background:url('../images/finance/btn_range.png') 0 bottom no-repeat; background-size:44px 500px; margin-top: -472px;}
+
+/* 내집마련 */
+
+.map_box img {border-radius:18px}
+strong + .map_box {margin-top:15px}
+.property_title {font-size:20px; line-height:32px; padding-bottom:30px; font-weight:900}
+.property_title strong {color:#1746c3}
+.property_list li {padding:40px 0; border-bottom:1px solid #eaeaea}
+.property_list li:last-child {border-bottom:none}
+.property_list li > div {padding-bottom:20px}
+.property_list li > div.square_btn {padding-bottom:0px}
+.property_list li > div::after {content:""; display:block; clear:both}
+.property_list li > div > div {float:left; width:calc(100% - 80px)}
+.property_list li > div > div strong {display:block; font-weight:900; font-size:18px; padding:0 40px 10px 0; word-break:keep-all}
+.property_list li > div > div .extent {display:inline-block; margin-left:8px}
+.property_list li > div > div .extent::before {display:inline-block; content:"|"; color:#ddd; padding-right:9px}
+.property_list li > div > div p {padding-top:3px}
+.property_list li > div img {float:left; width:80px; height:80px; border-radius:5px}
+.property_list .info_box {padding:0; border:none}
+.property_list .info_box dl dt {width:80px}
+.property_list .info_box dl dd {width:calc(100% - 80px); text-align:left; font-weight:700; font-size:14px}
+.property_list .info_btn {display:inline-block; line-height:14px; padding:9px 16px 7px; border-radius:5px; border:1px solid #dddddd; margin-top:17px; font-size:14px}
+.property_list .point_text {margin:40px 0 10px}
+.property_list > p + ul li:first-child {padding-top:30px}
+.property_list > p {font-size:18px; font-weight:900}
+
+.property_pop_img {margin:0 -18px; overflow:hidden}
+
+.photo_swiper .swiper-pagination {line-height:24px; bottom:0; top:unset; z-index:90; text-align:center; color:#555}
+.photo_swiper .swiper-pagination-current {font-weight:900; color:#111}
+.photo_swiper .swiper-button-prev, .photo_swiper .swiper-button-next {width:16px; height:28px; position:absolute; top:unset; bottom:0; z-index:100}
+.photo_swiper .swiper-button-prev {left:50%; margin-left:-70px}
+.photo_swiper .swiper-button-next {right:50%; margin-right:-70px}
+.photo_swiper .swiper-button-prev::after, .photo_swiper .swiper-button-next::after {content:""; display:block; width:8px; height:14px; background:url('../images/common/icon_01.png') -117px 0 no-repeat; background-size:250px 250px; position:absolute; top:7px; left:4px}
+.photo_swiper .swiper-button-prev::after {transform:rotate(180deg)}
+
+/* .property_pop_img .swiper-slide {height:300px} */
+.property_pop_img .swiper-slide img {object-fit:contain; width:100%; height:100%}
+.property_pop_img .photo_swiper {position:relative; padding-bottom:40px;}
+.property_pop_img .photo_swiper .swiper-slide {height:240px;text-align:center;background:#f5f5f5;}
+.property_pop.info_box {padding:20px 0 35px; border-top:0}
+.property_pop > strong {display:inline-block; width:100%; padding-right:110px; margin-bottom:15px; line-height:40px; font-size:20px}
+.property_pop .select {position:absolute; top:20px; right:0; border:1px solid #ddd; border-radius:4px; padding:13px 12px 11px}
+.property_pop .select .selected {border:none; height:14px; font-size:14px; line-height:14px; padding-right:40px}
+.property_pop .select .selected::after {width:11px; height:7px; background:url('../images/common/icon_01.png') -137px -52px no-repeat; background-size:250px 250px; top:3px}
+
+.property_pop .select .pop_selected {border:none; height:14px; font-size:14px; line-height:14px; padding-right:40px}
+.property_pop .select .pop_selected::after {width:11px; height:7px; background:url('../images/common/icon_01.png') -137px -52px no-repeat; background-size:250px 250px; top:3px}
+
+.property_info {padding-top:30px}
+.property_info h4 {font-size:18px; line-height:28px}
+.property_info ul {margin-top:20px}
+.property_info li {margin-top:30px}
+.property_info li:first-child {margin-top:0}
+.property_info li strong, .property_info li p {line-height:28px}
+
+.setgoals_list {margin:9px 0 70px}
+.setgoals_list:last-child {margin-bottom:0}
+.setgoals_list .item {display:block; background:#f8f8f8; border-radius:16px; margin-top:16px; padding:28px 20px; position:relative}
+.setgoals_list .item:first-child {margin-top:0}
+.setgoals_list .item p.icon {position:absolute; top:-6px; left:16px; width:28px; height:24px}
+.setgoals_list .item h5 {line-height:24px; padding-left:20px; background:url('../images/lifetimeasset/icon_lightning.png') 0 3px no-repeat; background-size:16px auto}
+.setgoals_list .item strong {display:block; margin-top:6px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.setgoals_list .ci {display:block; position:absolute; right:20px; top:28px}
+.setgoals_list .ci::after {content:""; display:block; clear:both}
+.setgoals_list .ci:empty {height:24px; background:url('../images/lifetimeasset/ci_finance_none.png') 0 0 no-repeat; background-size:24px 24px}
+.setgoals_list .ci p {display:block; float:left; width:24px; height:24px; border:solid 1px #fff; border-radius:50px; overflow:hidden; margin-left:-6px; background:#fff}
+.setgoals_list .ci img {width:calc(100% + 2px); margin:-1px 0 0 -1px}
+.setgoals_list .item .btn_del {display:block; text-align:center; border-top:1px solid #eaeaea; padding-top:10px; margin:10px 0 -11px 0; font-size:14px; color:#333}
+
+/* 신용점수 조회/관리 */
+.score_inquiry {}
+.score_inquiry .title {position:relative}
+.score_inquiry .title h4 .tooltip {position:relative}
+.score_inquiry .title h4 .tooltip::after {display:block; content:""; position:absolute; top:-15px; left:3px; width:20px; height:20px; background:url('../images/common/icon_01.png') -41px -95px no-repeat; background-size:250px 250px} 
+.my_creditscore strong {display:block; color:#121212; font-size:20px; line-height:32px; margin-top:40px}
+.my_creditscore .button_area {margin-top:40px; padding-bottom:40px}
+.my_creditscore .button_area a {font-size:16px; font-weight:700}
+.score_inquiry .history_link {margin-top:30px}
+.history_link::after {content:""; display:block; clear:both}
+.history_link li {display:block; float:left; width:50%; position:relative; text-align:center}
+.history_link li::after {content:""; display:block; width:1px; height:100%; background:#eaeaea; position:absolute; left:0; top:0}
+.history_link li:first-child::after {display:none}
+.history_link a {display:inline-block; color:#555; font-size:14px; position:relative; padding-right:13px}
+.history_link a::after {content:""; display:block; width:5px; height:9px; background:url('../images/common/icon_01.png') -109px -52px no-repeat; background-size:250px 250px; position:absolute; top:5px; right:0}
+.history_link strong {display:block; color:#121212; font-size:20px; padding-top:10px; margin-top:0; line-height:24px}
+.score_inquiry .credit_rating {margin-top:60px}
+.credit_rating .link {margin-top:30px}
+.credit_rating .link a {display:block; margin-top:26px; color:#121212}
+.credit_rating .link a:first-child {margin-top:0}
+.credit_rating .link a::after {content:""; display:block; clear:both}
+.credit_rating .link span {display:block; float:left}
+.credit_rating .link strong {display:block; float:right; position:relative; padding-right:25px; font-weight:700}
+.credit_rating .link strong::after {content:""; display:block; width:8px; height:14px; background:url('../images/common/icon_01.png') -117px 0 no-repeat; background-size:250px 250px; position:absolute; top:4px; right:6px}
+.credit_rating .guide_text {color:#555; margin-top:60px}
+
+
+/* 3초 연금진단 */
+.lifetimeasset_img {display:block; background:url('../images/lifetimeasset/img_lifetimeasset_01.png') center 64px no-repeat; background-size:240px 240px; padding-top:350px; font-size:20px; line-height:32px; text-align:center}
+.pension_info .property_title {font-size:18px; line-height:28px}
+.pension_info h4 {font-size:16px}
+.pension_info .text_btn {font-size:14px; font-weight:700}
+.pension_info .info_box {border-top:0; padding:35px 0 0}
+.pension_info .info_box h4 {line-height:40px}
+.pension_info .info_box dt {color:#121212}
+.pension_info .info_box dd {font-size:14px; color:#555}
+.pension_info .date {font-size:14px; line-height:22px; color:#555; margin-top:15px}
+.asset_result h4 {font-size:16px; line-height:34px}
+.asset_result .point_text {font-size:20px; line-height:23px; margin-bottom:0}
+.asset_result .info_box {border-top:0; padding:20px 0 35px}
+
+.asset_state h4 {line-height:28px}
+.asset_state h4 .flag_text {display:inline-block; font-size:13px; line-height:24px; background:#f2f7ff; color:#1746c3; margin-left:5px; padding:0 8px; border-radius:4px}
+.asset_state > strong {display:block; margin-top:30px; text-align:center}
+.asset_state .img {display:block; width:calc(100% - 116px); margin:45px auto 0}
+.asset_state p {font-size:14px; text-align:center; color:#555; margin-top:5px}
+
+.asset_state_more {border-top:solid 1px #eaeaea; margin-top:40px; padding-top:40px; text-align:center}
+.asset_state_more div {border-radius:16px; background:#f8f8f8; padding:0 58px 28px; margin:36px 0 20px; position:relative}
+.asset_state_more div::after {content:""; display:block; width:48px; height:48px; background:url('../images/lifetimeasset/bg_arrow.png') 0 0 no-repeat; background-size:contain; position:absolute; top:-24px; left:calc(50% - 24px)}
+.asset_state_more div strong {display:block; background:url('../images/lifetimeasset/img_assetstate_03.png') center 40px no-repeat; background-size:209px 209px; padding-top:280px; font-size:16px; line-height:28px}
+
+.state_value {margin-top:40px}
+.state_value::after {content:""; display:block; clear:both}
+.state_value li {float:left; width:calc(100% / 3); text-align:center; font-size:13px; line-height:28px; color:#333; border-top:solid 6px #f2f2f2; padding-top:10px}
+.state_value li.active {border-top:solid 6px #26292e; color:#121212; position:relative; font-weight:900}
+.state_value li.active::before {content:""; display:block; width:1px; height:12px; background:#26292e; position:absolute; top:-9px; left:0}
+.state_value li.active::after {content:""; display:block; width:1px; height:12px; background:#26292e; position:absolute; top:-9px; right:0}
+
+/* 파이어족 */
+.financial_independence .lifetimeasset_img {font-size:16px; text-align:left; line-height:24px; padding-top:340px; background:url('../images/lifetimeasset/img_lifetimeasset_02.png') center 50px no-repeat; background-size:241px auto; margin-bottom:30px}
+.financial_independence h4 {font-size:16px}
+.financial_independence input {font-size:18px; line-height:28px}
+.financial_independence p.reference_text {font-size:16px; color:#121212; margin-top:40px}
+.financial_independence p.guide_text {margin-top:8px; line-height:22px}
+.asset_step li {position:relative}
+.asset_step li:first-child {margin-top:30px}
+.asset_step li::before {content:""; display:block; position:absolute; top:8px; left:1px; width:6px; height:6px; border-radius:6px; background:#1746c3}
+.asset_step li div {padding:5px 0 30px 0; border-left:solid 1px #eaeaea; margin-left:3px}
+.asset_step li:last-child div {padding-bottom:0}
+.asset_step li span {font-size:14px; line-height:24px; font-weight:900; padding-left:18px}
+.asset_step li p {padding-left:18px}
+
+/* 생애목표 */
+.life_goal_pop {padding:40px 0}
+.life_goal_pop > strong {font-size:18px}
+.life_goal_pop > div {margin-top:25px}
+.life_goal_pop input[type="text"] {font-weight:900}
+.life_goal_pop .t_center .date {font-size:14px; color:#555; margin-top:15px}
+.radio .direct_input {display:none; width:100%; margin-top:10px}
+.radio .write:checked + label .direct_input {display:block; background:#f7f9ff; margin-top:0}
+.life_goal_pop .checkbox li {margin-top:0}
+.life_goal_pop .checkbox span {display:inline-block; font-size:14px}
+.life_goal_pop .checkbox span.sort {padding-left:5px}
+.life_goal_pop .checkbox span.sort::before {content:"|"; padding-right:8px; color:#ddd}
+.life_goal_pop .checkbox p {font-weight:900}
+.goal_won input[type="number"] {width:200px; font-size:22px; font-weight:900; padding-right:10px}
+.goal_won span {font-size:20px}
+.goal_won > div {margin-bottom:24px}
+.goal_won .input.date {display:inline-block; width:150px; padding-right:10px}
+.goal_won .input.date .btn_date {font-size:22px; font-weight:900}
+
+/* 생애자산설계 */
+.myasset_title {position:relative}
+.myasset_title h4 {display:block}
+.myasset_title a.btn_edit {display:block; position:absolute; top:0; right:0; color:#333; padding-right:17px}
+.myasset_title a.btn_edit::after {content:""; display:block; width:11px; height:6px; background:url('../images/common/icon_01.png') -46px -52px no-repeat; background-size:250px 250px; position:absolute; top:8px; right:0; transform:rotate(270deg)}
+.asset_info {margin-top:15px}
+.asset_info_none {text-align:center; position:relative; font-weight:900;}
+.asset_info_none div{position:absolute; top:50%; left:0; width:100%; margin-top:-50px;}
+.asset_info_none a{font-weight:700; line-height:30px; display:inline-block; padding:0 16px; background:#fff; border: 1px solid #dddddd; border-radius: 4px; margin-top:20px;}
+.asset_top{font-size:14px; margin-top:15px; padding-left:20px; background:url('../images/lifetimeasset/asset_point.png') 0 4px no-repeat; background-size:12px auto}
+.dot_list {margin-bottom:50px}
+.dot_list li {position:relative; padding-left:18px; margin-top:8px; font-size:20px}
+.dot_list li:first-child {margin-top:0}
+.dot_list li::after {content:""; display:block; clear:both}
+.dot_list li::before {content:""; display:block; width:10px; height:10px; border:solid 2px #1746c3; border-radius:10px; position:absolute; top:7px; left:0}
+.dot_list li:first-child::before {border:0; background:#26292e}
+.dot_list p {float:left; width:133px}
+.dot_list strong.point_text {display:block; float:left; max-width:calc(100% - 90px); margin:0; font-size:20px; line-height:24px}
+
+.total_target_amount {padding-bottom:45px}
+.total_target_amount a.go {display:inline-block; font-size:14px; line-height:30px; margin-top:17px; padding:0 16px; border-radius:4px; border:solid 1px #ddd}
+.total_target_amount strong {font-size:22px}
+.goal_quicklink {margin-top:0px}
+.goal_quicklink::after {content:""; display:block; clear:both}
+.goal_quicklink a {display:block; float:left; background:#f2f7ff; line-height:28px; padding:6px 16px; margin:13px 12px 0 0; border-radius:50px}
+.goal_quicklink a::after {content:""; display:block; clear:both}
+.goal_quicklink p {display:block; float:left; width:20px; height:20px}
+.goal_quicklink strong {display:block; float:left; margin-left:8px}
+
+.banner_swiper {position:relative; padding-bottom:40px}
+.banner_swiper .banner_panel {overflow:hidden}
+.banner_swiper .swiper-pagination {line-height:24px; bottom:0; top:unset; z-index:90; text-align:center; color:#555}
+.banner_swiper .swiper-pagination-current {font-weight:900; color:#111}
+.banner_swiper .swiper-button-prev, .banner_swiper .swiper-button-next {width:16px; height:28px; position:absolute; top:unset; bottom:0; z-index:100}
+.banner_swiper .swiper-button-prev {left:50%; margin-left:-70px}
+.banner_swiper .swiper-button-next {right:50%; margin-right:-70px}
+.banner_swiper .swiper-button-prev::after, .banner_swiper .swiper-button-next::after {content:""; display:block; width:8px; height:14px; background:url('../images/common/icon_01.png') -117px 0 no-repeat; background-size:250px 250px; position:absolute; top:7px; left:4px}
+.banner_swiper .swiper-button-prev::after {transform:rotate(180deg)}
+
+/* 생애목표 설정 */
+.normal_text {font-weight:normal}
+.lifetime_step.step_01 img {width:72px; margin-bottom:24px}
+.lifetime_step.step_01 .radio.border label {padding:35px 20px 25px; text-align:center}
+.lifetime_step.step_01 .radio input[type="radio"] + label::before {height:24px; top:8px; right:8px}
+.lifetime_step.step_01 .radio .write + label {text-align:left; padding:13px 20px}
+.lifetime_step.step_01 .radio .write + label::before {top:13px !important; background-position-y:0 !important}
+.lifetime_step.step_01 .radio.border label span {overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; word-wrap:break-word; line-height:24px; height:48px}
+.finance .info_box.goal_step04 {border-top:none}
+.finance .info_box.goal_step04 .guide_text {font-size:14px; color:#333}
+.finance .info_box.goal_step04 .point_text {font-size:20px; margin:10px 0 25px}
+.finance .info_box.goal_step04 dl {padding:10px 0 0}
+.finance .info_box.goal_step04 + .life_goal_pop {padding:25px 0 0}
+
+/* 생애자산진단 */
+.transparent {background:linear-gradient(#f8f8f8, #f0f0f0)}
+.transparent #header {background:none}
+.transparent #container {background:none; padding-bottom:unset !important; min-height:unset !important;}
+.transparent #content {background:none}
+.transparent #content section {background:none; padding:0}
+.lifetime_introduce {overflow:hidden; position:relative}
+.lifetime_introduce div img {object-fit:cover; width:100%; height:100%; object-position:50% 0}
+.lifetime_introduce .item {}
+.lifetime_introduce .item strong {display:block; padding:0 24px; width:270px; height:56px; margin-top:68px;}
+.lifetime_introduce .item strong img {width:270px}
+.lifetime_introduce .item div {padding:40px 48px 0}
+.lifetime_introduce .swiper-pagination {position:absolute; top:28px; left:24px; width:42px; height:24px; line-height:24px; background:#acb0b6; color:#fff; font-size:12px; border-radius:50px; font-weight:200; letter-spacing:-0.1em}
+.lifetime_introduce .swiper-pagination-current {font-weight:900}
+.lifetime_introduce .swiper-button-prev, .lifetime_introduce .swiper-button-next {width:28px; height:28px; position:absolute; z-index:100; margin-top:unset; top:unset; bottom:0}
+.lifetime_introduce .swiper-button-prev {left:18px}
+.lifetime_introduce .swiper-button-next {right:18px}
+.lifetime_introduce .swiper-button-prev::after, .lifetime_introduce .swiper-button-next::after {content:""; display:block; width:13px; height:24px; background:url('../images/common/icon_01.png') -129px -136px no-repeat; background-size:250px 250px; position:absolute; top:2px; right:4px}
+.lifetime_introduce .swiper-button-prev::after {transform:rotate(180deg); left:4px; right:unset}
+.lifetime_introduce .swiper-button-disabled {display:none}
+
+.finance .net_assets section > div {padding:40px 0} 
+.finance .net_assets .net_assets_top {padding-top:0; font-size:24px} 
+.finance .net_assets .net_assets_top strong {font-size:28px} 
+.finance .net_assets .net_assets_top h4 {font-size:14px; color:#333; font-weight:normal; padding-bottom:10px}
+.finance .net_assets .net_assets_top a {padding-right:28px; position:relative}
+.finance .net_assets .net_assets_top a::after {content:""; display:block; width:24px; height:24px; background:url('../images/lifetimeasset/icon_arrow.png') 0 1px no-repeat; background-size:20px auto; position:absolute; top:0; right:0}
+.finance .net_assets .net_assets_top.type2 a::after {display:none;}
+.finance .net_assets .top_btn {top:40px}
+.finance .net_assets .white_box {padding:0px}
+.finance .net_assets .button_area02 {text-align:center}
+.finance .net_assets .button_area02 a {text-decoration:underline; font-size:14px; text-underline-position:under; color:#1746c3; font-weight:900}
+.finance .assets_info_main.net_assets .property ul li a > p {padding-left:36px}
+.finance .assets_info_main.net_assets .property ul li a > strong {padding-left:36px}
+/* .finance .assets_info_main.net_assets .property ul li a > strong::before {width:24px; height:24px; background:url('../images/common/icon_home.png') 0 0 no-repeat; background-size:24px auto; top:0} */
+.finance .assets_info_main.net_assets .property ul li a > strong::before {width:19px; height:20px; background:url('../images/common/icon_01.png') -146px -23px no-repeat; background-size:250px 250px; top:4px}
+.finance .assets_info_main.net_assets .white_box ul li > a.list_plus::before {display:none}
+.finance .assets_info_main.net_assets .white_box ul li > a::before {width:20px; height:16px; transform:rotate(270deg); background-position-x:-41px; background-position-y:-47px}
+.finance .assets_info_main.net_assets .white_box ul li p {font-weight:900}
+.finance .assets_info_main.net_assets .white_box .more_btn::before {display:none}
+.finance .assets_info_main.net_assets .info_box dd {font-weight:900}
+
+.assetset_info .guide_text.reference_mark {padding-right:11px}
+.assetset_info .topline {border-top:solid 1px #eaeaea; padding-top:35px; margin-top:35px}
+.assetset_info .topline::after {content:""; display:block; clear:both}
+.assetset_info .topline p {float:left; width:50%; font-size:14px; color:#333}
+.assetset_info .topline strong {display:block; float:left; width:50%; text-align:right}
+
+
+/* 생애자산솔루션 */
+.lifetime_report {}
+div.lifetime_report h4 {font-size:20px; line-height:30px}
+div.lifetime_report .img {margin-top:27px}
+div.lifetime_report h5 {display:block; font-size:16px; color:#121212; line-height:24px; font-weight:900; margin-top:38px}
+div.lifetime_report .edit_white {margin-top:20px}
+div.lifetime_report .edit_gray {background:#f8f8f8; padding:28px 20px; border-radius:16px; margin-top:18px}
+div.lifetime_report {padding-bottom:40px}
+div.lifetime_report .button_area {text-align:left; border-top:1px solid #eaeaea; padding-top:25px; margin-top:15px}
+div.lifetime_report .sns_btn {}
+div.lifetime_report .sns_btn::after {content:""; display:block; clear:both}
+div.lifetime_report .sns_btn div {float:left; margin-left:21px; position:relative}
+div.lifetime_report .sns_btn div:first-child {margin-left:0}
+div.lifetime_report .button_area .full {margin-top:75px}
+
+ul.lifetime_report {padding:28px 0 0}
+ul.lifetime_report li {margin-top:24px}
+ul.lifetime_report li a {display:block}
+ul.lifetime_report li a::after {content:""; display:block; clear:both}
+ul.lifetime_report li:first-child {margin-top:0}
+ul.lifetime_report a {display:block; position:relative}
+ul.lifetime_report .img {display:block; float:left; width:72px; height:72px; background:#f8f8f8}
+ul.lifetime_report img {object-fit:cover; object-position:50% 0; width:100%; height:100%}
+ul.lifetime_report div {float:left; width:calc(100% - 92px); padding:15px 0; margin-left:20px}
+ul.lifetime_report div p {font-size:14px; margin-top:12px}
+ul.lifetime_report div p, ul.lifetime_report li a > div strong {overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; word-wrap:break-word; line-height:15px; height:15px}
+
+.income_expenditure {}
+.income_expenditure h4 {font-size:14px; color:#333; font-weight:600}
+.income_expenditure .income_text {display:block; font-size:28px; line-height:32px; margin-top:5px}
+
+.income_expenditure .item {margin-top:56px}
+.income_expenditure h5 {display:block; font-size:16px; font-weight:900}
+.income_expenditure .tab_block {margin:24px 0 16px}
+.income_expenditure .tab_block li:first-child:nth-last-child(2), .income_expenditure .tab_block li:first-child:nth-last-child(2) ~ li {width:102px}
+.income_expenditure .input.amount .guide_text {line-height:20px; min-height:20px}
+.income_expenditure .input.amount .unit {top:unset; bottom:0}
+.income_expenditure ul.guide {font-size:14px; color:#555; line-height:22px; margin-top:10px}
+.income_expenditure ul.guide li {position:relative; padding-left:11px; margin-top:10px}
+.income_expenditure ul.guide li::before {content:""; display:block; width:5px; height:1px; background:#555; position:absolute; top:8px; left:0}
+.income_expenditure ul.guide li:first-child {margin-top:0}

@@ -8,7 +8,7 @@ for (let data of projects) {
                 <div class="grid-children">
                     <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
-                        <h3 class="title">${data.title[j]}</h3>
+                        <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
                             <dl>
                                 <dt>작업기간 :</dt>
@@ -39,7 +39,7 @@ for (let data of projects) {
                 <div class="grid-children">
                     <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
-                        <h3 class="title">${data.title[j]}</h3>
+                        <h3 class="title ${data.responsive[j]}">${data.title[j]}</h3>
                         <div class="detail">
                             <dl>
                                 <dt>작업기간 :</dt>
@@ -70,7 +70,7 @@ for (let data of projects) {
                 <div class="grid-children">
                     <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
-                        <h3 class="title">${data.title[j]}</h3>
+                        <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
                             <dl>
                                 <dt>작업기간 :</dt>
@@ -87,8 +87,7 @@ for (let data of projects) {
                         </div>
                         <div class="grid-btns">
                             <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
-                            <a class="pc" href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
-                            <a class="mo" href="${data.moURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
+                            <a href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
                 </div>
@@ -101,7 +100,7 @@ for (let data of projects) {
                 <div class="grid-children">
                     <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
-                        <h3 class="title">${data.title[j]}</h3>
+                        <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
                             <dl>
                                 <dt>작업기간 :</dt>
@@ -130,7 +129,7 @@ for (let data of projects) {
                 <div class="grid-children">
                     <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
-                        <h3 class="title">${data.title[j]}</h3>
+                        <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
                             <dl>
                                 <dt>작업기간 :</dt>
@@ -147,8 +146,7 @@ for (let data of projects) {
                         </div>
                         <div class="grid-btns">
                             <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
-                            <a class="pc" href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
-                            <a class="mo" href="${data.moURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
+                            <a href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
                 </div>
@@ -161,7 +159,7 @@ for (let data of projects) {
                 <div class="grid-children">
                     <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
-                        <h3 class="title">${data.title[j]}</h3>
+                        <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
                             <dl>
                                 <dt>작업기간 :</dt>
@@ -178,7 +176,7 @@ for (let data of projects) {
                         </div>
                         <div class="grid-btns">
                             <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
-                            <a class="pc" href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
+                            <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
                 </div>
@@ -191,7 +189,7 @@ for (let data of projects) {
                 <div class="grid-children">
                     <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
-                        <h3 class="title">${data.title[j]}</h3>
+                        <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
                             <dl>
                                 <dt>작업기간 :</dt>
@@ -208,7 +206,7 @@ for (let data of projects) {
                         </div>
                         <div class="grid-btns">
                             <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
-                            <a class="pc" href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
+                            <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
                 </div>
@@ -221,7 +219,7 @@ for (let data of projects) {
                 <div class="grid-children">
                     <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
-                        <h3 class="title">${data.title[j]}</h3>
+                        <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
                             <dl>
                                 <dt>작업기간 :</dt>
@@ -238,7 +236,7 @@ for (let data of projects) {
                         </div>
                         <div class="grid-btns">
                             <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
-                            <a class="pc" href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
+                            <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
                 </div>
@@ -251,7 +249,7 @@ for (let data of projects) {
                 <div class="grid-children">
                     <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
-                        <h3 class="title">${data.title[j]}</h3>
+                        <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
                             <dl>
                                 <dt>작업기간 :</dt>
@@ -268,7 +266,7 @@ for (let data of projects) {
                         </div>
                         <div class="grid-btns">
                             <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
-                            <a class="pc" href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
+                            <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
                 </div>
@@ -281,7 +279,7 @@ for (let data of projects) {
                 <div class="grid-children">
                     <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
-                        <h3 class="title">${data.title[j]}</h3>
+                        <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
                             <dl>
                                 <dt>작업기간 :</dt>
@@ -298,7 +296,7 @@ for (let data of projects) {
                         </div>
                         <div class="grid-btns">
                             <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
-                            <a class="pc" href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
+                            <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
                 </div>
@@ -311,7 +309,7 @@ for (let data of projects) {
                 <div class="grid-children">
                     <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
-                        <h3 class="title">${data.title[j]}</h3>
+                        <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
                             <dl>
                                 <dt>작업기간 :</dt>
@@ -329,6 +327,7 @@ for (let data of projects) {
                         <div class="grid-btns">
                             <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
                             <a class="pc" href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
+                            <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
                 </div>
@@ -341,7 +340,7 @@ for (let data of projects) {
                 <div class="grid-children">
                     <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
-                        <h3 class="title">${data.title[j]}</h3>
+                        <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
                             <dl>
                                 <dt>작업기간 :</dt>
@@ -358,7 +357,7 @@ for (let data of projects) {
                         </div>
                         <div class="grid-btns">
                             <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
-                            <a class="pc" href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
+                            <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
                 </div>
@@ -371,7 +370,7 @@ for (let data of projects) {
                 <div class="grid-children">
                     <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
-                        <h3 class="title">${data.title[j]}</h3>
+                        <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
                             <dl>
                                 <dt>작업기간 :</dt>
@@ -400,7 +399,7 @@ for (let data of projects) {
                 <div class="grid-children">
                     <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
-                        <h3 class="title">${data.title[j]}</h3>
+                        <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
                             <dl>
                                 <dt>작업기간 :</dt>
@@ -417,6 +416,7 @@ for (let data of projects) {
                         </div>
                         <div class="grid-btns">
                             <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
+                            <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
                 </div>
@@ -429,7 +429,7 @@ for (let data of projects) {
                 <div class="grid-children">
                     <div class="grid-img"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
-                        <h3 class="title">${data.title[j]}</h3>
+                        <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
                             <dl>
                                 <dt>작업기간 :</dt>
@@ -446,6 +446,7 @@ for (let data of projects) {
                         </div>
                         <div class="grid-btns">
                             <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
+                            <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
                 </div>

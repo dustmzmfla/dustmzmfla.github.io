@@ -1,0 +1,143 @@
+@charset "utf-8"; 
+/* ------------------------------------------
+* Filename:culture.css
+* Author:MADIVE
+------------------------------------------ */
+
+
+.culture_frame {width:100%}
+.culture img {width:100%}
+.donation_guide {text-align:center; padding-top:280px; background:url('../images/culture/img_culture_01.jpg') center 60px no-repeat}
+.donation_guide strong {display:block; margin-top:40px; font-size:20px}
+.donation_guide p {font-size:14px; line-height:17px; margin-top:12px}
+
+.culture .sub_main .box {padding:60px 18px 0}
+.culture .sub_main .box:first-child {margin-top:0; padding-top:24px}
+.culture .sub_main h4 {font-size:18px; color:#121212; position:relative}
+.culture .sub_main h4 .more {position:absolute; top:0; right:0; left:auto; font-weight:400; font-size:14px}
+.culture .sub_main h4 .more::after {width:11px; height:6px; background-position:-46px -52px; transform:rotate(270deg); top:7px}
+.culture .sub_main h4 .tooltip {position:relative}
+.culture .sub_main h4 .tooltip::after {display:block; content:""; position:absolute; top:-15px; left:3px; width:20px; height:20px; background:url('../images/common/icon_01.png') -41px -95px no-repeat; background-size:250px 250px} 
+.culture .sub_main h4 .guide_text {position:absolute; top:0; right:0; font-weight:400; color:#555; line-height:25px}
+.culture .sub_main .donation_amount {background:#1746c3; border-radius:8px; padding:28px 20px; color:#effaff; margin-top:12px}
+.donation_amount .total {position:relative; padding-top:28px}
+.donation_amount .total::after {content:""; display:block; clear:both}
+.donation_amount .total span {display:block; position:absolute; top:0; left:0}
+.donation_amount .total strong {display:block; float:left; color:#fff; font-size:32px; line-height:34px}
+.donation_amount .total em {display:block; float:left; color:#fff; font-weight:900; font-size:32px; line-height:34px}
+
+.donation_amount .tax_credit {margin-top:30px}
+.tax_credit .signs {font-size:14px}
+.tax_credit .balloontip .btn::after {top:0}
+.tax_credit .price {}
+.tax_credit .price::after {content:""; display:block; clear:both}
+.tax_credit .price strong {display:block; float:left; font-size:18px}
+.tax_credit .price em {display:block; float:left; font-weight:200; font-size:16px; margin-left:3px; color:#fff}
+.culture .sub_main a.quick_link {display:block; background:#1746c3; border-radius:8px; padding:28px 70px 20px 20px; color:#fff; margin-top:12px; font-weight:700; position:relative}
+.culture .sub_main a.quick_link::before {content:""; display:block; width:36px; height:36px; background:url('../images/common/icon_01.png') -129px -95px no-repeat; background-size:250px 250px; position:absolute; top:calc(50% - 18px); right:20px}
+
+.culture .sub_main .title {position:relative; font-size:16px; margin-top:0}
+.culture .sub_main .list_item {position:relative; padding-bottom:50px; margin-top:20px}
+.culture .culture_list {margin-top:20px}
+.culture .sub_main .culture_list {margin-top:0}
+.culture .culture_list a {display:block; width:100%; margin-top:40px; background:#fff; border-radius:8px; overflow:hidden}
+.culture .sub_main .culture_list a {margin-top:16px; box-shadow: 0 4px 8px 0 rgba(38, 41, 46, 0.15);}
+.culture .culture_list a:first-child {margin-top:0}
+.culture .culture_list .img {display:block; width:100%; height:180px; border-radius:0 0 8px 8px; overflow:hidden}
+.culture .sub_main .culture_list .img {border-radius:0}
+.culture .culture_list img {object-fit:cover; object-position:50% 0; height:100%}
+.culture .culture_list div {padding:24px 0 0; font-size:14px}
+.culture .sub_main .culture_list div {padding:24px 20px}
+.culture .culture_list div strong {display:block; color:#121212; font-size:16px; font-weight:900; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.culture .culture_list div span {display:block; color:#333; margin-top:4px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.culture .culture_list div p {display:block; color:#555; margin-top:18px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.culture .sub_main .culture_list + .more {display:block; position:absolute; top:auto; right:auto; bottom:0; left:calc(50% - 30px)}
+
+.amount_display {margin:40px 0}
+.amount_display h5 {font-size:14px}
+.amount_display .price {font-size:28px; display:block; margin-top:10px}
+.amount_display .price strong {font-size:32px}
+
+.donation_summary {margin-top:28px; padding-bottom:40px}
+.donation_list {padding-top:40px}
+.donation_list .title {line-height:24px}
+.donation_list .title::after {content:""; display:block; clear:both}
+.donation_list .title p {float:left}
+.donation_list .more_plus {display:block; float:right}
+.donation_list ul {margin:20px 0 40px; padding-top:32px; border-top:solid 1px #eaeaea}
+.donation_list li {margin-top:40px}
+.donation_list li:first-child {margin-top:0}
+.donation_list li p {color:#555}
+.donation_list li strong {color:#121212; font-size:20px; display:block; line-height:29px; margin-top:10px}
+.donation_list li span {font-weight:400; line-height:20px}
+.donation_list .tag {line-height:16px; font-size:14px; color:#333; margin-top:6px}
+.donation_list .tag::after {content:""; display:block; clear:both}
+.donation_list .tag span {display:block; float:left; position:relative; margin-left:8px; padding-left:8px}
+.donation_list .tag span::after {content:""; display:block; width:1px; height:14px; background:#ddd; position:absolute; top:2px; left:0}
+.donation_list .tag span:first-child {padding-left:0; margin-left:0}
+.donation_list .tag span:first-child::after {display:none}
+.donation_list .square_btn {margin-top:16px}
+.donation_list .none {padding-top:120px; text-align:center; position:relative; margin-top:60px}
+.donation_list .none::after {content:""; display:block; width:86px; height:86px; background:url('../images/common/icon_nodata.png') -64px 0 no-repeat; background-size:150px 86px; position:absolute; top:0; left:50%; margin-left:-43px}
+.donation_list .none strong {display:block}
+.donation_list .none p {font-size:14px; margin-top:5px}
+.donation_list .none .button_area {margin-top:24px}
+.donation_list .more_list {}
+
+.donation_organization {padding:20px 0 40px}
+.donation_organization p {background:#f8f8f8; padding:20px 30px 20px 20px; border-radius:8px; margin-top:20px}
+.donation_write {margin-top:25px}
+.donation_write h5 {display:block; color:#121212; font-size:14px}
+.donation_write .input {margin:5px 0 56px}
+.donation_write .input:last-child {margin-bottom:0}
+.donation_write .amount_display {margin:0}
+.deduction_result .note_wrap {color:#555; font-size:14px}
+.deduction_result .note_wrap.dot ul li::before {background:#555}
+.amount_display .tooltip .btn::after {content:""; display:block; width:16px; height:16px; background:url('../images/common/icon_01.png') -66px -95px no-repeat; background-size:250px 250px; position:absolute; top:-1px; left:2px}
+.basic_income {padding-bottom:40px}
+.basic_income .input.amount input {padding-right:55px}
+.basic_income .input.amount .unit {width:55px}
+.basic_income .guide_text {margin-top:12px}
+
+.donate_title::after {display:block; content:""; clear:both}
+.donate_title > h4 {float:left}
+.donate_title .guide_text {float:right}
+.donate_title .guide_text .tooltip .btn::after {content:""; display:block; width:16px; height:16px; background:url('../images/common/icon_01.png') -66px -95px no-repeat; background-size:250px 250px; position:absolute; top:-1px; left:2px}
+
+/* 기부스타일이란? */
+.donate_tendency {margin-top:25px}
+.donate_tendency .title span {font-size:14px; line-height:18px; color:#555}
+.donate_tendency .title strong {display:block; font-size:24px; line-height:36px; margin-top:8px}
+.donate_tendency .img {display:block; width:calc(100% - 120px); margin:60px auto 0}
+.donate_tendency .content_title {line-height:24px; padding:35px 0 15px}
+
+.donate_score {padding-top:20px; margin-top:35px; border-top:solid 1px #eaeaea}
+.donate_score li {margin-top:8px}
+.donate_score li::after {display:block; content:""; clear:both}
+.donate_score li p {float:left}
+.donate_score li span {float:right; position:relative; background:url('../images/culture/icon_star.png') 0 -16px no-repeat; background-size:96px 32px; width:96px; height:16px}
+.donate_score li span::after {display:block; content:""; position:absolute; top:0; left:0; background:url('../images/culture/icon_star.png') 0 0 no-repeat; background-size:96px 32px; width:100%; height:16px}
+
+/* .donate_score li span.star_00::after {display:none}
+.donate_score li span.star_01::after {background-position-x:-80px}
+.donate_score li span.star_02::after {background-position-x:-60px}
+.donate_score li span.star_03::after {background-position-x:-40px}
+.donate_score li span.star_04::after {background-position-x:-20px}
+.donate_score li span.star_05::after {background-position-x:0} */
+
+.graph_item_guide {}
+.graph_item_guide::after {display:block; content:""; clear:both}
+.graph_item_guide li {display:block}
+.graph_item_guide:not(.full) li {float:left; width:calc(50% - 10px); margin-left:20px}
+.graph_item_guide li::after {display:block; content:""; clear:both}
+.graph_item_guide:not(.full) li:nth-child(2n+1) {margin-left:0}
+.graph_item_guide span {display:block; float:left; width:14px; height:14px; margin-top:3px; line-height:24px; border-radius:4px; overflow:hidden}
+.graph_item_guide span img {object-fit:cover; object-position:50% 0; width:100%; height:100%; display:block}
+.graph_item_guide em {display:block; float:left; line-height:24px; margin-left:5px; font-size:14px}
+.graph_item_guide strong {display:block; float:right; line-height:24px; font-size:14px}
+.graph_item_guide strong i {text-decoration:none; font-weight:400}
+
+/* 썸네일 이미지 반응형 */
+@media (min-width: 500px){
+    .culture .culture_list .img {height:auto;}
+}

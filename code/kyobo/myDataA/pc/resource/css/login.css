@@ -1,0 +1,35 @@
+@charset "utf-8"; 
+/* ------------------------------------------
+* Filename:login.css
+* Author:MADIVE
+------------------------------------------ */
+
+.login {}
+.login .step_01 .item {margin-top:50px}
+.login .step_01 .input.lookup {position:relative}
+.login .step_01 .certification_time {position:absolute; top:15px; right:0; font-size:14px}
+.login .step_03 .password_box {text-align:center}
+.login .step_03 .password_box .more::after {content:""; display:block; width:7px; height:13px; background:url('../images/common/icon_01.png') -97px -52px no-repeat; background-size:250px 250px; position:absolute; right:0; top:4px}
+
+.simplepassword {}
+.simplepassword input {}
+
+.login .sub_main .box {padding:60px 18px 0}
+.login .sub_main .logo {font-size:20px; padding-left:28px; background:url('../images/sample/ci_finance_12.png') 0 0 no-repeat; background-size:20px 20px}
+.login .sub_main h4 {font-size:24px; margin-top:15px; line-height:36px}
+.login .login_main_btn {padding:0 18px; text-align:left}
+.login .login_main_btn a.link {background:#fff; color:#121212; line-height:14px; font-size:14px; text-align:left; height:auto; margin-bottom:12px; padding:24px 20px; border-radius:12px; border:1px solid #eaeaea; position:relative}
+.login .login_main_btn a.link::after {content:""; display:block; width:7px; height:13px; background:url('../images/common/icon_01.png') -97px -52px no-repeat; background-size:250px 250px; position:absolute; top:50%; right:20px; margin-top:-3px}
+.login .login_main_btn span {font-size:13px; color:#555; line-height:13px}
+.login .login_main_btn p {margin-top:10px}
+.login .login_main_btn strong {display:block; font-size:18px; line-height:20px; margin-top:15px}
+.login .login_main_btn .text_btn {text-align:center}
+.login .login_main_btn .text_btn a {display:inline-block; font-size:14px; background:transparent; color:#333; float:none; height:auto; line-height:16px; margin:28px 0 40px; width:auto !important} 
+
+/* 22.01.11 UUID 로그인체크화면 추가 */ 
+.login .login_dummy.type2 {display:flex; justify-content:center; align-items: center; width: 100%; height: calc(100vh - 60px - constant(safe-area-inset-bottom)); height: calc(100vh - 60px - env(safe-area-inset-bottom)); }
+.login .login_dummy.type2 img {margin-top: 84px;}
+
+.login_dummy_box {position:fixed; display:flex; justify-content:center; align-items: center; z-index: 101; background-color: #fff; 
+    width: 100vw; height: calc(100vh - 60px - constant(safe-area-inset-bottom)); height: calc(100vh - 60px - env(safe-area-inset-bottom));}
+.login_dummy_box img {margin-bottom: 84px;}

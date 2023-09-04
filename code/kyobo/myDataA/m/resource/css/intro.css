@@ -1,0 +1,68 @@
+@charset "utf-8"; 
+/* ------------------------------------------
+* Filename:intro.css
+* Author:MADIVE
+------------------------------------------ */
+
+#container.gate {padding:52px 24px 0 24px; background:#013477}
+.gate h1 {display:block; width:93px; height:29px; background:url('../images/intro/logo.png') 0 0 no-repeat; background-size:contain}
+.gate h1::before {content:""; display:block; background:url('../images/intro/logo.png') 0 0 no-repeat; background-size:250px 150px; width:79px; height:25px; position:absolute; top:0; left:0}
+.gate .sub_title {display:block; color:#929fb1; font-size:30px; line-height:37px; font-weight:400; margin-top:35px}
+.gate .link {background:#fff; border-radius:30px 30px 0 0; padding:40px 24px; width:calc(100% + 48px); margin:35px 0 0 -24px}
+.gate h2 {display:block; font-size:20px; font-weight:900; color:#002a5e; line-height:32px}
+.gate .link p {font-size:13px; line-height:22px; color:#161616}
+.gate .link a.btn {display:block; margin-top:26px; width:100%; height:53px; text-align:center; line-height:53px; color:#fff; font-size:19px; border-radius:10px}
+.gate .link .mobile_counter a.btn {background:#6db327}
+.gate .link .mydata a.btn {background:#4abbfe}
+.gate .link .mydata {border-top:solid 1px #e3e3e3; padding-top:36px; margin-top:40px}
+
+
+#container.tutorial {padding-bottom:0px!important}
+.tutorial {overflow:hidden; position:relative; background:#f5f5f5 !important}
+.tutorial .tutorial_swiper {text-align:center; position:relative; z-index: 110;padding:76px 0 76px;}
+.tutorial .tutorial_swiper img {width:100%;}
+.tutorial .tutorial_swiper .swiper-slide {position:relative;background:url('../images/intro/tutorial_01.png') no-repeat 50% 50%;background-size:contain;font-size:0;line-height:0;}
+.tutorial .tutorial_swiper .swiper-slide.slide2{background:url('../images/intro/tutorial_02.png') no-repeat 50% 50%;background-size:contain;}
+.tutorial .tutorial_swiper .swiper-slide.slide3{background:url('../images/intro/tutorial_03.png') no-repeat 50% 50%;background-size:contain;}
+.tutorial .tutorial_swiper .swiper-slide.slide4{background:url('../images/intro/tutorial_04.png') no-repeat 50% 50%;background-size:contain;}
+.tutorial .tutorial_swiper .swiper-slide.slide5{background:url('../images/intro/tutorial_05.png') no-repeat 50% 50%;background-size:contain;}
+.tutorial .tutorial_swiper .slide2:after {content: ""; position: absolute; bottom: -78px; right: 9px; background:url('../images/intro/tutorial_02_bubble.png') no-repeat; width:111px; height: 123px; background-size: 100%;}
+.tutorial .tutorial_swiper .slide3:after {content: ""; position: absolute; top: calc(100% - 60%); right: 22px; background:url('../images/intro/tutorial_03_bubble.png') no-repeat; width:104px; height: 166px; background-size: 100%;}
+.tutorial .tutorial_swiper .slide4:after {content: ""; position: absolute; bottom: -82px; left: 12px; background:url('../images/intro/tutorial_04_bubble.png') no-repeat; width:131px; height: 149px; background-size: 100%;}
+.tutorial .tutorial_swiper .slide5:after {content: ""; position: absolute; top: calc(100% - 71%); right: 36px; background:url('../images/intro/tutorial_05_bubble.png') no-repeat; width:104px; height: 143px; background-size: 100%;}
+
+.tutorial .controller {padding:18px; background:#fff}
+.tutorial .controller::after {content:""; display:block; clear:both}
+.tutorial .checkbox {float:left; position:relative}
+.tutorial .checkbox.left input[type="checkbox"] + label {padding:0 0 0 28px}
+.tutorial .controller a.close {display:block; float:right}
+.tutorial_swiper .swiper-pagination {bottom:68px !important; height:6px; text-align:center}
+.tutorial_swiper .swiper-pagination-bullet {width:6px; height:6px; background:#888888; opacity:1 !important; transition:all .3s; vertical-align:top;}
+.tutorial_swiper .swiper-pagination-bullet-active {width:28px; background:#26292e; border-radius:6px; transition:all .3s}
+/* .tutorial_swiper .swiper-button-disabled {visibility:hidden} */
+
+.tutorial_swiper .swiper-button-prev, .tutorial_swiper .swiper-button-next {width:28px; height:28px; position:absolute; z-index:100; margin-top:unset; top:unset; top:calc(50% - 0px)}
+.tutorial_swiper .swiper-button-prev {left:18px}
+.tutorial_swiper .swiper-button-next {right:18px}
+.tutorial_swiper .swiper-button-prev::after, .tutorial_swiper .swiper-button-next::after {content:""; display:block; width:13px; height:24px; background:url('../images/common/icon_01.png') -129px -136px no-repeat; background-size:250px 250px; position:absolute; top:2px; right:4px}
+.tutorial_swiper .swiper-button-prev::after {transform:rotate(180deg); left:4px; right:unset}
+.tutorial_swiper .swiper-button-disabled {display:none}
+.tutorial_swiper + .fixd_btn {padding-bottom: 0px; height: 60px;}
+
+.tutorial .tutorial_swiper.service_info {margin-top: -30px;}
+
+/* comming_soon */
+#container.comming_soon {display: flex; height: 100vh; padding:0; margin:0; background-color:#f5f5f5; padding-bottom: 0px!important}
+.comming_soon { width: 100%; position:relative; width: 100%; height: 100%; background:#f5f5f5!important; align-items: center;}
+.comming_soon .comming_soon_box {position:relative; display:flex; justify-content: center; flex-direction: column; width: 100%; text-align:center; z-index: 99; padding:0px; }
+.comming_soon .comming_soon_box .inner {width: 100%; height: 700px;  background: url('../images/intro/commingsoong_service.png') no-repeat 50% 250px / 332px auto;}
+.comming_soon .comming_soon_box .inner .greeting {position: relative; margin-top: -20px; height: 170px;}
+.comming_soon .comming_soon_box .inner .greeting img {position: absolute; left: calc(50% - 135px); width: 282px; margin-left: 20px}
+.comming_soon .comming_soon_box .inner h5 > img {width: 130px;}
+.comming_soon .comming_soon_box .inner p {margin-top: 20px; font-size: 16px; color: #555;line-height: 22px;}
+.comming_soon + .fixd_btn {padding-bottom: 0px; height: 60px;}
+
+@media (max-height: 700px) {
+    .comming_soon .comming_soon_box { display: block; margin-top: 20px;}
+    .comming_soon .comming_soon_box .inner .greeting {margin-top: 0px;}
+}

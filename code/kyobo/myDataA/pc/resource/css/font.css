@@ -1,0 +1,46 @@
+@charset "utf-8"; 
+/* ------------------------------------------
+* Filename:font.css
+* Author:MADIVE
+------------------------------------------ */
+
+
+@font-face {
+      font-family:'KyoboLife';
+      font-style:normal;
+      font-weight:200;
+      src:url('../font/KyoboLight.eot');
+      src:url('../font/KyoboLight.eot?#iefix') format('embedded-opentype'),
+            url('../font/KyoboLight.woff') format('woff'),
+            url('../font/KyoboLight.ttf') format('truetype');
+}
+
+@font-face {
+      font-family:'KyoboLife';
+      font-style:normal;
+      font-weight:400;
+      src:url('../font/KyoboRegular.eot');
+      src:url('../font/KyoboRegular.eot?#iefix') format('embedded-opentype'),
+            url('../font/KyoboRegular.woff') format('woff'),
+            url('../font/KyoboRegular.ttf') format('truetype');
+}
+
+@font-face {
+      font-family:'KyoboLife';
+      font-style:normal;
+      font-weight:700;
+      src:url('../font/KyoboSemiBold.eot');
+      src:url('../font/KyoboSemiBold.eot?#iefix') format('embedded-opentype'),
+            url('../font/KyoboSemiBold.woff') format('woff'),
+            url('../font/KyoboSemiBold.ttf') format('truetype');
+}
+
+@font-face {
+      font-family:'KyoboLife';
+      font-style:normal;
+      font-weight:900;
+      src:url('../font/KyoboBold.eot');
+      src:url('../font/KyoboBold.eot?#iefix') format('embedded-opentype'),
+            url('../font/KyoboBold.woff') format('woff'),
+            url('../font/KyoboBold.ttf') format('truetype');
+}

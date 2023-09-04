@@ -1,0 +1,459 @@
+@charset "utf-8"; 
+/* ------------------------------------------
+* Filename:finance.css
+* Author:MADIVE
+------------------------------------------ */
+
+#container.finance {background:#fff}
+
+.finance img {width:100%}
+.lifetime_swiper img {object-fit:cover; object-position:50% 0; width:100%}
+.copy_btn {padding-left:20px; background:url('../images/common/icon_copy.png') 0 0 no-repeat; background-size:16px auto; font-size:16px; margin-left:10px}
+.alarm {padding-left:20px; background:url('../images/common/icon_bell.png') 0 0 no-repeat; background-size:16px auto; font-size:16px}
+h4.point_text {font-size:20px}
+.point_text {position:relative; color:#1746c3; font-size:18px; line-height:18px; font-weight:900; margin-bottom:15px; display:inline-block}
+.point_text::after {content:""; position:absolute; bottom:0; left:0; width:100%; height:8px; background:#1746c3; opacity:0.2}
+.arrow_up, .arrow_down {padding-left:15px; position:relative}
+.arrow_up::before {display:block; content:""; position:absolute; top:3px; left:0; width:16px; height:16px; background:url('../images/common/icon_01.png') -140px 5px no-repeat; background-size:250px 250px}
+.arrow_down::before {display:block; content:""; position:absolute; top:3px; left:0; width:16px; height:16px; background:url('../images/common/icon_01.png') -127px 5px no-repeat; background-size:250px 250px}
+.date_wrap::after {content:''; display:block; clear:both}
+.date_wrap .btn_date {width:calc(50% - 15px); float:left}
+.date_wrap .btn_date.clock {margin-left:8px}
+.date_wrap .btn_date.clock::after {width:16px; height:16px; background-position:0 -136px; top:16px}
+.date_wrap.plus_time .btn_date {width:calc(50% - 4px)}
+.date_wrap > span {width:30px; line-height:49px; text-align:center; float:left}
+.finance .top_btn {position:absolute; top:0; right:0}
+.finance .more::after {background:url('../images/common/icon_01.png') -20px -52px no-repeat; background-size:250px 250px}
+.w_140 {min-width:140px !important}
+.w_100 {width:100% !important}
+.text_box textarea {width:100%; height:120px; font-size:16px; padding:28px 20px; border-radius:7px}
+.text_box p {text-align:right; color:#555; font-size:14px}
+.finance .box {position:relative}
+.list_plus {text-align:center; padding-top:60px; background:url('../images/common/icon_plus.png') center 0 no-repeat; background-size:40px}
+
+/* 내손안-메인 */
+.sub_main .white_box {background:#fff; padding:25px 20px; border-radius:15px; margin-top:15px; box-shadow: 0 4px 8px 0 rgba(38, 41, 46, 0.15);}
+.finance .sub_main .box {position:relative; margin:0 18px}
+.finance .sub_main .box h4 {margin-top:60px}
+.finance .sub_main .top_btn {position:absolute; top:0; right:0}
+.finance .sub_main .info_box {border:none; padding-top:0px}
+.finance .sub_main .tab_cont .info_box dl::after {display:block; content:""; clear:both}
+.finance .sub_main .tab_cont .info_box dl dt {float:left; width:48%; font-size:14px}
+.finance .sub_main .tab_cont .info_box dl dd {float:right; width:52%}
+.finance .sub_main .info_box dl dt {font-size:16px}
+.finance .sub_main .info_box.time_line_box dl:first-child {padding-top:0}
+.finance .sub_main .info_box.time_line_box dl:last-child {color:#ddd}
+.finance .sub_main .info_box.time_line_box dl:last-child dt {color:#ddd}
+.finance .sub_main .info_box.time_line_box dl:first-child {color:#121212}
+.finance .sub_main .info_box.time_line_box dl:first-child dt {color:#555}
+.finance .sub_main .info_box.credit_score dl dt {width:67%}
+.finance .sub_main .info_box.credit_score dl dd {width:33%; font-size:20px}
+.finance .sub_main .info_box.credit_score dl dd strong {font-size:24px; display:block; margin-top:13px}
+.finance .sub_main .info_box.insurance ul li > a {padding-right:0; position:relative}
+.finance .sub_main .info_box.insurance dl:first-of-type {margin-top:10px}
+.finance .sub_main .info_box.insurance .flag_text {position:absolute; top:1px; right:15px; font-size:13px; line-height:24px; background:#f2f7ff; color:#1746c3; margin-left:5px; padding:0 8px; border-radius:14px}
+.finance .sub_main .info_box.insurance .flag_text_gray {position:absolute; top:1px; right:15px; font-size:13px; line-height:24px; background:#f2f7ff; color:#1746c3; margin-left:5px; padding:0 8px; border-radius:14px; background:#f8f8f8; color:#555}
+.finance .sub_main .info_box.insurance div .flag_text_gray, .finance .sub_main .info_box.insurance div .flag_text{right:0}
+.finance .assets_info_main .white_box > span {font-size:14px}
+.finance .assets_info_main .white_box > p {font-size:24px; line-height:29px; padding:5px 0 15px}
+.finance .assets_info_main .white_box > p strong {font-size:22px; line-height:29px}
+
+.finance .assets_info_main .white_box .tit-graph {line-height: 22px; letter-spacing: -0.48px; color: #555555; display: flex; justify-content: space-between; margin-bottom:3px;}
+.finance .assets_info_main .white_box ul li > div {position:relative; margin:15px 0}
+.finance .assets_info_main .white_box ul li > a {position:relative; display:inline-block; width:100%; padding-right:20px; margin:15px 0}
+.finance .assets_info_main .white_box ul li:last-child a {margin-bottom:0}
+.finance .assets_info_main .white_box ul li:last-child div {margin-bottom:0; padding-right: 10px;}
+.finance .assets_info_main .white_box ul li:last-child div.ci_img {padding-right: 0;}
+.finance .assets_info_main .white_box ul li > a::before {content:""; display:block; width:8px; height:14px; background:url('../images/common/icon_01.png') -20px -52px no-repeat; background-size:250px 250px; position:absolute; right:0; top:5px}
+.finance .assets_info_main .white_box ul li > a::after {content:""; display:block; clear:both}
+.finance .assets_info_main .white_box ul li span img {width:14px; height:auto; margin-right:7px}
+.finance .assets_info_main .white_box ul li a > p {padding-left:36px; margin-top:8px}
+.finance .assets_info_main .white_box ul li p.bottom_text {font-size:14px; padding-left:34px}
+.finance .assets_info_main .white_box ul li .won {position: absolute;top:0;right:20px;}
+.finance .assets_info_main .white_box.no_history {padding-top:28px}
+.finance .assets_info_main .white_box.no_history .text_btn {font-size:14px}
+.finance .assets_info_main .property ul li a > p {padding-left:36px}
+.finance .assets_info_main .property ul li a > strong {padding-left:36px; display:inline-block; position:relative; font-weight:400}
+.finance .assets_info_main .property ul li a > strong::before {content:""; display:block; width:20px; height:20px; background:url('../images/common/icon_01.png') -146px -23px no-repeat; background-size:250px 250px; position:absolute; left:0; top:2px}
+.finance .assets_info_main .car ul li a > strong {font-weight:700; padding-left:36px; display:inline-block; position:relative}
+.finance .assets_info_main .car ul li a > strong::before {content:""; display:block; width:24px; height:24px; background:url('../images/common/icon_01.png') -158px -48px no-repeat; background-size:250px 250px; position:absolute; left:0; top:0}
+.finance .assets_info_main .car ul li a > span {position:absolute; top:0; left:0}
+.finance .sub_main .credit_score {padding-top:0}
+.finance .sub_main .t_right {border-top:1px solid #eaeaea}
+.finance .sub_main .household_ledger dl:first-child strong {color:#1746c3}
+.finance .sub_main .guide_text {color:#555}
+.finance .sub_main .data_none {text-align:center}
+.finance .sub_main .data_none + .button_area {margin-top:20px}
+.finance .sub_main .tab_cont .data_none {padding:44px 0}
+.finance .sub_main .name_tag {display:inline-block; padding:0 8px; background:#f8f8f8; line-height:24px; border-radius:3px; margin-top:30px; color:#555; font-size:13px}
+.finance .sub_main .percentage {position:absolute; bottom:0; right:0}
+.finance .sub_main .percentage.blue {color:#1746c3}
+.finance .sub_main .white_box > p.bottom_text {font-size:14px; padding:0 0 15px; margin:0; border-bottom:1px solid #eaeaea}
+.finance .sub_main .white_box > p.bottom_text strong {font-size:16px}
+.dot_text {margin-top:10px; padding-left:10px; font-size:14px; color:#555; position:relative}
+.dot_text::before {content:""; position:absolute; top:8px; left:0; width:3px; height:3px; border-radius:1px; background:#555}
+.finance .assets_info_main p.data_none {font-size:16px !important; line-height:24px !important; padding:0 !important; text-align:center !important}
+.finance .assets_info_main .t_center a.data_none {display:inline-block; padding-right:20px; position:relative; line-height:24px}
+.finance .assets_info_main .t_center a.data_none::before {content:""; display:block; width:8px; height:14px; background:url('../images/common/icon_01.png') -96px -52px no-repeat; background-size:250px 250px; position:absolute; top:4px; right:5px}
+
+.assets_info_main .ci_img span {display:block; float:left; height:auto; max-width:calc(100% - 35px); line-height:24px}
+.assets_info_main .info_box.insurance .ci_img span {display:block; float:left; height:auto; max-width:calc(100% - 90px); line-height:24px}
+
+
+/* 금융 이벤트 알림 설정 */
+.event_alarm_set {}
+.event_alarm_set ul {}
+.event_alarm_set li {margin-top:30px}
+.event_alarm_set li::after {content:""; display:block; clear:both}
+.event_alarm_set li:first-child {margin-top:0}
+.event_alarm_set p {margin-top:30px; position:relative; padding-left:14px; line-height:23px; font-size:14px}
+.event_alarm_set p::before {content:""; display:block; width:5px; height:1px; background:#333; position:absolute; top:11px; left:0}
+.event_alarm_set strong {display:block; float:left; width:calc(100% - 40px)}
+.event_alarm_set .toggle {float:left}
+.event_alarm_set .toggle label {width:40px; color:transparent}
+
+
+/* 내손안-자산내역 */
+.finance .details_box {padding:40px 0 30px}
+.assets_info .ci {font-size:14px; line-height:20px}
+.assets_info .ci::after {content:""; display:block; clear:both}
+.assets_info .ci span {display:block; float:left; height:20px}
+.assets_info .ci img {height:20px; width:auto}
+.assets_info .ci p {display:block; float:left; margin-left:12px}
+.assets_info > strong {display:block; padding:15px 0 10px; font-size:18px}
+.assets_info .account_number {color:#555}
+.finance .assets_info .won {font-size:24px; margin-top:35px}
+.finance .assets_info .won strong {font-size:32px}
+.finance .assets_info .month_text {margin-top:25px}
+.finance .assets_info .account_number ~ .month_text {margin-top:30px}
+.finance .assets_info .month_text + .won {margin-top:12px}
+.finance .assets_info .bottom_text {font-size:14px}
+.finance .bottom_text {margin-top:15px; color:#555}
+.finance .bottom_text + .bottom_text {margin-top:10px}
+.finance .bottom_text strong {padding-left:10px; color:#121212; font-size:16px}
+.finance .bottom_text strong.blue {color:#1746c3}
+.finance .assets_info + .info_box {margin-top:20px}
+.info_box {position:relative; padding:15px 0 25px; border-top:1px solid #eaeaea}
+.info_box:first-child {border-top:none}
+.info_box:last-child {padding-bottom:0}
+.info_box dl {padding:10px 0 0}
+.info_box dl::after {content:""; display:block; clear:both}
+.info_box dl dt {float:left; width:45%; font-size:14px; color:#555}
+.info_box dl dd {float:left; width:55%; font-size:16px; text-align:right}
+.finance .info_box.stock {padding:15px 0 35px}
+.finance .info_box.stock dl {padding:20px 0 0}
+.finance .info_box.stock dl dt {color:#121212; font-size:16px}
+.finance .info_box.stock dl dd p {padding-top:5px}
+.finance .info_box .won {padding:10px 0 15px; line-height:20px}
+.finance .info_box .won strong {font-size:20px}
+.finance .info_box .point_text {font-size:14px}
+.finance .info_box.info_box_pd {padding:30px 0 35px}
+.finance .info_box.info_box_pd dl dt {color:#121212}
+.finance .info_box.info_box_02 {background:#f8f8f8; border-radius:16px; padding:25px 20px 23px; border-top:none}
+.finance .info_box.info_box_02 p + dl {margin-top:5px}
+.finance .info_box.info_box_02 dl dt {width:40%}
+.finance .info_box.info_box_02 dl dd {width:60%}
+.finance .assets_info + .info_box_02 {margin-top:40px}
+.finance .info_box_02 + .info_box_02 {margin-top:12px}
+.finance .info_box_03 {padding-top:35px}
+.finance .info_box_03 ul {margin-top:32px}
+.finance .info_box_03 ul:first-child {margin-top:0}
+.finance .info_box_03 li::after {display:block; content:""; clear:both}
+.finance .info_box_03 li p {float:left; width:calc(100% - 160px); min-width:120px}
+.finance .info_box_03 li span {display:block; float:right; width:160px; text-align:right}
+.finance .info_box_03 li:first-child p {font-size:14px; color:#555}
+.finance .info_box_03 li:nth-child(2) {margin-top:5px}
+.finance .info_box_03 li:nth-child(2) p {line-height:20px}
+.finance .info_box.time_line_box {padding:5px 0 25px; border-top:none; margin-top:0}
+.finance .info_box.time_line_box dl {position:relative; padding:18px 0 0}
+.finance .info_box.time_line_box dl::before {content:""; position:absolute; top:0px; left:3px; display:block; width:8px; height:15px; border-left:1px dashed #eaeaea}
+.finance .info_box.time_line_box dl:first-child::before {display:none}
+.finance .info_box.time_line_box dt {position:relative; padding-left:16px; line-height:16px}
+.finance .info_box.time_line_box dt::before {content:""; position:absolute; top:2px; left:0; display:inline-block; width:8px; height:8px; border:1px solid #ddd; border-radius:50%}
+.finance .info_box.time_line_box dd {line-height:16px}
+.finance .info_box.detail_info {border-top:0}
+.finance .info_box dl .bottom_text {font-size:14px}
+.finance .info_box.reserves dl dt {width:25%}
+.finance .info_box.reserves dl dd {width:75%}
+
+.finance .no_history {padding-top:40px}
+.finance .no_history p {font-size:14px; color:#333}
+.finance .no_history .text_btn a {font-size:14px; text-decoration-color:#112d99}
+
+.transaction_history > div {margin-top:55px}
+.transaction_history > div:first-child {margin-top:0}
+.transaction_history ul {margin-top:20px}
+.transaction_history li::after {display:block; content:""; clear:both}
+/* .transaction_history li p {float:left; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; width:calc(100% - 160px); min-width:120px} */
+.transaction_history li p {float:left; width:calc(100% - 160px); min-width:120px}
+.transaction_history li p strong {display:block; line-height:20px}
+.transaction_history li span {display:block; position:relative; float:right; max-width:160px; text-align:right}
+.transaction_history li span.arrow_up {color:#1746c3}
+.transaction_history li:first-child span {font-size:14px; color:#555; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:140px}
+.transaction_history li:first-child span strong {display:inline-block; font-weight:400; line-height:14px; margin-left:8px; padding-left:8px; border-left:solid 1px #eaeaea}
+.transaction_history li:first-child p {font-size:14px; color:#555; width:calc(100% - 140px)}
+.transaction_history li:nth-child(2) {margin-top:5px}
+.transaction_history del {color:#555; font-weight:700}
+.transaction_history p.period {margin-top: 5px; font-weight: 700;}
+.transaction_history p.period + ul {margin-top: 38px;}
+
+.finance_event h5 {font-size:18px; font-weight:900}
+.finance_event div.item {margin-top:56px}
+.finance_event div.item:first-child {margin-top:30px}
+.finance_event ul {margin-top:25px}
+.finance_event li {position:relative; margin-top:25px}
+.finance_event li:first-child {margin-top:0}
+.finance_event .item ul li > span {display:block; font-size:14px; color:#555; margin-top:5px; padding-left:34px}
+.finance_event .item ul li > span strong {margin-left:8px; padding-left:8px; border-left:solid 1px #eaeaea}
+.finance_event .item ul li > p {position:absolute; top:3px; right:0; font-size:14px; line-height:22px}
+
+/* 내손안-자동차정보 */
+.finance .step_00 {padding-bottom:40px}
+.finance .step_00 ul li {margin-top:30px}
+.finance .step_00 ul li .radio_text {width:100%; margin-top:15px; display:none; position:relative; z-index:20}
+.finance .car_box {border-radius:10px}
+.finance .info_box.car_info_box {border:none}
+.finance .info_box.car_info_box dl {padding:10px 0 0}
+.finance .info_box.car_info_box dl dt {width:35%}
+.finance .info_box.car_info_box dl dd {width:65%}
+.finance .car_info_box .car_name {display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.finance .mileage_title {position:relative}
+.finance .mileage_title .bottom_sheet {position:static}
+.finance .mileage_title .bottom_sheet .selected {position:absolute; top:0; right:0; font-size:14px}
+.finance .mileage_title .mileage_box input {width:100%; color:#121212}
+.finance .mileage_title .bottom_sheet .amount_correction input {color:#121212; margin-top:25px}
+.finance .mileage_title .bottom_sheet .amount_correction .reference_text {margin-top:8px}
+.finance .mileage_box {width:100%; margin-top:25px; position:relative}
+.finance .mileage_box .mileage {width:100%; padding-right:120px}
+.finance .mileage_box P {position:absolute; bottom:6px; right:77px; font-size:16px; line-height:32px}
+.finance .mileage_box button {position:absolute; bottom:6px; right:0; padding:0 16px; line-height:32px; background:#26292e; color:#fff; border-radius:3px}
+.finance .mileage_box button.modifi {background:#fff; color:#121212; line-height:30px; border-radius:3px; border:1px solid #ddd}
+.finance .market_price {padding-top:20px; border:none}
+.finance .market_price dl dt {width:70%; color:#121212; font-size:16px}
+.finance .market_price dl dt strong {padding-left:8px}
+.finance .market_price dl dd {width:30%}
+.finance .market_price .arrow_down::before {top:0}
+.finance .market_price .no_measurement {margin-top:10px}
+.finance .market_price.now {padding-top:40px}
+.finance .market_price.now dl {padding-top:10px}
+.finance .market_price.now dl dt {font-size:20px}
+.finance .market_price.now dl dt strong {font-size:24px; padding-left:0}
+.finance .market_price.now .input.amount input {color:#121212}
+.finance .market_price.now .input.amount .unit {top:22px}
+.finance .market_price + .note_wrap {padding-top:30px}
+
+/* 주소찾기팝업 */
+.select_2::after {content:""; display:block; clear:both}
+.select_2 > div {width:calc(50% - 8px); float:left}
+.select_2 > div:last-child {margin-left:16px}
+.address_input {margin-top:15px; padding-bottom:40px}
+.address_input + .note_wrap {padding:0 0 40px}
+.address_input + .note_wrap strong {border:none; padding:0; margin-bottom:20px; font-size:16px}
+.address_input + .note_wrap ul li {font-size:14px; color:#555; margin-top:5px}
+.address_list {padding:16px 0 0}
+.address_list .info_box {padding:0}
+.address_list .info_box li {border-bottom:solid 1px #eaeaea}
+.address_list .info_box li:last-child {border-bottom:none}
+.address_list .info_box li a {display:block; padding:16px 0}
+.address_list .info_box li a:focus {background:#f7f9ff}
+.address_list .info_box dl {padding:8px 0}
+.address_list .info_box dl dt {width:64px}
+.address_list .info_box dl dt span {display:inline-block; width:52px; text-align:center; padding:0 8px; line-height:24px; background:#f8f8f8; border-radius:4px; font-size:13px}
+.address_list .info_box dl dd {width:calc(100% - 64px); text-align:left}
+
+
+/* 부동산 자산 */
+.reference_text {position:relative; color:#555; font-size:14px; margin-top:60px; padding-left:19px; word-break:keep-all}
+.reference_text::before {content:"※"; display:inline-block; position:absolute; top:0; left:0; color:#555}
+.realty_panel h4 {font-size:16px; margin-top:45px}
+.realty_panel strong {display:block; font-size:22px; line-height:28px; margin-top:15px}
+.realty_panel h4:first-child {margin-top:0}
+.realty_panel h4 span {font-weight:400}
+.realty_panel .market_price_text {font-size:24px; margin-top:20px; display:block}
+.realty_panel .market_price .info_box {border:none}
+.realty_panel .income_tit {font-size:14px; color:#333; font-weight:700}
+.realty_panel .income_text {font-size:28px; margin-top:8px; display:block}
+.realty_panel .bottom_sheet .reference_text {margin-top:10px}
+.realty_panel .realty_title {position:relative}
+.realty_panel .realty_title .text_btn {position:absolute; top:0; right:0; font-size:14px; color:#333}
+.realty_result h4 .guide_text {font-weight:400}
+.realty_result .map_panel {border-radius:16px; overflow:hidden}
+.realty_result address {display:block; margin-top:24px; line-height:24px; font-size:16px}
+.btn_refresh::after {content:""; display:block; clear:both}
+.btn_refresh a {display:block; float:right; font-size:14px; height:20px; line-height:20px; text-decoration:underline; text-underline-position:under; color:#112d99; margin-bottom:40px}
+
+.realty_panel .market_price .info_box dl dt {width:40%;}
+.realty_panel .market_price .info_box dl dd {width:60%;}
+.realty_panel .market_price .info_box dl dd p {display: flex; justify-content: flex-end;}
+.realty_panel .market_price .info_box dl dd p span {position: relative;}
+.realty_panel .market_price .info_box dl dd p span:first-child {margin-right: 8px; padding-right: 8px;}
+.realty_panel .market_price .info_box dl dd p span:first-child:after {content:""; width:1px; height: 14px; background-color: #eaeaea; position: absolute; top: 5px; right: 0;}
+
+/* 내손안-신용정보*/
+.finance .faq_box .list {margin-top:20px}
+.finance .faq_box .list .btn::before {top:16px}
+.finance .faq_box .list .btn::after {top:36px}
+.changehistory_img {font-size:20px; line-height:35px}
+.changehistory_img ~ p img {width:240px}
+.changehistory_img + strong {display:block; font-size:22px; margin-top:17px}
+.score_send {margin:35px 0 50px}
+.score_send button:disabled {border-color:#f8f8f8}
+.score_send button {position: relative; display:block; text-align:left; margin-bottom:12px; width:100%; padding-left:50px; border:solid 1px #ddd; line-height:54px; border-radius:16px; font-size:16px; font-weight:900; position:relative}
+.score_send button::after {content:""; display:block; width:20px; height:20px; background:url('../images/finance/icon_send.png') 0 0 no-repeat; background-size:20px auto; position:absolute; top:16px; left:20px}
+.score_send button.heart::after {background-position-y:-30px}
+.score_send button.heart span {position: absolute; top: calc(50% - 12px); right: 12px; padding: 0px 5px; height: 24px; line-height: 24px; font-size: 11px; background-color:#FFDF00; border: solid 1px #555; border-radius: 12px;}
+.score_send button.won::after {background-position-y:-60px}
+.total_amount {padding:30px 0 35px}
+.total_amount > span {display:block; font-size:14px}
+.total_amount > p {margin-top:10px}
+.total_amount > p strong {font-size:24px}
+.total_amount .info_box {border:none; padding-top:20px}
+.total_amount + .reference_text {margin-top:20px}
+.amount_details {padding-top:20px}
+.amount_details .reference_text {margin-top:40px}
+.amount_details ul li {position:relative}
+.amount_details ul li .toggle_btn {font-weight:700; padding:15px 0}
+.amount_details ul li .toggle_btn.on {font-weight:900}
+.amount_details ul li .toggle_btn::after {top:20px}
+.amount_details ul li .toggle_contents {margin-bottom:15px}
+.amount_details ul li .total_won {position:absolute; top:15px; right:44px; line-height:24px}
+.amount_details ul li .info_box {padding:10px 0 0}
+.amount_details ul li .gray_box {background:#fff; padding:10px 20px 15px; margin-top:20px; border:none; border-radius:20px}
+.amount_details ul li .gray_box .top {padding-bottom:15px; margin-bottom:14px; border-bottom:1px solid #eaeaea}
+
+
+/* 금융가게부 */
+.finance .household_accounts {position:relative; padding:40px 0}
+.finance .household_accounts .point_text {margin-bottom:5px}
+.finance .household_accounts .top_btn {top:40px}
+.finance .household_accounts .calendar {display:block; width:20px; height:20px; font-size:0}
+.finance .household_accounts .calendar::before {content:""; display:block; background:url('../images/common/icon_01.png') -170px -23px; width:18px; height:19px; background-size:250px 250px}
+.finance .household_accounts .btn_update {top:9px}
+.finance .household_accounts .info_box.border_none dl {padding-top:15px}
+.finance .household_accounts .info_box.border_none p {font-size:20px}
+.finance .household_accounts .info_box.border_none p strong {font-size:24px}
+.finance .household_accounts .setgoals_list {font-size:13px}
+.finance .household_accounts .setgoals_list .item {padding:28px 20px 25px}
+.finance .household_accounts .setgoals_list .item strong {margin-top:0px}
+.finance .household_accounts .setgoals_list .progress_bar {margin-top:6px}
+.finance .household_accounts .fixed.necessity_box {padding:30px 20px 23px}
+.finance .household_accounts .fixed.necessity_box > p {font-size:14px; padding-bottom:10px}
+.finance .household_accounts .fixed.necessity_box > strong {font-size:22px; padding-right:5px}
+.finance .household_accounts .fixed.necessity_box .guide_text {color:#333}
+.calendar_spend {padding:40px 0}
+.calendar_spend .info_box {border:none; padding:0}
+.calendar_spend ul li > span {display:inline-block; position:relative; margin-top:30px; padding-right:10px; font-size:14px; color:#555}
+.calendar_spend ul li > span.point {font-weight:900}
+.calendar_spend ul li > span.point::after {content:""; width:6px; height:6px; border-radius:50%; background:#f59c20; margin-left:4px; position:absolute; top:3px; right:0}
+.calendar_modify > div {position:relative; margin:2px 0 50px}
+.calendar_modify > div .toggle {position:absolute; top:0; right:0; width:40px}
+.calendar_modify .won {font-size:24px; font-weight:900; margin:10px 0 50px}
+.calendar_modify .info_box {padding:0}
+.calendar_modify .info_box dl {padding-top:22px}
+.calendar_modify .info_box dl:first-child {padding-top:0px}
+.necessity_text p {font-size:28px; margin-top:10px}
+.necessity_text p strong {font-size:32px}
+.necessity_list {position:relative}
+.necessity_list > div {margin-top:28px}
+.necessity_list ul li {margin:0 -18px}
+.necessity_list ul li a {position:relative; width:100%; display:block; padding:15px 18px}
+.necessity_list ul li a:focus {background:#f7f9ff}
+.necessity_list ul li a > span {display:block; background:#f8f8f8; padding:11px; width:48px; height:48px; border-radius:100px; overflow:hidden; position:absolute; top:15px; left:18px}
+.necessity_list ul li a > span img {object-fit:cover; object-position:50% 0; width:100%}
+.necessity_list ul li a > div {padding-left:64px}
+.necessity_list ul li a > div span em::before {content:"|"; display:inline-block; padding:0 3px}
+.necessity_list ul li a > div span {padding-top:10px; font-size:14px; color:#555; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; word-wrap:break-word; line-height:15px; height:25px}
+.necessity_list ul li a > div span.memo {padding-right:15px; background:url('../images/finance/icon_memo.png') 100% 10px no-repeat}
+.necessity_list .list_none {font-weight:700}
+.necessity_box {background:#f8f8f8; border-radius:10px; border-top:none; padding:20px 20px 23px; padding-bottom:23px !important}
+.necessity_box dd {font-size:18px}
+.necessity_box dd strong {font-size:20px}
+.necessity_box + div .more_btn {font-size:14px; font-weight:900}
+
+/* 금융 정보 보내기 */
+.info_transmission {}
+.info_transmission strong {display:block; font-size:18px; line-height:28px}
+.info_transmission h5 {display:block; font-weight:900; font-size:16px; margin-top:50px}
+.info_transmission input {margin-top:20px}
+
+/* 카테고리 설정 */
+.category_make {padding-bottom:40px}
+.category_make .more_btn {margin:30px 0 10px; text-align:center; line-height:48px; padding:0}
+.category_make .more_btn::after {display:none}
+.category_make .item > div {padding:20px 0; border-top:solid 1px #eaeaea}
+.category_make .item > div::after {content:""; display:block; clear:both}
+.category_make .item > div:first-child {border-top:0}
+.category_make .item span {display:block; float:left}
+.category_make .item span {display:block; width:24px; height:24px; float:left}
+.category_make .item span img {object-fit:cover; object-position:50% 0; width:100%}
+.category_make .item strong {display:block; float:left; margin-left:16px}
+.category_make .item .function_btn {float:right}
+.category_make .bottom_sheet {float:left}
+.category_make .btn_edit {display:block; width:20px; height:24px; position:relative; border:0; line-height:unset; padding:0}
+.category_make .btn_edit::after {display:none}
+.category_make .btn_edit::before {content:""; display:block; width:18px; height:18px; background:url('../images/common/icon_01.png') -216px -23px no-repeat; background-size:250px 250px; position:absolute; top:3px; left:1px}
+.category_make .btn_del {display:block; float:left; width:20px; height:24px; position:relative; margin-left:20px}
+.category_make .btn_del::before {content:""; display:block; width:18px; height:18px; background:url('../images/common/icon_01.png') -193px -23px no-repeat; background-size:250px 250px; position:absolute; top:3px; left:1px}
+
+.category_list {padding:40px 0}
+.category_list ul {margin-top:30px}
+.category_list li {display:block; margin-top:28px}
+.category_list li:first-child {margin-top:0}
+.category_list li::after {content:""; display:block; clear:both}
+.category_list span {display:block; width:24px; height:24px; float:left}
+.category_list span img {object-fit:cover; object-position:50% 0; width:100%}
+.category_list strong {display:block; float:left; line-height:24px; padding-left:16px}
+
+/* 신용 평가 */
+.credit_evaluation {text-align:center}
+.credit_evaluation .dot_loading {}
+.credit_evaluation strong {display:block; margin-top:20px}
+.credit_evaluation p {margin-top:15px}
+
+
+/* 추천상품보기 */
+.view_pointer {width:100%; position:fixed; top:60px; left:0; padding:28px 0 0 18px; background:#fff; z-index:90}
+.view_pointer::before {content:""; display:block; width:calc(100% - 18px); height:1px; background:#eaeaea; position:absolute; bottom:0; left:18px}
+.view_pointer li {display:inline-block; margin-right:8px; line-height:48px}
+.view_pointer a {display:block; padding:0 12px}
+.view_pointer a.active {border-bottom:3px solid #121212; font-weight:900; line-height:45px}
+.recommendation_list {padding-top:78px; background:#f8f8f8}
+.recommendation_list .item:first-child {margin-top:0}
+.recommendation_list .item {background:#fff; margin-top:12px; padding:30px 18px 40px}
+.recommendation_list .item strong {display:block; padding-top:40px}
+.recommendation_list .item h4 + strong {padding-top:25px}
+.recommendation_list .item .link {margin-top:16px}
+.recommendation_list .item .link a {display:block; padding:15px 60px 15px 0; position:relative}
+.recommendation_list .item .link a:after {content:''; display:block; clear:both}
+.recommendation_list .item .link a:before {content:''; display:block; width:7px; height:13px; background:url('../images/common/icon_01.png') -97px -52px no-repeat; background-size:250px 250px; position:absolute; top:50%; right:3px; margin-top:-7px}
+.recommendation_list .item .link a span {float:left; width:40px; margin-right:15px; border-radius:50%}
+.recommendation_list .item .link a p {float:left; width:calc(100% - 55px); overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; word-wrap:break-word; line-height:21px; max-height:42px}
+.recommend_top {background:#f8f8f8; margin:0 -18px; padding:40px 18px 33px}
+.recommend_top .ci {background:url('../images/sample/ci_finance_12.png') 0 2px no-repeat; background-size:20px 20px; padding-left:33px}
+.recommend_top strong {display:block; font-size:20px; line-height:32px; margin-top:10px}
+.recommend_detail {padding:40px 4px 0 0}
+.recommend_detail h4 {margin-top:60px}
+.recommend_detail h4:first-child {margin-top:0}
+.recommend_detail ol {list-style-type:decimal; padding-left:20px; margin-top:25px}
+.recommend_detail ol li {margin-top:17px}
+.recommend_detail ol li:first-child {margin-top:0}
+.recommend_detail ol li::marker {font-size:18px; color:#1746c3; font-weight:900}
+.recommend_detail ol li dl dt { font-weight:900; margin-bottom: 6px;}
+.recommend_detail ul {margin-top:25px}
+
+.recommend_note {}
+.recommend_note ul, .recommend_note ol {margin-top:10px}
+.recommend_note p {}
+.recommend_note strong {display:block; margin:30px 0 10px}
+.recommend_note strong:first-child {margin-top:0}
+.recommend_note em {display:block; margin:10px 0 5px}
+.note_wrap.dash .recommend_note .reference_mark li {padding-left:20px; position:relative}
+.note_wrap.dash .recommend_note .reference_mark li::before {content:"※"; display:block; position:absolute; top:0; left:0; line-height:inherit}
+.note_wrap.dash .recommend_note .circle_number li {counter-increment:item; padding-left:17px; position:relative}
+.note_wrap.dash .recommend_note .circle_number li:before {content:counter(item); display:block; width:15px; height:15px; line-height:15px; text-align:center; border:solid 1px #666; border-radius:100px; font-size:10px; position:absolute; top:3px; left:0}
+
+/* disabled 상태 스타일 추가 */
+.life_goal_pop .checkbox input[disabled] + label { color:#767676;}
+.life_goal_pop .checkbox input[disabled] + label p {font-weight: 200;}
+
+.link_more{position:absolute;top:40px;right:0;}

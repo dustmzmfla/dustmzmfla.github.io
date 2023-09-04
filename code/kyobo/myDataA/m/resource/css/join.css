@@ -1,0 +1,68 @@
+@charset "utf-8"; 
+/* ------------------------------------------
+* Filename:join.css
+* Author:MADIVE
+------------------------------------------ */
+
+.join {}
+.join .step_progress section:first-child {padding-bottom: 84px;}
+.join .step_01 {}
+.join .step_01 .item {margin-top:50px}
+.join .step_01 .certification_time {position:absolute; top:15px; right:0; font-size:14px}
+
+.join .step_03 {}
+.join .step_03 .item {margin-top:50px}
+.join .step_03 .item:first-child {margin-top:0}
+
+/* 회원가입 Step5 */
+.join .verify_completed {border-bottom: 1px solid #eaeaea; margin-top:20px}
+.join .verify_completed div {padding:10px 0 30px 84px; color:#555; font-size:14px; position:relative;}
+.join .verify_completed div.step_01 {margin-top:0}
+.join .verify_completed div::before {content:""; display:block; background:url('../images/join/img_completion.png') 0 0 no-repeat; background-size:216px 216px; width:72px; height:72px; position:absolute; left:0; top:10px;}
+.join .verify_completed.kakao div.step_01::before {background-position:0 0}
+.join .verify_completed.kakao div.step_02::before {background-position:-72px 0}
+.join .verify_completed.kakao div.step_03::before {background-position:-144px 0}
+.join .verify_completed.pass div.step_01::before {background-position:0 -72px}
+.join .verify_completed.pass div.step_02::before {background-position:-72px -72px}
+.join .verify_completed.pass div.step_03::before {background-position:-144px -72px}
+.join .verify_completed.toss div.step_01::before {background-position:0 -144px}
+.join .verify_completed.toss div.step_02::before {background-position:-72px -144px}
+.join .verify_completed.toss div.step_03::before {background-position:-144px -144px}
+.join .verify_completed div strong {display:block; color:#121212; font-size:16px; padding-bottom:3px}
+.join .join .button_area.mini a{padding:0 24px; min-width:108px}
+.join .join_complete h4{padding-top:205px; line-height:28px; background:url('../images/certification/img_step06.png') center 35px no-repeat; background-size:132px auto}
+.join .join_complete p{word-break:keep-all; margin-top:15px}
+
+.phone_number:after {content:''; display:block; clear:both}
+.phone_number .input {float:left; width: calc(66% + 14px)}
+.phone_number .input input{float:left; width: calc(50% - 21px)}
+.phone_number .input span.dash{float:left; line-height:48px; width:21px; text-align:center}
+.phone_number .input.select {width:calc(33% - 14px)}
+
+.join .loginmethod {padding:28px 0 40px}
+.loginmethod strong {display:block; font-size:18px; line-height:28px}
+.loginmethod .img {display:block; width:72px; height:72px; margin:40px auto 0}
+.loginmethod .img img {width:100%; height:100%}
+.loginmethod .button_area {margin-top:40px}
+
+.join .method_img {display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; height: 50vh; min-height: 150px;}
+.join .method_img p {font-size: 16px; text-align: center; margin-top: 20px;}
+.join .method_img img {width: 100px;}
+
+/* 전체동의 아코디언 */
+.acco {position: relative;}
+.acco .checkbox.all {position: absolute; top:0; left:0; width: 24px; padding: 18px 0;}
+.acco .checkbox.all label {font-size:0;}
+.acco .toggle_btn {margin-left:36px; width:calc(100% - 36px);}
+.acco .toggle_contents {padding:13px 18px 20px;}
+
+/* 본인인증 페이드인효과주기 */ 
+.fade_effect div.item {opacity: 0; transform: translateY(0px); animation:fade-up .3s }
+.fade_effect div.item:nth-of-type(1) {animation: fade-up 1s forwards 0s;}
+.fade_effect div.item:nth-of-type(2) {animation: fade-up 1s forwards .3s;}
+.fade_effect div.item:nth-of-type(3) {animation: fade-up 1s forwards .6s;}
+.fade_effect div.item:nth-of-type(4) {animation: fade-up 1s forwards .9s;}
+@keyframes fade-up {
+    from {display: none; opacity: 0; transform: translateY(100px)}
+    to {display: block; opacity: 1; transform: translateY(0px)}
+}

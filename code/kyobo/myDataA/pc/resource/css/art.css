@@ -1,0 +1,80 @@
+@charset "utf-8"; 
+/* ------------------------------------------
+* Filename:art.css
+* Author:MADIVE
+------------------------------------------ */
+
+.art img {width:100%}
+
+.art .sub_main section {margin:57px 18px 0}
+.art .sub_main section:first-child {margin-top:0}
+.art .sub_main .title:first-child {margin-top:0}
+.art .sub_main .box {margin:60px 18px 0}
+.art .sub_main .box:first-child {margin-top:0; padding-top:24px}
+.art .sub_main .list {position:relative; padding-bottom:40px; margin-top:15px}
+.art .sub_main .list a {display:block; position:relative; width:100%}
+.art .sub_main .list .img {display:block; height:104px; border-radius:8px; overflow:hidden}
+.art .sub_main .list .img img {object-fit:cover; object-position:50% 0; width:100%; height:100%}
+.art .sub_main .list strong {display:block; padding:10px 12px 0 0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.art .sub_main .list strong.hot:nth-child(1) {position:absolute; top:6px; left:8px; border-radius:2px; padding:0 4px; line-height:16px; font-size:12px; background:#f59c20; color:#fff; margin-top:0}
+.art .sub_main .list p {padding-right:12px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:14px; color:#555}
+.art .rank-pagination, .art .swiper-pagination {width:80px; line-height:16px; position:absolute; left:50%; margin-left:-40px; bottom:0; color:#555; text-align:center; z-index:10}
+.art .rank-pagination-current, .art .swiper-pagination-current {font-weight:900; color:#111}
+.art .rank-prev, .art .rank-next, .art .swiper-prev, .art .swiper-next {display:block; width:16px; height:16px; position:absolute; bottom:0}
+.art .rank-prev, .art .swiper-prev {left:calc(50% - 56px)}
+.art .rank-next, .art .swiper-next {right:calc(50% - 56px)}
+.art .rank-prev::after, .art .rank-next::after, .art .swiper-prev::after, .art .swiper-next::after {content:""; display:block; width:8px; height:14px; background:url('../images/common/icon_01.png') -20px -52px no-repeat; background-size:250px 250px; position:absolute; left:4px; top:1px}
+.art .rank-prev::after, .art .swiper-prev::after {transform:rotate(180deg)}
+.art .rank-prev.swiper-button-disabled::after, .art .rank-next.swiper-button-disabled::after, .art .swiper-prev.swiper-button-disabled::after, .art .swiper-next.swiper-button-disabled::after {background-position:-33px -52px}
+.swiper-module {overflow:hidden; position:relative}
+.art .sub_main .rank-swiper {overflow:hidden; position:relative}
+.art .sub_main .swiper-wrapper .img {position:relative}
+.art .sub_main .swiper-wrapper .img em {display:block; width:20px; height:20px; position:absolute; top:8px; left:8px}
+.art .sub_main .rank-swiper .swiper-slide {margin-bottom:0 !important}
+.art .sub_main .art-rank-swiper {overflow:hidden; position:relative}
+.art .sub_main .art-rank-swiper .img {height:214px}
+.art .sub_main .gray_btn {display:inline-block; line-height:28px; padding:0 12px; border-radius:14px; font-size:13px; background:#56585f; color:#fff}
+.art .sub_main .tab_style {background:#fff}
+.art .sub_main .tab_cont .list:after {content:''; display:block; clear:both}
+.art .sub_main .tab_cont .list div {width: calc(50% - 4px); float:left; margin-bottom:25px}
+.art .sub_main .tab_cont .list div:nth-child(odd) {margin-right:8px}
+.art .sub_main .tab_cont .list .img {height:104px}
+.art .sub_main .swiper-slide {margin-top:0 !important}
+.art .sub_main .swiper-slide:nth-child(4n+1), .art .sub_main .swiper-slide:nth-child(4n+2) {margin-bottom:20px}
+.art .sub_main .list .date {display:inline-block; padding-left:24px; background:url('../images/common/icon_clock.png') 0 0 no-repeat; background-size:20px auto; margin-bottom:12px}
+
+
+.art_list {}
+.art_list .art_list_box {}
+.art_list .art_list_box::after {content:""; display:block; clear:both}
+.art_list .art_list_box p.date {position:relative; font-weight:900; line-height:18px; padding-left:24px; font-size:14px}
+.art_list .art_list_box p.date::before {content:""; position:absolute; top:0; left:0; display:inline-block; width:16px; height:16px; background:url('../images/common/icon_01.png') 0 -136px no-repeat; background-size:250px 250px}
+.art_list .art_list_box .item {display:block; margin-top:17px}
+.art_list .art_list_box .item::after {content:""; display:block; clear:both}
+.art_list .art_list_box div {float:left; width:calc(50% - 4px); margin:20px 0 0 8px}
+.art_list .art_list_box div:nth-child(odd) {margin-left:0px}
+.art_list .art_list_box div:nth-child(1),
+.art_list .art_list_box div:nth-child(2) {margin-top:0}
+.art_list .art_list_box div a {color:#121212; display:block; position:relative}
+.art_list .art_list_box div.list_none {float:none; width:100%; margin-top:20px}
+.art_list .art_list_box div.square_btn {float:none; width:100%; margin-top:20px}
+.art_list .art_list_box div.square_btn a {display:inline-block}
+
+
+.art_list .art_list_box div strong.hot {position:absolute; top:6px; left:8px; border-radius:2px; padding:0 4px; line-height:16px; font-size:12px; background:#f59c20; color:#fff; margin-top:0}
+.art_list .art_list_box div span.img {display:block; height:104px; border-radius:8px; overflow:hidden}
+.art_list .art_list_box div a > strong {display:block; margin-top:13px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden}
+.art_list .art_list_box div a > p {font-size:14px; width:100%; text-overflow:ellipsis; white-space:nowrap; overflow:hidden}
+.art_list .more_list {margin-top:30px}
+
+.art_list .list .total_num {text-align:left; margin-top:28px}
+.art_list .list > ul > li {text-align:left; margin-top:40px}
+.art_list .list > ul > li:first-child {margin-top:20px}
+
+
+/* 썸네일 이미지 반응형 */
+@media (min-width: 500px){
+    .art .sub_main .list .img {height:auto;}
+    .art .sub_main .tab_cont .list .img  {height:auto;}
+    .art_list .art_list_box div span.img {height:auto;}
+}

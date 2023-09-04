@@ -1,0 +1,155 @@
+@charset "utf-8"; 
+/* ------------------------------------------
+* Filename:main.css
+* Author:MADIVE
+------------------------------------------ */
+
+#header .header_btn_main {width:20px; height:20px; background:url('../images/main/logo.png') 0 0 no-repeat; background-size:20px 20px; position:absolute; top:20px; left:18px}
+#header .header_btn_push {width:20px; height:20px; background:url('../images/main/icon_push_01.png') 0 0 no-repeat; background-size:20px 20px; position:absolute; top:20px; right:58px}
+#header .header_btn_push span {display:block; width:14px; height:14px; text-align:center; line-height:15px; background:#1746c3; color:#fff; font-size:9px; border-radius:50px; position:absolute; top:-2px; left:10px}
+
+.gray_data {background:#f8f8f8; padding:28px 20px; border-radius:8px; margin-top:20px}
+.gray_data::after {display:block; content:""; clear:both}
+.gray_data span {display:block; float:left}
+.gray_data strong {display:block; float:left; width:calc(100% - 65px); margin-left:20px}
+
+#container.mydata_main {padding:0}
+.mydata_main #content {}
+.mydata_main #content section {padding:0}
+.mydata_main .catchphrase {background:url('../images/main/bg_catchphrase_01.png') center bottom no-repeat; background-size:100% auto; padding:40px 28px 250px; position:relative}
+.mydata_main .catchphrase::before {content:""; display:block; background:url('../images/main/img_catchphrase_01.png') 0 0 no-repeat; background-size:152px 211px; width:152px; height:211px; position:absolute; bottom:-20px; right:28px}
+.mydata_main .catchphrase h3 {display:block; font-size:28px; line-height:36px; font-weight:900}
+.mydata_main .catchphrase p {font-size:20px; margin-top:10px}
+.mydata_main .event_banner {overflow:hidden; position:relative; padding-bottom:24px; margin-bottom:52px}
+.event_banner .swiper-slide {}
+.event_banner .swiper-slide a {display:block}
+.event_banner .swiper-pagination {left:24px !important; bottom:5px !important; height:6px; width:calc(100% - 48px) !important}
+.event_banner .swiper-pagination::after {content:""; display:block; clear:both}
+.event_banner .swiper-pagination-bullet {display:block; float:left; margin:0 0 0 8px !important; width:6px; height:6px; background:#888888; opacity:1; transition:all .3s}
+.event_banner .swiper-pagination-bullet:first-child {margin-left:0 !important}
+.event_banner .swiper-pagination-bullet-active {width:28px; background:#1746c3; border-radius:6px; transition:all .3s}
+.event_banner .swiper-button-disabled {visibility:hidden}
+.event_banner .swiper-button-prev {display:block; border:0; width:16px; height:16px; position:absolute; top:calc(50% - 8px); left:0; margin:0}
+.event_banner .swiper-button-prev::after {content:""; display:block; width:8px; height:14px; background:url('../images/common/icon_01.png') -117px 0 no-repeat; background-size:250px 250px; position:absolute; top:1px; left:4px; transform:rotate(180deg)}
+.event_banner .swiper-button-next {display:block; border:0; width:16px; height:16px; position:absolute; top:calc(50% - 8px); right:0; margin:0}
+.event_banner .swiper-button-next::after {content:""; display:block; width:8px; height:14px; background:url('../images/common/icon_01.png') -117px 0 no-repeat; background-size:250px 250px; position:absolute; top:1px; left:4px}
+.event_banner img {object-fit:cover; object-position:50% 0; width:100%}
+
+.mydata_main .box {border-radius:24px 24px 0 0; background:#f8f8f8; padding:40px 18px 140px}
+.mydata_main .item {width:100%; background:#fff; border-radius:16px; padding:32px 20px; margin-top:28px; position:relative; box-shadow: 0 4px 8px 0 rgba(38, 41, 46, 0.15);}
+.mydata_main .item:first-child {margin-top:0}
+.mydata_main .item .screen {display:block; margin:-32px -20px; padding:32px 20px; border-radius:16px; position:relative}
+.mydata_main .item .user_data {}
+.mydata_main .item a.link {display:block; position:relative}
+.mydata_main .item a.link::before {content:""; display:block; width:7px; height:13px; background:url('../images/common/icon_01.png') -97px -52px no-repeat; background-size:250px 250px; position:absolute; top:5px; right:0}
+.mydata_main .item a.link span.title {display:block}
+.mydata_main .item span.title p {font-size:14px; color:#333; line-height:18px}
+.mydata_main .item span.title h5 {display:block; font-size:24px; font-weight:900; color:#121212; line-height:30px; margin-top:5px}
+.mydata_main .item.finance {}
+.mydata_main .item.finance .screen {}
+.mydata_main .item.finance .screen p {margin-top:180px}
+.mydata_main .item.finance .screen::before {content:""; display:block; background:url('../images/main/screen_finance_img.png') 0 0 no-repeat; background-size:208px 152px; width:208px; height:152px; position:absolute; top:66px; left:calc((100% - 208px) / 2)}
+.mydata_main .item.assets {}
+.mydata_main .item.assets .screen {}
+.mydata_main .item.assets .screen p {margin-top:180px}
+.mydata_main .item.assets .screen::before {content:""; display:block; background:url('../images/main/screen_assets_img.png') 0 0 no-repeat; background-size:208px 152px; width:208px; height:152px; position:absolute; top:66px; left:calc((100% - 208px) / 2)}
+.mydata_main .item.assets .graph {position:relative}
+.mydata_main .item.assets .graph.none {}
+.mydata_main .item.assets .graph.none::before {content:""; display:block; width:100%; height:100%; background:rgba(248,248,248,0.8); position:absolute; top:0; left:0; z-index:99}
+.mydata_main .item.assets .lifegoal {margin-top:60px; font-size:18px; position:relative; padding-right:120px}
+.mydata_main .item.assets .point_text {margin-bottom:0}
+.mydata_main .item.assets .lifegoal .square_btn {position:absolute; bottom:0; right:0}
+.mydata_main .item.assets .lifegoal strong {display:block}
+.mydata_main .item.assets .lifegoal strong p {font-size:14px}
+.mydata_main .item.health {}
+.mydata_main .item.health .screen p {margin-top:32px}
+.mydata_main .item.health .screen {background:url('../images/main/screen_health_bg.png') right top no-repeat; background-size:100% auto}
+.mydata_main .item.health .screen::before {content:""; display:block; background:url('../images/main/screen_health_img.png') 0 0 no-repeat; background-size:52px 52px; width:52px; height:52px; position:absolute; top:29px; right:20px}
+.mydata_main .item.health .user_data {min-height:194px}
+.mydata_main .item.health .user_data .man {position:relative; margin-top:40px}
+.mydata_main .item.health .user_data .man::after {content:""; display:block; width:92px; height:92px; background:url('../images/main/img_bmi_man.png') 0 0 no-repeat; background-size:368px 368px; position:absolute; top:-30px; right:0}
+.mydata_main .item.health .user_data .woman {position:relative; margin-top:40px}
+.mydata_main .item.health .user_data .woman::after {content:""; display:block; width:92px; height:92px; background:url('../images/main/img_bmi_woman.png') 0 0 no-repeat; background-size:368px 368px; position:absolute; top:-30px; right:0}
+
+.mydata_main .item.health .user_data .underweight::after {background-position-y:-276px}
+.mydata_main .item.health .user_data .normal::after {background-position-y:-184px}
+.mydata_main .item.health .user_data .obesity::after {background-position-y:-92px}
+.mydata_main .item.health .user_data .high_obesity::after {background-position-y:0}
+
+.mydata_main .item.health .user_data .blue::after {background-position-x:0}
+.mydata_main .item.health .user_data .green::after {background-position-x:-92px}
+.mydata_main .item.health .user_data .yellow::after {background-position-x:-184px}
+.mydata_main .item.health .user_data .red::after {background-position-x:-276px}
+
+.mydata_main .item.health .user_data .condition {display:block; position:relative; line-height:20px; padding-left:24px; font-weight:900; font-size:14px; color:#121212}
+.mydata_main .item.health .user_data .condition::before {content:""; display:block; width:20px; height:20px; background:url('../images/health/icon_condition.png') 0 -40px no-repeat; background-size:20px 100px; position:absolute; top:0; left:0}
+.mydata_main .item.health .user_data .condition.normal::before {background-position-y:0}
+.mydata_main .item.health .user_data .condition.warning::before {background-position-y:-80px}
+.mydata_main .item.health .user_data .con strong {display:block; margin-top:8px}
+.mydata_main .item.health .user_data .con p {margin-top:25px}
+
+.mydata_main .item.education {}
+.mydata_main .item.education .screen p {margin-top:32px}
+.mydata_main .item.education .screen {background:url('../images/main/screen_education_bg.png') right top no-repeat; background-size:100% auto}
+.mydata_main .item.education .screen::before {content:""; display:block; background:url('../images/main/screen_education_img.png') 0 0 no-repeat; background-size:52px 52px; width:52px; height:52px; position:absolute; top:29px; right:20px}
+.mydata_main .item.education .user_data {}
+.mydata_main .item.education .user_data .con {margin-top:30px; position:relative; min-height:92px}
+.mydata_main .item.education .square_btn {margin-top:28px}
+.mydata_main .item.education .square_btn a {padding:0; height:30px; line-height:30px}
+.mydata_main .item.education .user_data span {display:block}
+.mydata_main .item.education .user_data div em {width:calc(100% - 115px); overflow:hidden; text-overflow:ellipsis; display:block; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; word-wrap:break-word; line-height:24px; height:72px}
+.mydata_main .item.education .user_data p.img {width:92px; height:92px; position:absolute; top:-10px; right:0}
+.mydata_main .item.education .user_data img {width:100%; height:100%}
+.mydata_main .item.culture {}
+.mydata_main .item.culture .screen p {margin-top:32px}
+.mydata_main .item.culture .screen {background:url('../images/main/screen_culture_bg.png') right top no-repeat; background-size:100% auto}
+.mydata_main .item.culture .screen::before {content:""; display:block; background:url('../images/main/screen_culture_img.png') 0 0 no-repeat; background-size:52px 52px; width:52px; height:52px; position:absolute; top:29px; right:20px}
+.mydata_main .item.culture .con div {position:relative; margin-top:40px}
+.mydata_main .item.culture .con strong {display:block; letter-spacing:-1px}
+.mydata_main .item.culture .con p {overflow:hidden; text-overflow:ellipsis; display:block; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; word-wrap:break-word; line-height:24px; height:72px; width:calc(100% - 115px); margin-top:25px}
+
+.mydata_main .item.culture .child {}
+.mydata_main .item.culture .child::before {content:""; display:block; background:url('../images/main/culture_child.png') 0 0 no-repeat; background-size:92px 92px; width:92px; height:92px; position:absolute; top:-36px; right:0}
+.mydata_main .item.culture .environment {}
+.mydata_main .item.culture .environment::before {content:""; display:block; background:url('../images/main/culture_environment.png') 0 0 no-repeat; background-size:92px 92px; width:92px; height:92px; position:absolute; top:-36px; right:0}
+.mydata_main .item.culture .senior {}
+.mydata_main .item.culture .senior::before {content:""; display:block; background:url('../images/main/culture_senior.png') 0 0 no-repeat; background-size:92px 92px; width:92px; height:92px; position:absolute; top:-36px; right:0}
+.mydata_main .item.culture .hurdles {}
+.mydata_main .item.culture .hurdles::before {content:""; display:block; background:url('../images/main/culture_disabled.png') 0 0 no-repeat; background-size:92px 92px; width:92px; height:92px; position:absolute; top:-36px; right:0}
+.mydata_main .item.culture .global {}
+.mydata_main .item.culture .global::before {content:""; display:block; background:url('../images/main/culture_global.png') 0 0 no-repeat; background-size:92px 92px; width:92px; height:92px; position:absolute; top:-36px; right:0}
+.mydata_main .item.culture .society {}
+.mydata_main .item.culture .society::before {content:""; display:block; background:url('../images/main/culture_society.png') 0 0 no-repeat; background-size:92px 92px; width:92px; height:92px; position:absolute; top:-36px; right:0}
+
+.mydata_main .item.art {}
+.mydata_main .item.art .screen p {margin-top:32px}
+.mydata_main .item.art .screen {background:url('../images/main/screen_art_bg.png') right top no-repeat; background-size:100% auto}
+.mydata_main .item.art .screen::before {content:""; display:block; background:url('../images/main/screen_art_img.png') 0 0 no-repeat; background-size:52px 52px; width:52px; height:52px; position:absolute; top:29px; right:20px}
+.mydata_main .item.art .user_data .con {position:relative; padding-top:40px}
+.mydata_main .item.art .user_data .con::before {content:""; display:block; width:92px; height:92px; background:url('../images/main/art_img.png') 0 0 no-repeat; background-size:92px 92px; position:absolute; top:8px; right:20px}
+.mydata_main .item.art .user_data .con strong {display:block;}
+.mydata_main .item.art .user_data .con p {margin-top:25px}
+
+
+.bubble_tip {width:calc(100% - 44px); font-size:14px; padding:20px; border:solid 1px #121212; position:absolute; left:22px; top:62px; border-radius:8px; margin-top:8px; opacity:0; transform:translateY(70px); transition:all .7s; background:#fff; word-break:keep-all; display:none}
+#header .bubble_tip {width:230px}
+.bubble_tip::before {content:""; display:block; width:28px; height:9px; background:url('../images/main/icon_bubble.png') 0 0 no-repeat; background-size:28px 9px; position:absolute; top:-9px; left:16px}
+.bubble_tip.active {opacity:1; transform:translateY(0px); transition:all 1s}
+.health .bubble_tip {top:82px}
+.education .bubble_tip {top:82px}
+.culture .bubble_tip {top:82px}
+
+.layer_wrap.tooltip .layer_cont.main {padding:0 20px 35px}
+
+/* 앱접근권한 */
+.accessible {margin-top:35px; padding-left:84px; position:relative}
+.accessible::before {content:""; display:block; width:72px; height:72px; position:absolute; top:0; left:0;background:url('../images/common/icon_accessible.png') 0 0 no-repeat; background-size:154px auto}
+.accessible.no_2::before {background-position-x:-82px}
+.accessible p {font-size:14px; color:#555;margin-top:2px}
+.accessible_fixd {padding:0 18px; font-size:14px; margin-bottom:12px; position:relative}
+
+@media screen and (min-width: 515px) {
+    .mydata_main .catchphrase {
+        padding-bottom:300px;
+    } 
+}

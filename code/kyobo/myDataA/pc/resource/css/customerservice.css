@@ -1,0 +1,139 @@
+@charset "utf-8"; 
+/* ------------------------------------------
+* Filename:customerservice.css
+* Author:MADIVE
+------------------------------------------ */
+
+/* 고객센터 */
+#content section.board_view {padding:0}
+
+#container.customer_service {}
+#content .list_panel {padding-top:16px}
+
+.board_link {margin-top:10px}
+.board_link a {display:block; font-size:16px; line-height:18px; font-weight:900; position:relative; padding:26px 0 30px 42px}
+.board_link a::after {display:block; content:""; width:7px; height:13px; right:0; top:28px; position:absolute; background:url('../images/common/icon_01.png') -97px -52px no-repeat; background-size:250px 250px}
+
+.board_link a::before {display:block; content:""; position:absolute; left:0; top:22px; background:url('../images/customerservice/cs_icon_01.png') 0 -30px no-repeat; background-size:250px 250px}
+.board_link a.icon_notice::before {width:23px; height:22px}
+.board_link a.icon_event::before {width:21px; height:24px; background-position-x:-29px}
+.board_link a.icon_qna::before {width:23px; height:24px; background-position-x:-56px}
+.board_link a.icon_faq::before {width:22px; height:22px; background-position-x:-85px}
+.board_link a.icon_privacy::before {width:22px; height:22px; background-position-x:-113px}
+.board_link a.icon_utilization::before {width:22px; height:22px; background-position-x:-169px}
+.board_link a.icon_tutorial::before {width:24px; height:24px; background-position-x:-140px}
+.board_link a.icon_security::before {width:24px; height:24px; background:url('../images/customerservice/icon_cs07.png') 0 0 no-repeat; background-size:24px auto; top:20px}
+.board_link a.icon_alarm::before {width:24px; height:24px; background:url('../images/customerservice/icon_cs08.png') 0 0 no-repeat; background-size:24px auto; top:20px}
+.board_link a.icon_my_01::before {width:24px; height:24px; background:url('../images/mypage/icon_management_01.png') 0 0 no-repeat; background-size:24px 24px; top:20px}
+.board_link a.icon_my_02::before {width:24px; height:24px; background:url('../images/mypage/icon_management_02.png') 0 0 no-repeat; background-size:24px 24px; top:20px}
+
+.customer_service .notice {}
+.list_panel .notice_list {margin-top:40px}
+.notice_list a {display:block; position:relative; padding-right:30px; margin-top:30px}
+.notice_list a:nth-child(1) {margin-top:0}
+.notice_list a::after {display:block; content:""; width:7px; height:13px; position:absolute; top:5px; right:0; background:url('../images/common/icon_01.png')-97px -52px no-repeat; background-size:250px 250px}
+.notice_list a strong {display:block; font-size:16px; line-height:24px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.notice_list a p {font-size:14px; line-height:24px; color:#555}
+.notice_list .button_area a {padding:0 44px}
+.notice_list .button_area a::after {display:none}
+
+.customer_service .no_data {font-size:16px}
+.event_list {margin-top:28px}
+.event_list a {display:block; position:relative; padding:20px 40px 20px 0; padding-left:108px; border-radius:16px; margin-top:12px}
+.event_list a:nth-child(1) {margin-top:0}
+.event_list a:nth-child(3n+1) {background:#f4f9ff}
+.event_list a:nth-child(3n+2) {background:#eff7e2}
+.event_list a:nth-child(3n+3) {background:#fffce2}
+.event_list span.img {display:block; width:72px; height:72px; position:absolute; top:20px; left:20px; border-radius:72px; background:#ccc}
+.event_list img {width:100%}
+.event_list div {display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; text-overflow:ellipsis; height:50px}
+.event_list p {font-size:14px; color:#555; margin-top:5px}
+.event_list em {display:block; width:40px; height:40px; position:absolute; top:0; left:0; z-index:10}
+.event_list em .lucky {object-fit:cover; object-position:50% 0; background:transparent}
+#content .view_panel {padding:28px 0 0}
+
+/* 답변 준비중 */
+.view_panel .title {border-bottom:solid 1px #ddd; padding:0 18px 40px; margin-bottom:40px}
+.view_panel .title strong {display:block; font-size:18px; line-height:28px}
+.view_panel .title p {font-size:14px; line-height:24px; color:#555; font-weight:400; margin-top:5px}
+.view_panel .title span {position:relative; font-size:14px; color:#555; padding:16px 8px 0}
+.view_panel .title span:not(:last-child) {padding-left:0}
+.view_panel .title span::after {display:block; content:""; position:absolute; top:0; right:-11px; width:1px; height:14px; margin:16px 8px 0; background-color:#ddd}
+.view_panel .title span:last-child::after {display:none}
+.view_panel .edit {padding:0 18px}
+.view_panel .event_top {margin:0 0 40px 0}
+.view_panel.event .title {border:0; margin:0; padding-bottom:28px}
+.event_top img {width:100%}
+.answer_preparation {padding:0 18px}
+.answer_preparation .list_none::after {display:none}
+.answer_preparation .list_none {padding:70px 0 0; margin-top:0; font-weight:400}
+
+.qna_list > p {margin-top:28px}
+.qna_list > p.total_num {padding-bottom:20px; border-bottom:solid 1px #eaeaea}
+.qna_list > div {margin-top:33px}
+.qna_list > div a {display:block; position:relative; padding-right:60px; margin-top:35px}
+.qna_list a:nth-child(1) {margin-top:0}
+.qna_list a::after {display:block; content:""; position:absolute; top:42px; right:0; width:13px; height:7px; background:url('../images/common/icon_01.png') -119px -52px no-repeat; background-size:250px 250px; transform:rotate(270deg)}
+
+.qna_list a span {display:block; position:relative; font-size:14px; line-height:17px; padding-left:22px}
+.qna_list a span::before {display:block; content:""; position:absolute; top:0; left:0; width:14px; height:16px; background:url('../images/customerservice/cs_icon_01.png') 0 0 no-repeat; background-size:250px 250px}
+.qna_list a strong {display:block; position:relative; font-size:14px; line-height:17px; padding-left:22px}
+.qna_list a strong::before {display:block; content:""; position:absolute; top:0; left:0; width:14px; height:16px; background:url('../images/customerservice/cs_icon_01.png') -19px 0 no-repeat; background-size:250px 250px}
+.qna_list a div {display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; text-overflow:ellipsis; margin-top:17px}
+.qna_list a p {font-size:14px; color:#555; margin-top:8px}
+
+.answer_box {background:#f8f8f8}
+.answer_box .title {border-bottom:0; padding:40px 0 40px 18px; margin-top:40px; margin-bottom:0}
+.answer_box .edit {padding-bottom:40px}
+
+.customer_service .note_wrap {padding:40px 0}
+.qna_write {margin-top:28px; padding-bottom:40px}
+.qna_write button.selected {font-weight:200; line-height:28px; padding:15px 0}
+.qna_write h5 {font-size:14px; line-height:28px; font-weight:900; position:relative}
+.qna_write .input {margin:8px 0 56px}
+.qna_write .input:last-child {margin-bottom:0}
+.qna_write .input.select {margin-top:28px}
+.qna_write .input.email {position:relative}
+.qna_write .input.email input {font-size:18px; line-height:28px; color:#555; padding:15px 0}
+.qna_write .input textarea {display:block; width:100%; margin-top:8px; padding:29px 66px 171px 20px; border-radius:8px; border:solid 1px #ddd; font-size:16px; line-height:24px}
+.qna_write p {font-size:14px; line-height:28px; color:#555; margin-top:12px}
+.qna_write p.text_limit {text-align:right}
+.qna_write p.guide_text {position:absolute; top:0; right:0; text-align:right; margin-top:0; font-weight:400}
+
+/* FAQ */
+.customer_service .faq_box {padding-top:28px}
+.faq_box .list .btn {padding:25px 50px 5px 40px; border:none}
+.faq_box .list .btn::after {content:""; display:block; width:8px; height:14px; background:url('../images/common/icon_01.png') -117px 0 no-repeat; background-size:250px 250px; transform:rotate(90deg); position:absolute; top:60px; right:4px}
+.faq_box .list .open .btn::after {transform:rotate(270deg)}
+.faq_box .list .btn::before {content:"Q"; position:absolute; top:24px; left:0; display:inline-block; padding:0 7px 0 6px; width:auto; line-height:25px; height:24px; border-radius:50%; color:#121212; font-size:22px}
+.faq_box .list .btn p {font-size:14px; color:#555; margin-bottom:5px}
+.faq_box .list .btn strong {line-height:24px;font-weight:700;}
+.faq_box .list li.open .btn strong {font-weight: 900;}
+.faq_box .list div {position:relative; padding:20px 50px 40px 40px; margin:0; background:#fff; border-bottom:1px solid #eaeaea;}
+.faq_box .list div::before {content:"A"; position:absolute; top:20px; left:0px; display:inline-block; padding:0 7px 0 6px; width:auto; line-height:25px; height:24px; border-radius:50%; color:#1746c3; font-size:22px; font-weight:900}
+
+/* 신용관리 tip */
+.faq_box .list.tip {}
+.faq_box .list.tip .btn {padding-top:16px}
+.faq_box .list.tip .btn::after {top:28px}
+.faq_box .list.tip div {background:#f5f5f5; margin:0 -18px; padding:20px 68px 40px 68px; border:0}
+.faq_box .list.tip div::before {left:18px}
+
+.terms_view {margin-top:40px}
+
+/* 첨부파일 */
+.file_box {padding:0 18px; margin-top:70px}
+.file_box strong {display:block; margin-top:20px}
+.file_box .upload_img {margin-top:20px}
+
+.upload_img {}
+.upload_img::after {content:""; display:block; clear:both}
+.upload_img li {float:left; width:calc((100% - 24px) / 5); height:60px; background:url('../images/customerservice/bg_file.png') center center no-repeat #f8f8f8; background-size:20px 18px; margin-left:6px; border:solid 1px #eaeaea; position:relative}
+.upload_img li:first-child {margin-left:0}
+.upload_img li img {object-fit:cover; object-position:50% 0; width:100%; height:100%}
+.upload_img div {width:100%; height:100%; overflow:hidden; position:absolute; top:-1px; left:-1px}
+.upload_img .delete {display:block; width:20px; height:20px; background:url('../images/customerservice/cs_icon_01.png') -61px 0 no-repeat; background-size:250px 250px; position:absolute; top:0; right:0}
+.file_upload {height:44px; line-height:44px; text-align:center; border:solid 1px #ddd; border-radius:8px; margin-top:24px}
+.file_upload label {display:inline-block; color:#121212; font-size:14px; font-weight:700; line-height:24px; padding-left:25px; position:relative}
+.file_upload label::after {content:""; display:block; width:18px; height:16px; background:url('../images/customerservice/cs_icon_01.png') -38px 0 no-repeat; background-size:250px 250px; position:absolute; top:2px; left:0}
+.file_upload input[type="file"] {display:none}

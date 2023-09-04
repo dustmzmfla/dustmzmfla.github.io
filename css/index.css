@@ -89,7 +89,7 @@
 .sec01 .profile ul li {
     position: relative;
     text-align: center;
-    width: calc(100% / 3);
+    width: calc(100% / 4);
 }
 
 .sec01 .profile ul li::after {
@@ -165,10 +165,6 @@
 .sec01 .contact .sns a {
     width: 35px;
     height: 35px;
-}
-
-.sec01 .contact .sns a:last-child {
-    width: 30px;
 }
 
 .sec01 .contact .sns a img {
@@ -321,15 +317,6 @@
     align-items: center;
 }
 
-.sec02 .inner .contents ul li .logo svg {
-    stroke: #dfdfdf;
-    transition: all 0.15s linear;
-}
-
-.sec02 .inner .contents ul li .logo.show svg {
-    transform: rotateX(180deg);
-}
-
 .sec02 .inner .contents ul li:nth-child(1) .logo img { width: 90px; }
 .sec02 .inner .contents ul li:nth-child(2) .logo img { width: 110px; }
 .sec02 .inner .contents ul li:nth-child(3) .logo img { width: 150px; }
@@ -356,10 +343,10 @@
 
 .sec02 .inner .contents ul li .grid .grid-children {
     position: relative;
-    width: calc((100% / 3) - 12px);
     background-color: #fff;
     border: 1px solid #dfdfdf;
     border-radius: 10px;
+    width: calc((100% / 3) - 15px);
     transition: all 0.25s;
 }
 
@@ -391,16 +378,69 @@
 }
 
 .sec02 .inner .contents ul li .grid .grid-children .grid-contents {
+    position: relative;
     width: 100%;
-    height: 200px;
+    height: auto;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: #f7f7f7;
     border-radius: 0 0 10px 10px;
 }
 
 .sec02 .inner .contents ul li .grid .grid-children .grid-contents .title {
     color: #303030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec02 .inner .contents ul li .grid .grid-children .grid-contents .work {
+    position: relative;
+    background-color: #777;
+    border-radius: 30px;
+    padding: 3px 10px;
+    cursor: help;
+    width: 60px;
+    text-align: center;
+}
+
+.sec02 .inner .contents ul li .grid .grid-children .grid-contents .work .dev {
+    color: #fff;
+    font-size: 12px;
+}
+
+.sec02 .inner .contents ul li .grid .grid-children .grid-contents .work .notice {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.2);
+    padding: 5px 10px;
+    left: 0;
+    width: 230px;
+    z-index: 2;
+    top: 30px;
+    transition: all 0.25s;
+    opacity: 0;
+}
+
+.sec02 .inner .contents ul li .grid .grid-children .grid-contents .work .notice::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+
+.sec02 .inner .contents ul li .grid .grid-children .grid-contents .work .notice.hover {
+    opacity: 1;
+}
+
+.sec02 .inner .contents ul li .grid .grid-children .grid-contents .work .notice p {
+    font-size: 13px;
+    text-align: left;
 }
 
 .sec02 .inner .contents ul li .grid .grid-children .grid-contents .detail {
