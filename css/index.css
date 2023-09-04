@@ -267,7 +267,7 @@
     flex-direction: column;
     gap: 10px 0;
     border: 1px solid #eee;
-    min-width: 200px;
+    min-width: 160px;
 }
 
 .sec02 .inner .banner .wing li.current p {
@@ -383,7 +383,7 @@
     height: 100%;
     object-fit: cover;
     object-position: top;
-    transition: all 0.25s;
+    transition: all 0.5s;
 }
 
 .sec02 .inner .contents ul li .grid .grid-children:hover .grid-img img {
@@ -502,7 +502,7 @@
     height: 100%;
     border-radius: 25px;
     background-color: #3584f9;
-    transition: all 0.25s;
+    transition: all 0.5s;
     z-index: -1;
 }
 
