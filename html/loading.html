@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="../css/loading.css">
+<div class="load">
+    <div class="stars"></div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    for(let i=1; i < 50; i++) {
+        let starCount = Math.floor(Math.random() * i);
+        let starCircle = Math.floor(Math.random() * 8 + 1);
+        let htmlWidth = window.innerWidth;
+        console.log(htmlWidth);
+
+        let star = "<div class='star' style='width: " +starCircle + "px; height: " + starCircle + "px;'></div>";
+
+        $('.stars').html(star);
+    }
+</script>

@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../font/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../font/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../font/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../font/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../font/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../font/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    text-size-adjust: none;
+    font-family: 'Pretendard';
+    word-break: keep-all;
+    color: #303030;
+}
+
+.sec-inner {
+    position: relative;
+    width: 500px;
+    margin: auto;
+    z-index: 1;
+}
+
+.pc {
+    display: flex;
+}
+
+.mo {
+    display: none;
+}
+
+/* 다크모드 */
+.wrapper.dark-mod {
+    background-color: rgb(53, 53, 53);
+}
+
+.wrapper.dark-mod p,
+.wrapper.dark-mod .sec01 .profile ul li h3,
+.wrapper.dark-mod h5,
+.wrapper.dark-mod .sec02 nav ul li {
+    color: #fff;
+}
+
+.wrapper.dark-mod .sec02 nav {
+    border-bottom: 1px solid #fff;
+    background-color: rgb(53, 53, 53);
+}
+
+.wrapper.dark-mod .sec02 nav ul li:hover {
+    color: #3584f9;
+}
+
+.wrapper.dark-mod .sec01 .contact .sns {
+    background-color: #fff;
+}
+
+.wrapper.dark-mod .sec02 .inner .banner .wing {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 720px) {
+    .pc {
+        display: none;
+    }
+
+    .mo {
+        display: block;
+    }
+}

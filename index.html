@@ -1,148 +1,214 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="ko">
 <head>
-    <title>서현우 포트폴리오</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" type="text/css" href="me/css/header.css">
-    <link rel="icon" type="text/css" href="me/img/icon.png" />
-    <link rel="stylesheet" type="text/css" href="me/css/me.css" />
-    <link rel="stylesheet" type="text/css" href="me/css/skill.css" />
-    <link rel="stylesheet" type="text/css" href="me/css/popol.css" />
-    <link rel="stylesheet" type="text/css" href="me/css/wave.css" />
-    <link rel="stylesheet" type="text/css" href="me/css/footer.css" />
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서현우-포트폴리오</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/projects.js"></script>
 </head>
-
-<body onload="startTimer()" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
-    <div class="header">
-        <img src="me/img/milkyway.jpg" id="bg" />
-        <img src="me/img/moon.png" id="moon" />
-        <img src="me/img/mountain.png" id="mtn" />
-        <img src="me/img/road.png" id="road" />
-        <h1 id="text">PORTFOLIO
-        </h1>
-    </div>
-    <div class="container">
-        <div class="banner">
-            <div class="card">
-                <h1>Seo Hyunwoo</h1>
-                <br>
-                <h1>1993.06.15</h1>
-                <br>
-                <h1>dustmzmfla@naver.com</h1>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <h1>※ 휴대폰 하단 버튼을 눌러보세요</h1>
-            </div>
-            <div class="mobile">
-                <div class="top">
+<body>
+    <div class="wrapper light-mod">
+        <section class="sec01">
+            <div class="sec-inner">
+                <div class="me">
+                    <div class="my-img ani">
+                        <div class="shadow"></div>
+                        <img src="./img/me.jpg" alt="me">
+                    </div>
+                    <div class="about-me ani">
+                        <h5>서현우</h5>
+                        <p>웹 퍼블리셔 & 프론트엔드 개발자</p>
+                    </div>
                 </div>
-                <div class="bottom"></div>
-                <div class="screen">
-                    <img src="me/img/ME.jpeg">
-                    <h2 id="time"></h2>
+                <div class="mod">
+                    <div class="dark">
+                        <img src="./img/lnr-moon.svg" alt="모드변경" title="다크모드로 변경">
+                    </div>
+                    <div class="light">
+                        <img src="./img/lnr-sun.svg" alt="모드변경" title="라이트모드로 변경">
+                    </div>
+                </div>
+            </div>
+            <div class="profile">
+                <ul>
+                    <li class="ani">
+                        <h3>경력</h3>
+                        <h5>3년</h5>
+                    </li>
+                    <li class="ani">
+                        <h3>협력사</h3>
+                        <h5>15</h5>
+                    </li>
+                    <li class="condition ani">
+                        <h3>상태</h3>
+                        <h5>구직중</h5>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact ani">
+                <div class="shutter"><p>CONTACT ME</p></div>
+                <div class="sns">
+                    <a href="https://open.kakao.com/o/sevIOuEf" title="카카오톡" target="_blank">
+                        <img src="./img/kakaotalk.png" alt="카카오톡">
+                    </a>
+                    <a href="https://github.com/dustmzmfla" title="Git" target="_blank">
+                        <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle color-fg-default">
+                            <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/haenoo" title="linkedIn" target="_blank">
+                        <img src="./img/linkedIn.png" alt="링크드인">
+                    </a>
+                    <a href="https://haenuss.tistory.com/" title="티스토리" target="_blank">
+                        <img src="./img/tstory.png" alt="티스토리">
+                    </a>
+                    <a href="mailto: dustmzmfla@naver.com" title="이메일 보내기">
+                        <img src="./img/lnr-envelope.svg" alt="이메일">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <secction class="sec02">
+            <nav>
+                <ul class="nav-first">
+                    <li id="nav01">Projects</li>
+                    <li id="nav02">My Skils</li>
+                </ul>
+            </nav>
+            <div class="inner ani">
+                <div class="banner">
+                    <ul class="wing">
+                        <li data-list="samsung" class="wing-nav01"><p>삼성화재</p></li>
+                        <li data-list="kyobo" class="wing-nav02"><p>교보생명</p></li>
+                        <li data-list="meritz" class="wing-nav03"><p>메리츠화재</p></li>
+                        <li data-list="aig" class="wing-nav04"><p>AIG</p></li>
+                        <li data-list="hana" class="wing-nav05"><p>하나손해보험</p></li>
+                        <li data-list="kolon" class="wing-nav06"><p>코오롱</p></li>
+                        <li data-list="thek" class="wing-nav07"><p>교직원공제회</p></li>
+                        <li data-list="aia" class="wing-nav08"><p>AIA생명</p></li>
+                        <li data-list="lg" class="wing-nav09"><p>LG</p></li>
+                        <li data-list="teddyx" class="wing-nav10"><p>TEDDY X</p></li>
+                        <li data-list="addward" class="wing-nav11"><p>ADDWARD</p></li>
+                        <li data-list="mstm" class="wing-nav12"><p>MSTM</p></li>
+                        <li data-list="taxin" class="wing-nav13"><p>택시N</p></li>
+                        <li data-list="todes" class="wing-nav14"><p>TODES</p></li>
+                        <li data-list="utomo" class="wing-nav15"><p>UTOMO</p></li>
+                    </ul>
+                    <div class="top-btn"><p>맨 위로</p></div>
+                </div>
+                <div class="contents">
                     <ul>
-                        <li>
-                            <a class="fa fa-instagram" aria-hidden="true" href='https://www.instagram.com/saenooss/' target="blank"></a>
+                        <li class="samsung">
+                            <div class="logo">
+                                <img src="./img/logo/samsung.png" alt="삼성화재">
+                            </div>
+                            <div class="grid"></div>
                         </li>
-                        <li>
-                            <a class="fa fa-facebook-square" aria-hidden="true" href="https://www.facebook.com/hyuynwoo.seo" target="blank"></a>
+                        <li class="kyobo">
+                            <div class="logo">
+                                <img src="./img/logo/kyobo.png" alt="교보생명">
+                            </div>
+                            <div class="grid"></div>
+                        <li class="meritz">
+                            <div class="logo">
+                                <img src="./img/logo/meritz.png" alt="메리츠화재">
+                            </div>
+                            <div class="grid"></div>
+                        </li>
+                        <li class="aig">
+                            <div class="logo">
+                                <img src="./img/logo/aig.png" alt="AIG">
+                            </div>
+                            <div class="grid"></div>
+                        </li>
+                        <li class="hana">
+                            <div class="logo">
+                                <img src="./img/logo/hana.png" alt="하나손해보험">
+                            </div>
+                            <div class="grid"></div>
+                        </li>
+                        <li class="kolon">
+                            <div class="logo">
+                                <img src="./img/logo/kolon.png" alt="코오롱">
+                            </div>
+                            <div class="grid"></div>
+                        <li class="thek">
+                            <div class="logo">
+                                <img src="./img/logo/thek.png" alt="교직원공제회">
+                            </div>
+                            <div class="grid"></div>
+                        <li class="aia">
+                            <div class="logo">
+                                <img src="./img/logo/aia.png" alt="AIA">
+                            </div>
+                            <div class="grid"></div>
+                        </li>
+                        <li class="lg">
+                            <div class="logo">
+                                <img src="./img/logo/lg.png" alt="LG">
+                            </div>
+                            <div class="grid"></div>
+                        </li>
+                        <li class="teddyx">
+                            <div class="logo">
+                                <img src="./img/logo/teddyx.png" alt="TEDDYX">
+                            </div>
+                            <div class="grid"></div>
+                        </li>
+                        <li class="addward">
+                            <div class="logo">
+                                <img src="./img/logo/addward.png" alt="ADDWARD">
+                            </div>
+                            <div class="grid"></div>
+                        </li>
+                        <li class="mstm">
+                            <div class="logo">
+                                <img src="./img/logo/mstm.svg" alt="MSTM">
+                            </div>
+                            <div class="grid"></div>
+                        </li>
+                        <li class="taxin">
+                            <div class="logo">
+                                <img src="./img/logo/taxin.svg" alt="택시N">
+                            </div>
+                            <div class="grid"></div>
+                        </li>
+                        <li class="todes">
+                            <div class="logo">
+                                <img src="./img/logo/todes.png" alt="TODES">
+                            </div>
+                            <div class="grid"></div>
+                        </li>
+                        <li class="utomo">
+                            <div class="logo">
+                                <img src="./img/logo/utomo.svg" alt="UTOMO">
+                            </div>
+                            <div class="grid"></div>
                         </li>
                     </ul>
                 </div>
             </div>
-        </div>
-    </div>
-    <div id="gradation"></div>
-    <div class="skill">
-        <div class="clouds">
-            <img src="me/img/cloud1.png" style="--i:1;">
-            <img src="me/img/cloud2.png" style="--i:2;">
-            <img src="me/img/cloud3.png" style="--i:3;">
-            <img src="me/img/cloud4.png" style="--i:4;">
-            <img src="me/img/cloud5.png" style="--i:5;">
-        </div>
-    </div>
-    <div class="skill_text">
-        <section>
-            <div class="myskill">
-                <h3>-- Skill --</h3>
+        </secction>
+        <div class="popup">
+            <div class="popup-header">
+                <h5>방문해 주셔서 감사합니다</h5>
+                <div class="close-btn"><img src="./img/lnr-cross.svg" alt="닫기"></div>
             </div>
-        </section>
-        <section>
-            <div class="myskill">
-                <h3>HTML</h3>
-            </div>
-        </section>
-        <section>
-            <div class="myskill">
-                <h3>CSS</h3>
-            </div>
-        </section>
-        <section>
-            <div class="myskill">
-                <h3>Javascript</h3>
-            </div>
-        </section>
-    </div>
-    <div class="blue">
-        <div class="wave"></div>
-    </div>
-    <div class="popol">
-        <div class="setting">
-            <div class="popolbox">
-                <div class="imgBx">
-                    <img src="me/img/gamespace.png" />
-                </div>
-                <div class="content">
-                    <h4>Game Space</h4>
-                    <br>
-                    <br>
-                    <p>모든 것을 전부 구상해 혼자 만들어 낸 게임 커뮤니티 사이트입니다.</p>
-                    <br>
-                    <br>
-                    <a href="gamespace/main.html">바로가기</a>
-                </div>
-            </div>
-            <div class="popolbox">
-                <div class="imgBx">
-                    <img src="me/img/adobe.png" />
-                </div>
-                <div class="content">
-                    <h4>Adobe Creative Cloud</h4>
-                    <br>
-                    <br>
-                    <p>어도비 크리에이티브 클라우드 사이트를 참고해 제 스타일대로 만들어 본 사이트입니다.</p>
-                    <br>
-                    <br>
-                    <a href="adobe/adobe.html">바로가기</a>
-                </div>
+            <div class="popup-body">
+                <p>센스있고 신속한 작업으로 최선을 다해<br/>만족시켜드릴 자신이 있습니다</p>
+                <a href="https://open.kakao.com/o/sevIOuEf" title="카카오톡" target="_blank">
+                    <img src="./img/kakaotalk.png" alt="카카오톡">
+                    카카오톡으로 연락하기
+                </a>
             </div>
         </div>
+        <footer><p>© 2023. Hyunwoo Seo. All rights reserved.</p></footer>
     </div>
-    <footer>
-        <h1>감사합니다</h1>
-        <h3>해당 페이지는 크롬 브라우저에 최적화 되어있습니다.</h3>
-    </footer>
-    <svg>
-        <filter id="wavy">
-            <feTurbulence x="0" y="0" baseFrequency="0.02" numOctaves="5" seed="2">
-                <animate attributeName="baseFrequency" dur="60s" values="0.02;0.05;0.02" repeatCount="indefinite" />
-            </feTurbulence>
-            <feDisplacementMap in="SourceGraphic" scale="30" />
-        </filter>
-    </svg>
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script type="text/javascript" src="me/js/header.js">
-    </script>
-    <script type="text/javascript" src="me/js/me.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/templates.js"></script>
 </body>
-
 </html>
