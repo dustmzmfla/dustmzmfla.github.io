@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    margin: auto;
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background-image:linear-gradient(0deg, #e6def5, #fddeed);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;  
+    margin: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+.first {
+    background-image: url("../img/01.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.second {
+    background-image: url("../img/02.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.third {
+    background-image: url("../img/03.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.fourth {
+    background-image: url("../img/04.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.swiper-pagination-bullet {
+    height: 4px !important;
+    width: 4px !important;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets {
+    top: 41px;
+    padding: 0 30px;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 12px !important;
+}
+
+span.swiper-pagination-bullet-active:first-child {
+    background: #f54f7e;
+}
+
+span.swiper-pagination-bullet-active:nth-child(2) {
+    background: #f3637c;
+}
+
+span.swiper-pagination-bullet-active:nth-child(3) {
+    background: #f66960;
+}
+
+span.swiper-pagination-bullet-active:last-child {
+    background: #fa7435
+}
+
+span.swiper-pagination-bullet {
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.button img {
+    position: relative;
+    top: 3px;
+    width: 100%;
+    height: 100%;
+}
+
+/** 휴대폰 세로 **/
+@media all and (orientation:portrait) {
+    
+.first {
+    background-image: url("../img/01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.second {
+    background-image: url("../img/02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.third {
+    background-image: url("../img/03.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.fourth {
+    background-image: url("../img/04.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 21px !important;
+}
+
+.swiper-pagination-bullet {
+    height: 9px !important;
+    width: 9px !important;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets {
+    top: 30px;
+}
+
+}

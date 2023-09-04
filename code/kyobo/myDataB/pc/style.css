@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+body {
+    margin: auto;
+    overflow: hidden;
+}
+
+.title {
+  z-index: 10;
+}
+
+.bg,
+.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg img,
+.title img {
+  width: 80%;
+  height: auto;
+}
+
+.body_wrap {
+  position: relative;
+  height: 100vh;
+}
+
+.swiper {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+  position: absolute;
+  width: 141px;
+  top: 4%;
+  left: 5%;
+  z-index: 100;
+}
+
+.show_left {
+  position: relative;
+  animation: show_left 0.5s 0.3s ease forwards;
+}
+
+.show_right {
+  position: relative;
+  animation: show_right 0.5s 0.3s ease forwards;
+}
+
+.show_up {
+  position: relative;
+  animation: show_up 0.5s 0.3s ease forwards;
+}
+
+.hide {
+  opacity: 0;
+}
+
+@keyframes show_left {
+  0% {
+    opacity: 0;
+    left: -15px;
+  }
+  
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+@keyframes show_right {
+  0% {
+    opacity: 0;
+    right: -15px;
+  }
+  
+  100% {
+    opacity: 1;
+    right: 0px;
+  }
+}
+
+@keyframes show_up {
+  0% {
+    opacity: 0;
+    bottom: -15px;
+  }
+  
+  100% {
+    opacity: 1;
+    bottom: 0px;
+  }
+}
+
+.slide11 {
+  text-align: center;
+}
+
+.flex_wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.slide_wrap {
+  width: 500px;
+}
+
+.title11 {
+  width: 280px;
+  margin: auto;
+}
+
+.title12 {
+  width: 316px;
+  margin: 65px auto 0;
+}
+
+.title13 {
+  width: 385px;
+  margin: auto;
+}
+
+.title13 img {
+  width: 70%;
+  margin-top: 76px;
+}
+
+.swiper-button-next::after {
+    content: '' !important;
+}
+
+.swiper-button-next {
+    position: absolute;
+    top: auto;
+    bottom: 4%;
+    left: 49%;
+    animation: twinkle 1s linear infinite alternate;
+}
+
+.swiper-button-next img {
+  width: 44px;
+}
+
+@keyframes twinkle {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.insu_line {
+  position: relative;
+  width: 402px;
+  margin: auto;
+  top: 90px;
+}
+
+.insu_line img {
+  width: 100%;
+}
+
+.swiper-button-next.swiper-button-disabled {
+  display: none;
+}
+
+@media (min-width: 1600px) {
+  .body_wrap {
+    width: 1600px;
+    margin: auto;
+  }
+}

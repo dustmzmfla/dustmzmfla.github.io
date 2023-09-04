@@ -1,0 +1,322 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'kyobo', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    -webkit-user-select:none; 
+    -moz-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none;
+}
+
+body {
+    overflow: hidden;
+}
+
+.event_detail {
+    position: relative;
+    width: 100%;
+    background: #fff;
+}
+
+.show {
+    animation: show 0.5s 0.3s ease forwards;
+}
+
+.show2 {
+    animation: show2 1.2s 0.8s ease forwards;
+}
+
+.show_left {
+    animation: show_left 0.5s 0.5s ease forwards;
+}
+
+.show_right {
+    animation: show_right 0.5s 0.5s ease forwards;
+}
+
+.show_up {
+    position: relative;
+    animation: show_up 0.5s 0.5s ease forwards;
+}
+
+@keyframes show {
+    0% {
+      opacity: 0;
+    }
+    
+    100% {
+      opacity: 1;
+    }
+}
+
+@keyframes show2 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes show_left {
+    0% {
+      opacity: 0;
+      margin-left: -15px;
+    }
+    
+    100% {
+      opacity: 1;
+      margin-left: 0px;
+    }
+  }
+  
+  @keyframes show_right {
+    0% {
+      opacity: 0;
+      margin-right: -15px;
+    }
+    
+    100% {
+      opacity: 1;
+      margin-right: 0px;
+    }
+  }
+  
+  @keyframes show_up {
+    0% {
+      opacity: 0;
+      bottom: -15px;
+    }
+    
+    100% {
+      opacity: 1;
+      bottom: 0px;
+    }
+  }
+
+.hide {
+    opacity: 0;
+}
+
+.left_array {
+    text-align: left;
+}
+
+.right_array {
+    text-align: right;
+}
+
+.middle_array {
+    text-align: center;
+}
+
+.bg01 {
+    width: 70%;
+}
+
+.title01 {
+    position: relative;
+    margin-top: 37px;
+    left: 55px;
+    width: 117px;
+}
+
+.bg02 {
+    width: 100%;
+}
+
+.title02 {
+    margin-top: 25px;
+    width: 207px;
+}
+
+.bg03 {
+    width: 73%;
+}
+
+.title03 {
+    position: relative;
+    left: 40px;
+    margin-top: 37px;
+    width: 117px;
+}
+
+.bg04 {
+    width: 80%;
+}
+
+.title04 {
+    position: relative;
+    right: 40px;
+    margin-top: 39px;
+    width: 177px;
+}
+
+.bg05 {
+    width: 85%;
+}
+
+.title05 {
+    position: relative;
+    left: 50px;
+    margin-top: 37px;
+    width: 117.5px;
+}
+
+.bg06 {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.title06 {
+    position: relative;
+    right: 50px;
+    width: 214px;
+}
+
+.bg07 {
+    margin-top: 37px;
+    width: 82%;
+}
+
+.title07 {
+    position: relative;
+    left: 60px;
+    width: 117px;
+}
+
+.bg08 {
+    width: 100%;
+}
+
+.title08 {
+    position: relative;
+    right: 40px;
+    margin-top: 39px;
+    width: 275px;
+}
+
+.bg09 {
+    width: 82%;
+}
+
+.title09 {
+    position: relative;
+    left: 60px;
+    margin-top: 37px;
+    width: 117px;
+}
+
+.bg10 {
+    width: 82%;
+}
+
+.title10 {
+    position: relative;
+    margin-top: 39px;
+    width: 161px;
+}
+
+.title11 {
+    width: 51%;
+}
+
+.title12 {
+    width: 54%;
+    margin-top: 20%;
+}
+
+.title13 img {
+    width: 63%;
+    margin-top: 16%;
+}
+
+.swiper {
+    height: 100vh;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+
+.swiper-button-next {
+    position: fixed;
+    top: auto;
+    z-index: 100;
+    bottom: 3%;
+    left: 44%;
+    cursor: none;
+    outline: none;
+    -webkit-user-select:none; 
+    -moz-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none;
+    background-image: url(../source/svg/mouse.svg);
+    width: 50px;
+    height: 45px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    animation: down 0.3s linear infinite alternate;
+}
+
+@keyframes down {
+    0% {
+        bottom: 3%;
+    }
+
+    100% {
+        bottom: 2%;
+    }
+}
+
+.swiper-button-next.swiper-button-disabled {
+    display: none;
+}
+.grid {
+    display: grid;
+    height: 100%;
+    align-items: center;
+}
+
+.grid_wrap {
+    height: auto;
+    margin-bottom: 25%;
+}
+
+.insure {
+    width: 237px;
+    margin-top: 60px;
+}
+
+.half_grid_wrap {
+    margin-bottom: 17%;
+}
+
+.peach_togo {
+    position: absolute;
+    z-index: 100;
+    bottom: 14%;
+    right: 0;
+}
+
+.peach_togo img {
+    width: 135px;
+}
+
+@media (min-width: 390px) {
+    .event_detail {
+        width: 390px;
+        margin: auto;
+    }
+}

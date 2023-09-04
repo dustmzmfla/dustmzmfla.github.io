@@ -1,0 +1,312 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "맑은고딕", "Malgun Gothic", "dotum", "gulim", sans-serif;
+}
+
+body {
+    background: #e8e8e8;
+}
+
+section {
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 50px;
+    letter-spacing: -1px;
+    background-image: url(../image/detail.png);
+}
+
+.back_btn {
+    display: none;
+}
+
+.top {
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 29px;
+}
+
+.insu_area ul {
+    display: flex;
+    justify-content: center;
+}
+
+.insu_area ul li {
+    cursor: pointer;
+}
+
+.insu_area ul li img {
+    width: 500px;
+}
+
+.insu_area ul li:last-child {
+    margin-left: 30px;
+}
+
+.notice {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.notice_text {
+    display: flex;
+}
+
+.notice_text .line {
+    position: relative;
+    top: 3px;
+}
+
+.notice_text .text_line {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.insu_noti {
+    width: 1008px;
+    margin: auto;
+}
+
+.insu_noti p {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #033981;
+}
+
+.insu_area {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.insu1,
+.insu2 {
+    width: 497px;
+    height: 367px;
+    border: 1px solid #d5d5d5;
+    background: #fff;
+    cursor: pointer;
+}
+
+.insu2 {
+    margin-left: 30px;
+}
+
+.content {
+    padding: 30px;
+}
+
+.content .head {
+    display: flex;
+}
+
+.content .head p {
+    color: #888;
+    position: relative;
+    left: 10px;
+    top: 3px;
+    font-size: 13px;
+    letter-spacing: -1px;
+}
+
+.insu_area h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #033981;
+    font-size: 25px;
+}
+
+.description {
+    display: flex;
+}
+
+.description p {
+    margin-left: 10px;
+    font-size: 17px;
+    color: #000;
+}
+
+.foot .btn_area {
+    margin-top: 20px;
+    float: left;
+    width: 310px;
+}
+
+.img_area1,
+.img_area2 {
+    position: relative;
+    float: right;
+}
+
+.img_area1 {
+    top: 50px;
+}
+
+.img_area2 {
+    top: 23px;
+}
+
+footer {
+    background: #fff;
+    text-align: center;
+    padding: 30px;
+    letter-spacing: -1px;
+    color: #888;
+    font-size: 12px;
+}
+
+.pc01 {
+    display: block;
+}
+
+.mob01 {
+    display: none;
+}
+
+footer p {
+    font-weight: bold;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.brbr {
+    display: none;
+}
+
+@media (max-width: 720px) {
+
+    .brbr {
+        display: block;
+    }
+
+    section {
+        width: 100%;
+        background-image: unset;
+    }
+
+    .top {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .top img {
+        width: 85%;
+    }
+
+    .insu_area {
+        display: block;
+        margin-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .insu1, .insu2 {
+        width: 100%;
+        margin-top: 20px;
+        height: 290px;
+    }
+
+    .insu2 {
+        margin-left: 0px;
+    }
+
+    .insu_noti {
+        width: 100%;
+    }
+
+    .content .head img {
+        width: 75px;
+    }
+
+    .content .head p {
+        top: 1px;
+        font-size: 11px;
+        letter-spacing: -1px;
+    }
+
+    .insu_area h3 {
+        font-size: 20px;
+    }
+
+    .description p {
+        font-size: 13px;
+    }
+
+    .description .check_img img {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        bottom: 3px;
+    }
+
+    .foot .btn_area {
+        width: auto;
+        float: none;
+    }
+
+    .foot .btn_area img {
+        width: 150px;
+    }
+
+    .img_area1 {
+        top: -20px;
+    }
+
+    .img_area1 img {
+        width: 100px;
+    }
+    
+    .img_area2 {
+        top: -40px;
+    }
+
+    .img_area2 img {
+        width: 100px;
+    }
+
+    .notice {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 0px;
+    }
+
+    .notice_text {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .insu_noti p {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 15px;
+    }
+
+    .back_btn {
+        font-weight: bold !important;
+        font-size: 20px;
+        cursor: pointer;
+        position: relative;
+        top: 20px;
+        left: 20px;
+        display: block;
+    }
+
+    .pc01 {
+        display: none;
+    }
+    
+    .mob01 {
+        display: block;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+}

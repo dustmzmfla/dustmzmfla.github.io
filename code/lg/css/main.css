@@ -1,0 +1,472 @@
+@charset "utf-8";
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "맑은고딕", "Malgun Gothic", "dotum", "gulim", sans-serif;
+}
+
+body {
+    margin: auto;
+}
+
+section {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.back_btn {
+    display: none;
+}
+
+.mall_wrap .section_header .tit_h1 {
+    line-height: 110px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+.pc_banner {
+    display: block;
+}
+
+.m_banner {
+    display: none;
+}
+
+.mb_50 {
+    margin-bottom: 50px!important;
+}
+
+.mt_40 {
+    margin-top: 40px!important;
+}
+
+.section_body .middle {
+    display: flex;
+    margin-bottom: 50px;
+    width: 1200px;
+}
+
+.bar {
+    background: #dd1246;
+    width: 80px;
+    height: 2px;
+    position: relative;
+    top: 15px;
+    float: left;
+    display: block;
+}
+
+.bar2 {
+    display: none;
+}
+
+.section_body .middle h1 {
+    float: left;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.section_body .one_by_one {
+    width: 400px;
+}
+
+.section_body .one_by_one .one_by_onechild .second_one {
+    margin-left: 10px;
+}
+
+.section_body .one_by_one .one_by_onechild .first_one {
+    margin-top: 47px;
+}
+
+.section_body .need_one {
+    width: 400px;
+    margin-left: 10px;
+}
+
+.section_body .need_one .need_child {
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.first_need {
+    width: 380px;
+    height: 298px;
+    border: 1px solid #d5d5d5;
+}
+
+.first_need img {
+    width: 100%;
+    height: 100%;
+}
+
+.first_need .need_main_title {
+    font-weight: bold;
+    font-size: 23px;
+    padding-left: 30px;
+    padding-top: 15px;
+    letter-spacing: -1px;
+}
+
+.first_need .need_sub_title {
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.second_need {
+    width: 100%;
+    height: 158px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.middle_title {
+    height: 130px;
+}
+
+.middle_title h1 {
+    margin-top: 15px;
+}
+
+.middle_title h1 span {
+    letter-spacing: -2px;
+    color: #dd1246;
+    font-size: 26px;
+}
+
+.middle_title p {
+    margin-top: 10px;
+}
+
+.insurance {
+    display: flex;
+    margin-top: 20px;
+    width: 1200px;
+}
+
+.insurance a {
+    width: 250px;
+    height: 150px;
+    border: 1px solid #d5d5d5;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.insurance a h3 {
+    font-size: 16px;
+    color: #000;
+}
+
+.insurance a button {
+    padding: 6px 10px;
+    background: #dd1246;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.insurance a:first-child {
+    background-image: url("../image/insurance01.png");
+    background-position: -190px 75px;
+    background-repeat: no-repeat;
+}
+
+.insurance a:nth-child(2) {
+    background-image: url("../image/insurance02_1.png");
+    background-position: -190px 0px;
+    background-repeat: no-repeat;
+}
+
+.insurance a:nth-child(3) {
+    background-image: url("../image/insurance03.png");
+    background-position: -190px 70px;
+    background-repeat: no-repeat;
+}
+
+.insurance a:nth-child(4) {
+    background-image: url("../image/insurance04.png");
+    background-position: -190px 70px;
+    background-repeat: no-repeat;
+}
+
+.insurance a:last-child {
+    background-image: url("../image/insurance05.png");
+    background-position: -190px 70px;
+    background-repeat: no-repeat;
+}
+
+.background_color {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 150px;
+    background: #e4e4e4;
+    bottom: 215px;
+}
+
+.brbr {
+    display: none;
+}
+
+.pc_adv {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #d5d5d5;
+}
+
+.m_adv {
+    display: none;
+}
+
+.first_one {
+    height: 470px;
+}
+
+.first_one img, .second_one img {
+    width: 100%;
+    height: 100%;
+}
+
+.last_one {
+    width: 400px;
+    margin-left: 10px;
+    background: gray;
+    height: 470px;
+    position: relative;
+    top: 47px;
+}
+
+@media (max-width: 720px) {
+    * {
+        font-family: "Droid Sans", "맑은고딕", "Roboto", "Apple SD Gothic Neo";
+    }
+
+    .section_body .middle {
+        width: 100%;
+    }
+
+    section {
+        max-width: 720px;
+        overflow: hidden;
+    }
+
+    .section_header {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .section_header img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section_header h1 img {
+        width: 100%;
+    }
+
+    .mb_50 {
+        margin-bottom: 0px !important;
+    }
+
+    .pc_banner {
+        display: none;
+    }
+    
+    .m_banner {
+        display: block;
+    }
+
+    .section_body {
+        width: 100%;
+    }
+
+    .section_body .middle {
+        display: block;
+        background: #fff;
+    }
+
+    .section_body .one_by_one {
+        width: 100%;
+    }
+
+    .section_body .one_by_one h1 {
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .bar {
+        display: none;
+    }
+
+    .bar2 {
+        background: #dd1246;
+        width: 50px;
+        height: 2px;
+        display: block;
+        top: 0px;
+        margin: auto;
+    }
+
+    .section_body .one_by_one .one_by_onechild {
+        display: block;
+        margin: auto;
+        margin-top: 25px;
+        width: 90%;
+    }
+
+    .section_body .one_by_one .one_by_onechild .second_one {
+        margin-left: 0px;
+    }
+
+    .section_body .need_one {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .section_body .need_one .bar2 {
+        margin-top: 50px;
+    }
+
+    .section_body .need_one .need_child {
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .section_body .middle h1 {
+        float: none;
+        margin-right: 0px;
+        text-align: center;
+        margin-top: 15px;
+        font-size: 22px;
+    }
+
+    .middle_title {
+        height: auto;
+        width: 90%;
+        margin: auto;
+    }
+
+    .middle_title h1 {
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .middle_title p {
+        text-align: center;
+        margin: auto;
+        font-size: 16px;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+
+    .middle_title .bar2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .insurance {
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+
+    .insurance a {
+        width: 90%;
+        margin-left: 0px;
+        height: 80px;
+        margin-top: 5px;
+        display: block;
+    }
+
+    .insurance a h3 {
+        margin-top: 10px;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+
+    .insurance a button {
+        margin-left: 10px;
+    }
+
+    .insurance a:first-child {
+        background-position: -75px 10px;
+    }
+
+    .insurance a:nth-child(2) {
+        background-position: -75px -70px;
+    }
+
+    .insurance a:nth-child(3) {
+        background-position: -75px 10px;
+    }
+
+    .insurance a:nth-child(4) {
+        background-position: -75px 10px;
+    }
+
+    .insurance a:last-child {
+        background-position: -75px 5px;
+    }
+
+    .back_gray {
+        width: 100%;
+        background: #e5e5e5;
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+
+
+    .background_color {
+        display: none;
+    }
+
+    .brbr {
+        display: block;
+    }
+
+    .pc_adv {
+        display: none;
+    }
+    
+    .m_adv {
+        display: block;
+    }
+
+    .last_one {
+        width: 90%;
+        margin: auto;
+        position: inherit;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .last_one img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .back_btn {
+        font-weight: bold !important;
+        font-size: 20px;
+        cursor: pointer;
+        position: relative;
+        top: 20px;
+        left: 20px;
+        display: block;
+    }
+
+}

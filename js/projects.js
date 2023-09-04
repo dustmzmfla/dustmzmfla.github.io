@@ -4,6 +4,7 @@ const projects = [
         key: 'samsung',
         title: ['운전자플랜', '실손보험', '건강보험', '자녀보험'],
         responsive : 'each',
+        code: 'yes',
         day: '1일',
         lang: 'HTML, CSS, JAVASCRIPT',
         percentage: 100,
@@ -17,6 +18,8 @@ const projects = [
                 'health/samsung-health-mo.png',
                 'superstar/samsung-superstar-mo.png',
                 ],
+        tab: [ 'samPop01','samPop02','samPop03','samPop04' ],
+        details: [],
         pcURL: ['https://sdp.addward.com/ad/sfmi_landing/happy_partner/pc/html/happy_partner.html',
                 'https://sdp.addward.com/ad/sfmi_landing/medical_expense_insurance/pc/html/medical_expense_insurance.html',
                 'https://sdp.addward.com/ad/sfmi_landing/health_insurance/pc/html/health_insurance.html',
@@ -27,12 +30,21 @@ const projects = [
                 'https://sdp.addward.com/ad/sfmi_landing/health_insurance/m/html/health_insurance.html',
                 'https://sdp.addward.com/ad/sfmi_landing/my_superstar/m/html/my_superstar.html',
                 ],
+        contents: [
+                `운전자 플랜 가입을 위한 사이트 입니다<br/>
+                PC와 모바일 따로 작업되었고 기본적으로 스크롤 위치에 따라 텍스트가 서서히 올라오며 보이는 형태입니다<br/>
+                로딩가 동시에 돌아가는 숫자는 odometer.js를 사용하였고 그래프는 직접 코딩하였습니다`,
+                `실손 보험 가입을 위한 사이트 입니다<br/>
+                PC와 모바일 따로 작업되었고 기본적으로 스크롤 위치에 따라 텍스트가 서서히 올라오며 보이는 형태입니다<br/>
+                로딩가 동시에 움직이는 그래프는 모두 직접 만들었습니다`,
+                ],
     },
     {
         id: 2,
         key: 'kyobo',
         title: ['괜찮아요 암보험', '종신보험', '암케어보험', '마이데이터 A', '마이데이터 B', '마이데이터 C', '슬기로운 보험생활'],
-        responsive : ['each', 'each', 'each', 'each', 'both', 'both', 'mobileOnly'],
+        responsive : ['each', 'each', 'each', 'each', 'each', 'each', 'mobileOnly'],
+        code: 'yes',
         day: '1일',
         lang: 'HTML, CSS, JAVASCRIPT',
         percentage: 100,
@@ -56,17 +68,24 @@ const projects = [
                 './code/kyobo/life/pc/html/index.html',
                 './code/kyobo/cancer-care/pc/html/index.html',
                 './code/kyobo/myDataA/pc/index.html',
+                './code/kyobo/myDataB/pc/index.html',
+                './code/kyobo/myDataC/pc/index.html',
+                './code/kyobo/insu-life/index.html',
                 ],
         moURL: ['./code/kyobo/ok-cancer/m/html/index.html',
                 './code/kyobo/life/m/html/index.html',
                 './code/kyobo/cancer-care/m/html/index.html',
                 './code/kyobo/myDataA/m/index.html',
+                './code/kyobo/myDataB/m/grand_open2.html',
+                './code/kyobo/myDataC/m/index.html',
+                './code/kyobo/insu-life/index.html',
                 ],
     },
     {
         id: 3,
         key: 'meritz',
         title: ['해외여행자보험', '장기체류보험', '국내여행보험', '미국&북아메리카 여행자보험', '호주 여행자보험', '유럽 여행자보험', '일본 여행자보험', '필리핀 여행자보험', '태국 여행자보험', '베트남 여행자보험'],
+        code: ['yes', 'yes', 'yes', 'no', 'no', 'no', 'no', 'no', 'no', 'no'],
         responsive : 'both',
         day: ['5일', '1일', '1일', '1일', '1일', '1일', '1일', '1일', '1일', '1일'],
         lang: 'HTML, CSS, JAVASCRIPT',
@@ -167,7 +186,7 @@ const projects = [
         percentage: 100,
         pcImg: ['thek01.png',
                 ],
-        pcURL: ['https://dir.thekevent.com/',
+        moURL: ['https://dir.thekevent.com/',
                 ],
     },
     {
@@ -181,7 +200,8 @@ const projects = [
         pcImg: ['aia-a.png',
                 'aia-b.png'
                 ],
-        pcURL: ['https://dir.thekevent.com/',
+        moURL: ['./code/aia/A/index.html',
+                './code/aia/B/index.html',
                 ],
     },
     {
@@ -194,8 +214,7 @@ const projects = [
         percentage: 100,
         pcImg: ['lg01.png',
                 ],
-        pcURL: ['https://dir.thekevent.com/',
-                ],
+        pcURL: ['./code/lg/html/',],
     },
     {
         id: 10,
@@ -207,7 +226,7 @@ const projects = [
         percentage: 100,
         pcImg: ['teddyx01.png',
                 ],
-        pcURL: ['https://teddy10.com/',
+        pcURL: ['https://teddy10.com/index.html',
                 ],
     },
     {

@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+}
+
+body {
+    min-width: 1500px;
+}
+
+.clearfix::after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.main_wrap {
+    overflow-y: hidden;
+}
+
+.section01 {
+    position: relative;
+    padding: 75px 0 293px 0;
+    background: #F96D98;
+}
+
+.kyobo {
+    width: 196px;
+    float: left;
+}
+
+.peach {
+    width: 151px;
+    float: right;
+}
+
+.pink_wrap {
+    background: #F96D98;
+}
+
+.pink_wrap section {
+    width: 1300px;
+    margin: auto;
+}
+
+.sec01_title_line {
+    margin-top: 194px;
+    text-align: center;
+    width: 690px;
+}
+
+.title01 {
+    width: 348px;
+}
+
+.title02 {
+    margin-top: 105px;
+    width: 684px;
+}
+
+.illu01 {
+    width: 1082px;
+    position: absolute;
+    right: -200px;
+    top: 237px;
+    z-index: 10;
+}
+
+.section02 {
+    position: relative;
+    text-align: center;
+    padding-bottom: 667px;
+}
+
+.title03 {
+    width: 364px;
+    display: block;
+    margin: 151px auto 0;
+}
+
+.title04 {
+    width: 468px;
+    display: block;
+    margin: 110px auto 0;
+}
+
+.illu02 {
+    width: 770px;
+    position: absolute;
+    bottom: -900px;
+    left: 35%;
+    z-index: 10;
+}
+
+.section03 {
+    padding: 763px 0 73px 0;
+    width: 910px;
+    margin: auto;
+}
+
+.title05 {
+    width: 448px;
+}
+
+.sec03_title_list {
+    margin-top: 81px;
+}
+
+.sec03_title_list li {
+    display: flex;
+}
+
+.sec03_title_list li:first-child .left_side {
+    margin-right: 271px;
+}
+
+.sec03_title_list li:last-child .left_side {
+    margin-right: 111px;
+}
+
+.title06_01 {
+    width: 292px;
+}
+
+.title06_02 {
+    width: 346px;
+}
+
+.sec03_title_list li:last-child {
+    margin-top: 128px;
+}
+
+.title07_01 {
+    width: 435px;
+}
+
+.title07_02 {
+    width: 260px;
+}
+
+footer {
+    padding: 48px 0;
+    background-color: #F7F7F7;
+}
+
+.footer_contents {
+    width: 910px;
+    margin: auto;
+}
+
+.footer_img {
+    width: 842px;
+}
+
+.ani {
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.up {
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+.insu {
+    width: 423px;
+    margin-top: 26px;
+}

@@ -24,7 +24,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn" data-tab="${data.tab[j]}">설명보기<div class="color"></div></button>
                             <a class="pc" href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
                             <a class="mo" href="${data.moURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
@@ -55,7 +55,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn">설명보기<div class="color"></div></button>
                             <a class="pc" href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
                             <a class="mo" href="${data.moURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
@@ -85,8 +85,8 @@ for (let data of projects) {
                             <p>기여도</p>
                             <div class="graph">${data.percentage}%</div>
                         </div>
-                        <div class="grid-btns">
-                            <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
+                        <div class="grid-btns ${data.code[j]}">
+                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
                             <a href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
@@ -116,7 +116,7 @@ for (let data of projects) {
                             <div class="graph my${data.percentage}">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="img-sample ${data.keydriver}">펼쳐보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn ${data.keydriver}">설명보기<div class="color"></div></button>
                         </div>
                     </div>
                 </div>
@@ -145,7 +145,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
                             <a href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
@@ -175,8 +175,8 @@ for (let data of projects) {
                             <div class="graph my${data.percentage[j]}">${data.percentage[j]}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
-                            <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
+                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
+                            <a href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
                 </div>
@@ -205,8 +205,8 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
-                            <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
+                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
+                            <a href="${data.moURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
                 </div>
@@ -235,8 +235,8 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
-                            <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
+                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
+                            <a href="${data.moURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
                 </div>
@@ -265,7 +265,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
                             <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
@@ -295,7 +295,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
                             <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
@@ -325,7 +325,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
                             <a class="pc" href="${data.pcURL[j]}" target="_blank"><div class="color"></div>바로가기</a>
                             <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
@@ -356,7 +356,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
                             <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
@@ -386,7 +386,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
                         </div>
                     </div>
                 </div>
@@ -415,7 +415,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
                             <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>
@@ -445,7 +445,7 @@ for (let data of projects) {
                             <div class="graph">${data.percentage}%</div>
                         </div>
                         <div class="grid-btns">
-                            <button type="button" class="img-sample ${data.key[j]}-driver">펼쳐보기<div class="color"></div></button>
+                            <button type="button" class="datail-btn ${data.key[j]}-driver">설명보기<div class="color"></div></button>
                             <a href="${data.pcURL}" target="_blank"><div class="color"></div>바로가기</a>
                         </div>
                     </div>

@@ -57,9 +57,9 @@ $(document).ready(function(){
     $(window).scroll(function(){
         let scrollY = $(window).scrollTop();
         if ( scrollY +300 >= samsung ) {
-            $('.popup').css('bottom', '30px');
+            $('.pop-box').css('bottom', '30px');
         }else {
-            $('.popup').css('bottom', '-1000px');
+            $('.pop-box').css('bottom', '-1000px');
         };
 
         if ( scrollY +300 >= samsung && scrollY +300 < kyobo ) {
@@ -118,10 +118,10 @@ $(document).ready(function(){
     });
 
     $('.close-btn').click(function(){
-        $('.popup').css('bottom', '-1000px');
-        $('.popup').css('opacity', '0');
+        $('.pop-box').css('bottom', '-1000px');
+        $('.pop-box').css('opacity', '0');
         setTimeout(function(){
-            $('.popup').remove();
+            $('.pop-box').remove();
         }, 100);
     });
 
@@ -151,7 +151,11 @@ $(document).ready(function(){
         <div class="work">
             <div class="dev">PC | MO</div>
             <div class="notice">
-                <p>바로가기 버튼을 눌렀을 때 PC화면에서는 PC로, 모바일 화면에선 모바일로 연결됩니다</p>
+                <p>
+                    PC와 모바일 버전이 따로 작업되어 있습니다<br/>
+                    바로가기 버튼은 PC환경에선 PC로,<br/>
+                    모바일 환경에선 모바일 페이지로 연결됩니다
+                </p>
             </div>
         </div>
     `;
@@ -159,7 +163,11 @@ $(document).ready(function(){
         <div class="work">
             <div class="dev">반응형</div>
             <div class="notice">
-                <p>반응형으로 작업된 페이지입니다</p>
+                <p>
+                    반응형으로 작업된 페이지입니다<br/>
+                    한 페이지 내에서 브라우저 크기를 조정하여,<br/>
+                    PC와 모바일 화면을 다 확인할 수 있습니다
+                </p>
             </div>
         </div>
     `;
@@ -168,7 +176,10 @@ $(document).ready(function(){
         <div class="work">
             <div class="dev">MOBILE</div>
             <div class="notice">
-                <p>해당 페이지는 모바일 전용으로 작업되어, 모바일 환경으로 보시는 걸 추천드립니다</p>
+                <p>
+                    해당 페이지는 모바일 전용으로 작업되어,<br/>
+                    모바일 환경에서 보시는 걸 추천드립니다
+                </p>
             </div>
         </div>
     `;
@@ -195,6 +206,20 @@ $(document).ready(function(){
         $(this).find('.notice').removeClass('hover');
     });
     
+    $('.popup-close').click(function(){
+        $('.popup').removeClass('show');
+        $('html').css('overflow', 'auto'); 
+    });
+    $('.popup-background').click(function(){
+        $('.popup').removeClass('show');
+        $('html').css('overflow', 'auto'); 
+    });
+
+    $('.datail-btn').click(function(){
+        let tabData = $(this).attr('data-tab');
+        $('#' + tabData).addClass('show');
+        $('html').css('overflow', 'hidden'); 
+    });
 
     
 });
