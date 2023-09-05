@@ -2,6 +2,31 @@ $(document).ready(function(){
 
     history.scrollRestoration = "manual"
 
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 2,
+        spaceBetween: 0,
+        loop: true,
+        speed: 5000,
+        observer: true,
+        observeParents: true,
+        observeSlideChildren: true,
+        allowTouchMove: false,
+        autoplay: {
+            delay: 0,
+            disableOnInteraction: false,
+        },
+        breakpoints : {
+            720: {
+                slidesPerView: 5,
+            },
+            1200: {
+                slidesPerView: 8,
+            }
+        },
+    });
+
+   
+
     function shadow() {
         var color_change = '#' + Math.floor(Math.random() * 16777216).toString(16);
         var imgBox = document.querySelector('.shadow');
@@ -16,15 +41,6 @@ $(document).ready(function(){
       $('.contact').mouseout(function(){
         $(this).removeClass('hover');
       });
-
-    $('.sec02 nav ul li:first-child').click(function(){
-        $('.sec02 nav ul').removeClass('nav-second');
-        $('.sec02 nav ul').addClass('nav-first');
-    });
-    $('.sec02 nav ul li:last-child').click(function(){
-        $('.sec02 nav ul').addClass('nav-second');
-        $('.sec02 nav ul').removeClass('nav-first');
-    });
 
     $('.dark').click(function(){
         $(this).hide();
@@ -187,23 +203,23 @@ $(document).ready(function(){
     $('.both').append(bothTemplate);
     $('.mobileOnly').append(mobileTemplate);
 
-    $('.each .work').mouseover(function(){
-        $(this).find('.notice').addClass('hover');
+    $('.each .dev').mouseover(function(){
+        $(this).siblings('.notice').addClass('hover');
     });
-    $('.both .work').mouseover(function(){
-        $(this).find('.notice').addClass('hover');
+    $('.both .dev').mouseover(function(){
+        $(this).siblings('.notice').addClass('hover');
     });
-    $('.mobileOnly .work').mouseover(function(){
-        $(this).find('.notice').addClass('hover');
+    $('.mobileOnly .dev').mouseover(function(){
+        $(this).siblings('.notice').addClass('hover');
     });
-    $('.each .work').mouseout(function(){
-        $(this).find('.notice').removeClass('hover');
+    $('.each .dev').mouseout(function(){
+        $(this).siblings('.notice').removeClass('hover');
     });
-    $('.both .work').mouseout(function(){
-        $(this).find('.notice').removeClass('hover');
+    $('.both .dev').mouseout(function(){
+        $(this).siblings('.notice').removeClass('hover');
     });
-    $('.mobileOnly .work').mouseout(function(){
-        $(this).find('.notice').removeClass('hover');
+    $('.mobileOnly .dev').mouseout(function(){
+        $(this).siblings('.notice').removeClass('hover');
     });
     
     $('.popup-close').click(function(){
@@ -241,6 +257,32 @@ $(document).ready(function(){
             $('.popup-wrapper').addClass('up');
         },200)
     });
+
+    $('.skill-list li').mouseover(function(){
+        $('.skill-list li').removeClass('mouseIn');
+        $(this).addClass('mouseIn');
+    });
+    $('.skill-list li').mouseout(function(){
+        $(this).removeClass('mouseIn');
+    });
+
+    
+    $('.sec02 nav ul li').click(function(){
+        let pro = ($('.myProjects').offset().top) - 100;
+        let ski = ($('.mySkill').offset().top) - 100;
+
+        if( $(this).attr('id') == 'nav01' ) {
+            $('.sec02 nav ul').removeClass('nav-second');
+            $('.sec02 nav ul').addClass('nav-first');
+            $('html').animate({scrollTop: pro}, 1000);
+        }else {
+            $('.sec02 nav ul').addClass('nav-second');
+            $('.sec02 nav ul').removeClass('nav-first');
+            $('html').animate({scrollTop: ski}, 1000);
+        }
+    });
+
+
 
     
 });

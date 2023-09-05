@@ -90,8 +90,24 @@
 }
 
 .wrapper.dark-mod .sec02 .inner .banner .wing {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #f7f7f7;
     border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.wrapper.dark-mod footer {
+    background-color: #fff;
+}
+
+.wrapper.dark-mod footer p {
+    color: #303030;
+}
+
+.wrapper.dark-mod .sec02 .inner.mySkill {
+    background-color: #888;
+}
+
+.wrapper.dark-mod .sec02 .inner.mySkill p {
+    color: #303030;
 }
 
 @media (max-width: 720px) {

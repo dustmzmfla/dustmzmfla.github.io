@@ -270,7 +270,7 @@ const projects = [
     {
         id: 10,
         key: 'teddyx',
-        title: ['TEDDY X 페이지 리뉴얼'],
+        title: ['TEDDY X 리뉴얼'],
         responsive : 'both',
         day: '20일',
         lang: 'HTML, CSS, JAVASCRIPT',
@@ -283,7 +283,7 @@ const projects = [
     {
         id: 11,
         key: 'addward',
-        title: ['ADDWARD 페이지 리뉴얼'],
+        title: ['ADDWARD 리뉴얼'],
         responsive : 'both',
         day: '10일',
         lang: 'HTML, CSS, JAVASCRIPT',
