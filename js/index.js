@@ -70,6 +70,8 @@ $(document).ready(function(){
     let taxin = $('.taxin').offset().top;
     let todes = $('.todes').offset().top;
     let utomo = $('.utomo').offset().top;
+    let pro = ($('.myProjects').offset().top) - 100;
+    let ski = ($('.mySkill').offset().top) - 100;
     $(window).scroll(function(){
         let scrollY = $(window).scrollTop();
         if ( scrollY +300 >= samsung ) {
@@ -77,6 +79,15 @@ $(document).ready(function(){
         }else {
             $('.pop-box').css('bottom', '-1000px');
         };
+
+        if ( scrollY >= pro ) {
+            $('.draw ul').addClass('nav-first');
+            $('.draw ul').removeClass('nav-second');
+        }
+        if ( scrollY >= ski ) {
+            $('.draw ul').addClass('nav-second');
+            $('.draw ul').removeClass('nav-first');
+        }
 
         if ( scrollY +300 >= samsung && scrollY +300 < kyobo ) {
             $('.wing li').removeClass('current');
