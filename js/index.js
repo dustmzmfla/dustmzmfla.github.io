@@ -279,8 +279,8 @@ $(document).ready(function(){
 
     
     $('.sec02 nav ul li').click(function(){
-        let pro = ($('.myProjects').offset().top) - 100;
-        let ski = ($('.mySkill').offset().top) - 100;
+        let pro = ($('.myProjects').offset().top) - 30;
+        let ski = ($('.mySkill').offset().top) - 30;
 
         if( $(this).attr('id') == 'nav01' ) {
             $('.sec02 nav ul').removeClass('nav-second');
