@@ -98,7 +98,7 @@ for (let data of projects) {
         for (let j=0; j<data.title.length; j++) {
             const template = `
                 <div class="grid-children">
-                    <div class="grid-img" data-tab="${data.tab[j]}"><img src="./img/projects/${data.key}/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
+                    <div class="grid-img" data-tab="${data.tab[j]}"><img src="./img/projects/aig/${data.pcImg[j]}" alt="프로젝트 이미지"></div>
                     <div class="grid-contents">
                         <h3 class="title ${data.responsive}">${data.title[j]}</h3>
                         <div class="detail">
