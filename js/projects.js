@@ -276,7 +276,7 @@ const projects = [
         lang: 'HTML, CSS, JAVASCRIPT',
         percentage: 100,
         pcImg: ['teddyx01.png'],
-        pcURL: ['https://teddy10.com/index.html'],
+        pcURL: ['https://teddy10.com'],
         tab: ['teddyx01'],
         contents: [`보험 판매 대행 사이트입니다 기존에 있던 사이트를 새로 리뉴얼 작업하였습니다`],
     },
