@@ -313,7 +313,6 @@ for( let popupData of projects ) {
                                 </div>
                                 <p class="explain">${popupData.contents[z]}</p>
                                 <a href="${popupData.pcURL[z]}" class="pc visit" target="_blank">방문하기</a>
-                                <a href="${popupData.pcURL[z]}" class="mo visit" target="_blank">방문하기</a>
                             </div>
                         </div>
                     </div>

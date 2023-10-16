@@ -579,6 +579,7 @@
     box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     transition: all 0.8s linear;
+    z-index: 20;
 }
 
 .pop-box .pop-header {
@@ -930,17 +931,26 @@ footer p {
     margin-top: 10px;
 }
 
-.skills .icons .play {
+.lottiearea {
+    position: absolute;
+    right: 50px;
+    bottom: 150px;
+    width: 250px;
+    height: 250px;
+}
+
+.lottiearea .play {
     position: absolute;
     width: 250px;
     right: 0;
+    z-index: 1;
 }
 
-.skills .icons .coding {
+.lottiearea .coding {
     width: 170px;
     position: absolute;
-    right: 120px;
-    z-index: -1;
-    bottom: -100px;
+    bottom: 50px;
+    left: -50px;
 }
+
 
