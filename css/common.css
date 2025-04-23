@@ -106,9 +106,9 @@
     background-color: #888;
 }
 
-.wrapper.dark-mod .sec02 .inner.mySkill p {
-    color: #303030;
-}
+.wrapper.dark-mod .sec02 .inner.mySkill p { color: #303030; }
+.wrapper.dark-mod .sec01 .me .about-me p { color: #fff; }
+.wrapper.dark-mod .sec01 .profile ul li h5 { color: #fff; }
 
 @media (max-width: 720px) {
     .pc {
