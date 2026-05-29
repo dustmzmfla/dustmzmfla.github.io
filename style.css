@@ -709,6 +709,7 @@ section { padding: 100px 40px; }
   display: block;
   width: 50px;
 }
+.contact-method a svg { fill: #fff; }
 .contact-method a img { width: 100%; }
 .contact-email {
   display: inline-block;
