@@ -1,0 +1,1158 @@
+[
+    {
+        "brand": "KYOBO",
+        "year": "2020",
+        "devices" : [
+            "MO"
+        ],
+        "title" : "교보생명 슬기로운 보험생활",
+        "shorts" : "모바일 이벤트 페이지 퍼블리싱",
+        "details" : "자녀보험 안내 이벤트 페이지입니다. \n swiper.js를 사용하여 한 페이지씩 슬라이드 되며 보여지는 형식으로 제작되었습니다.",
+        "img" : ["./img/kyobo/insurance-life/kyobo-insuLife.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "LG",
+        "year": "2020",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "LG 사업자 자사몰",
+        "shorts" : "LG 비즈마켓 전용 자사몰 퍼블리싱",
+        "details" : "보험을 바로 가입할 수 있게 정리해둔 LG 비즈마켓 전용 자사몰 링크 사이트입니다.",
+        "img" : ["./img/lg/lg01.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "ALA",
+        "year": "2020",
+        "devices" : [
+            "MO"
+        ],
+        "title" : "AIA 생명 슈퍼암 이벤트 A",
+        "shorts" : "AIA 생명 이벤트 페이지 퍼블리싱",
+        "details" : "AIA 홍보용 배너 페이지입니다. \n 텍스트 설명을 영상으로 대체하여 삽입했습니다.",
+        "img" : ["./img/aia/aia-a.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "ALA",
+        "year": "2020",
+        "devices" : [
+            "MO"
+        ],
+        "title" : "AIA 생명 슈퍼암 이벤트 B",
+        "shorts" : "AIA 생명 이벤트 페이지 퍼블리싱",
+        "details" : "AIA 홍보용 배너 페이지입니다. \n 텍스트 설명을 영상으로 대체하여 삽입했습니다.",
+        "img" : ["./img/aia/aia-b.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "KYOBO",
+        "year": "2021",
+        "devices" : [
+            "PC",
+            "MO"
+        ],
+        "title" : "괜찮아요 암보험",
+        "shorts" : "교보생명 보험 페이지 퍼블리싱",
+        "details" : "적응형으로 만들어진 교보생명 보험 설명 페이지입니다.\n 애니메이션을 적용해 페이지가 좀 더 역동적이고 풍부해보이게 작업했습니다.",
+        "img" : ["./img/kyobo/ok-cancer/kyobo-okCancer-pc.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "KYOBO",
+        "year": "2021",
+        "devices" : [
+            "PC",
+            "MO"
+        ],
+        "title" : "종신보험",
+        "shorts" : "교보생명 보험 페이지 퍼블리싱",
+        "details" : "적응형으로 만들어진 교보생명 보험 설명 페이지입니다.\n 애니메이션을 적용해 페이지가 좀 더 역동적이고 풍부해보이게 작업했습니다.",
+        "img" : ["./img/kyobo/life/kyobo-life-pc.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "KYOBO",
+        "year": "2021",
+        "devices" : [
+            "PC",
+            "MO"
+        ],
+        "title" : "암케어보험",
+        "shorts" : "교보생명 보험 페이지 퍼블리싱",
+        "details" : "적응형으로 만들어진 교보생명 보험 설명 페이지입니다.\n 애니메이션을 적용해 페이지가 좀 더 역동적이고 풍부해보이게 작업했습니다.",
+        "img" : ["./img/kyobo/cancer-care/kyobo-cancer-pc.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "KOLON",
+        "year": "2021",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "코오롱 호텔",
+        "shorts" : "코오롱 호텔 페이지 퍼블리싱 및 이벤트, 객실 등 \n 관리자 페이지와의 연동 작업",
+        "details" : "호텔 페이지의 전반적인 퍼블리싱과 관리자 페이지의 API를 받아, 홈페이지 데이터 바인딩 작업을 하였습니다.",
+        "img" : ["./img/kolon/kolonhotel/kolonhotel.png"],
+        "code" : [
+            "PHP",
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "KOLON",
+        "year": "2021",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "호텔 포코",
+        "shorts" : "호텔 페이지 퍼블리싱 및 이벤트, 객실 등 \n 관리자 페이지와의 연동 작업",
+        "details" : "호텔 페이지의 전반적인 퍼블리싱과 관리자 페이지의 API를 받아, 홈페이지 데이터 바인딩 작업을 하였습니다.",
+        "img" : ["./img/kolon/hotelpoco/hotelpoco.png"],
+        "code" : [
+            "PHP",
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "KOLON",
+        "year": "2021",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "씨클라우드 호텔",
+        "shorts" : "호텔 페이지 퍼블리싱 및 이벤트, 객실 등 \n 관리자 페이지와의 연동 작업",
+        "details" : "호텔 페이지의 전반적인 퍼블리싱과 관리자 페이지의 API를 받아, 홈페이지 데이터 바인딩 작업을 하였습니다.",
+        "img" : ["./img/kolon/seacloud/seacloud.png"],
+        "code" : [
+            "PHP",
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "KOLON",
+        "year": "2021",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "마우나오션 리조트",
+        "shorts" : "리조트 페이지 퍼블리싱 및 이벤트, 객실 등 \n 관리자 페이지와의 연동 작업",
+        "details" : "리조트 페이지의 전반적인 퍼블리싱과 관리자 페이지의 API를 받아, 홈페이지 데이터 바인딩 작업을 하였습니다.",
+        "img" : ["./img/kolon/mauna/mauna.png"],
+        "code" : [
+            "PHP",
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "KOLON",
+        "year": "2021",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "금강송 에코리움",
+        "shorts" : "휴양림 페이지 퍼블리싱 및 이벤트, 객실 등 \n 관리자 페이지와의 연동 작업",
+        "details" : "휴양림 페이지의 전반적인 퍼블리싱과 관리자 페이지의 API를 받아, 홈페이지 데이터 바인딩 작업을 하였습니다.",
+        "img" : ["./img/kolon/pinestay/pinestay.png"],
+        "code" : [
+            "PHP",
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "교직원 공제회",
+        "year": "2022",
+        "devices" : [
+            "MO"
+        ],
+        "title" : "한국 교직원 공제회 웹앱 제작",
+        "shorts" : "한국 교직원 공제회 웹앱 퍼블리싱 및 데이터 바인딩",
+        "details" : "사번을 통해서 들어가야 하는 폐쇄형 웹앱을 제작하였습니다.",
+        "img" : ["./img/thek/thek01.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "ADDWARD",
+        "year": "2022",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "회사 사이트 리뉴얼",
+        "shorts" : "회사 홈페이지의 전체 리뉴얼 퍼블리싱",
+        "details" : "이미지의 용량이 커, 프레임 단위로 쪼개진 이미지를 빠르게 돌려\n마치 영상이 움직이는 것 처럼 보이게끔 시도한 페이지입니다.",
+        "img" : ["./img/addward/addward01.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "SAMSUNG",
+        "year": "2022",
+        "devices" : [
+            "PC",
+            "MO"
+        ],
+        "title" : "운전자플랜",
+        "shorts" : "삼성화재 보험 페이지 퍼블리싱",
+        "details" : "적응형으로 만들어진 삼성화재 보험 설명 페이지입니다.\n 애니메이션을 적용해 페이지가 좀 더 역동적이고 풍부해보이게 작업했습니다.",
+        "img" : ["./img/samsung/driver/samsung-driver-pc.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "SAMSUNG",
+        "year": "2022",
+        "devices" : [
+            "PC",
+            "MO"
+        ],
+        "title" : "실손보험",
+        "shorts" : "삼성화재 보험 페이지 퍼블리싱",
+        "details" : "적응형으로 만들어진 삼성화재 보험 설명 페이지입니다.\n 애니메이션을 적용해 페이지가 좀 더 역동적이고 풍부해보이게 작업했습니다.",
+        "img" : ["./img/samsung/expense/samsung-expense-pc.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "SAMSUNG",
+        "year": "2022",
+        "devices" : [
+            "PC",
+            "MO"
+        ],
+        "title" : "건강보험",
+        "shorts" : "삼성화재 보험 페이지 퍼블리싱",
+        "details" : "적응형으로 만들어진 삼성화재 보험 설명 페이지입니다.\n 애니메이션을 적용해 페이지가 좀 더 역동적이고 풍부해보이게 작업했습니다.",
+        "img" : ["./img/samsung/health/samsung-health-pc.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "SAMSUNG",
+        "year": "2022",
+        "devices" : [
+            "PC",
+            "MO"
+        ],
+        "title" : "자녀보험",
+        "shorts" : "삼성화재 보험 페이지 퍼블리싱",
+        "details" : "적응형으로 만들어진 삼성화재 보험 설명 페이지입니다.\n 애니메이션을 적용해 페이지가 좀 더 역동적이고 풍부해보이게 작업했습니다.",
+        "img" : ["./img/samsung/superstar/samsung-superstar-pc.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "KYOBO",
+        "year": "2022",
+        "devices" : [
+            "PC",
+            "MO"
+        ],
+        "title" : "마이데이터A",
+        "shorts" : "교보생명 마이데이터 홍보 페이지 퍼블리싱",
+        "details" : "군인을 타겟으로 만들어진 마이데이터 홍보용 페이지입니다.",
+        "img" : ["./img/kyobo/my-data/A/kyobo-mydataA-pc.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "KYOBO",
+        "year": "2022",
+        "devices" : [
+            "PC",
+            "MO"
+        ],
+        "title" : "마이데이터B",
+        "shorts" : "교보생명 마이데이터 홍보 페이지 퍼블리싱",
+        "details" : "스크롤 시 한 페이지씩 넘어가는 형식의 페이지입니다.\nswiper.js를 사용하여 작업했습니다.",
+        "img" : ["./img/kyobo/my-data/B/kyobo-mydataB-pc.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "KYOBO",
+        "year": "2022",
+        "devices" : [
+            "PC",
+            "MO"
+        ],
+        "title" : "마이데이터C",
+        "shorts" : "교보생명 마이데이터 홍보 페이지 퍼블리싱",
+        "details" : "마이데이터를 홍보하기 위한 이벤트성 페이지입니다.",
+        "img" : ["./img/kyobo/my-data/C/kyobo-mydataC-pc.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "TAXI N",
+        "year": "2023",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "택시 N 페이지 퍼블리싱",
+        "shorts" : "스크롤 시 하나씩 넘어가며 페이드 효과가 있는 페이지",
+        "details" : "REACT를 사용헀지만 단순 퍼블리싱 작업만 하였으며\nSwiper.js를 사용하여 한 페이지씩 페이드 방식으로 넘어가게끔 제작되었습니다.",
+        "img" : ["./img/taxin/taxin01.png"],
+        "code" : [
+            "REACT",
+            "SASS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "MSTM",
+        "year": "2023",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "MSTM 페이지 퍼블리싱",
+        "shorts" : "스크롤 시 하나씩 넘어가며 페이드 효과가 있는 페이지",
+        "details" : "REACT를 사용헀지만 단순 퍼블리싱 작업만 하였으며\nSwiper.js를 사용하여 한 페이지씩 페이드 방식으로 넘어가게끔 제작되었습니다.",
+        "img" : ["./img/mstm/mstm01.png"],
+        "code" : [
+            "REACT",
+            "SASS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "AIG",
+        "year": "2023",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "AIG 해외여행자 보험 사이트 리뉴얼",
+        "shorts" : "6단계로 나눠진 프로세스의 보험 가입 페이지 리뉴얼",
+        "details" : "AIG 해외여행자 보험 가입에 필요한 6단계 프로세스 페이지 리뉴얼 작업을 하였습니다.",
+        "img" : ["./img/aig/aig-pc.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "MERITZ",
+        "year": "2023",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "메리츠 장기체류보험",
+        "shorts" : "메리츠 보험 가입 프로세스 페이지 퍼블리싱",
+        "details" : "반응형으로 제작된 메리츠 보험 가입 프로세스 페이지입니다.",
+        "img" : ["./img/meritz/long/meritz-long.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "MERITZ",
+        "year": "2023",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "메리츠 국내여행보험",
+        "shorts" : "메리츠 보험 가입 프로세스 페이지 퍼블리싱",
+        "details" : "반응형으로 제작된 메리츠 보험 가입 프로세스 페이지입니다.",
+        "img" : ["./img/meritz/domestic/meritz-domestic.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "MERITZ",
+        "year": "2023",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "메리츠 해외여행자보험",
+        "shorts" : "메리츠 보험 가입 프로세스 페이지 퍼블리싱",
+        "details" : "반응형으로 제작된 메리츠 보험 가입 프로세스 페이지입니다.",
+        "img" : ["./img/meritz/overseas/meritz-overseas.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "TODES",
+        "year": "2023",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "TODES 페이지 퍼블리싱",
+        "shorts" : "스크롤 시 하나씩 넘어가며 페이드 효과가 있는 페이지",
+        "details" : "REACT를 사용헀지만 단순 퍼블리싱 작업만 하였으며\nSwiper.js를 사용하여 한 페이지씩 페이드 방식으로 넘어가게끔 제작되었습니다.",
+        "img" : ["./img/todes/todes01.png"],
+        "code" : [
+            "REACT",
+            "SASS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "MERITZ",
+        "year": "2023",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "메리츠 미국&북아메리카 여행자보험",
+        "shorts" : "메리츠 보험 가입 프로세스 페이지 퍼블리싱",
+        "details" : "반응형으로 제작된 메리츠 보험 가입 프로세스 페이지입니다.",
+        "img" : ["./img/meritz/country/pc/america.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "MERITZ",
+        "year": "2023",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "메리츠 호주 여행자보험",
+        "shorts" : "메리츠 보험 가입 프로세스 페이지 퍼블리싱",
+        "details" : "반응형으로 제작된 메리츠 보험 가입 프로세스 페이지입니다.",
+        "img" : ["./img/meritz/country/pc/australia.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "MERITZ",
+        "year": "2023",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "메리츠 유럽 여행자보험",
+        "shorts" : "메리츠 보험 가입 프로세스 페이지 퍼블리싱",
+        "details" : "반응형으로 제작된 메리츠 보험 가입 프로세스 페이지입니다.",
+        "img" : ["./img/meritz/country/pc/europe.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "MERITZ",
+        "year": "2023",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "메리츠 일본 여행자보험",
+        "shorts" : "메리츠 보험 가입 프로세스 페이지 퍼블리싱",
+        "details" : "반응형으로 제작된 메리츠 보험 가입 프로세스 페이지입니다.",
+        "img" : ["./img/meritz/country/pc/japan.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "MERITZ",
+        "year": "2023",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "메리츠 필리핀 여행자보험",
+        "shorts" : "메리츠 보험 가입 프로세스 페이지 퍼블리싱",
+        "details" : "반응형으로 제작된 메리츠 보험 가입 프로세스 페이지입니다.",
+        "img" : ["./img/meritz/country/pc/philippines.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "MERITZ",
+        "year": "2023",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "메리츠 태국 여행자보험",
+        "shorts" : "메리츠 보험 가입 프로세스 페이지 퍼블리싱",
+        "details" : "반응형으로 제작된 메리츠 보험 가입 프로세스 페이지입니다.",
+        "img" : ["./img/meritz/country/pc/thailand.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "MERITZ",
+        "year": "2023",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "메리츠 베트남&동남아시아 여행자보험",
+        "shorts" : "메리츠 보험 가입 프로세스 페이지 퍼블리싱",
+        "details" : "반응형으로 제작된 메리츠 보험 가입 프로세스 페이지입니다.",
+        "img" : ["./img/meritz/country/pc/vietnam.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "KOLON",
+        "year": "2023",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "코오롱 LSI 리뉴얼",
+        "shorts" : "코오롱 LSI 페이지 리뉴얼",
+        "details" : "기존의 틀을 수정하고 내용을 추가하는 리뉴얼 작업을 했습니다.",
+        "img" : ["./img/kolon/lsi/kolonlsi.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "KOLON",
+        "year": "2023",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "코오롱 골프가든 제작",
+        "shorts" : "코오롱 골프가든 페이지 신규 제작",
+        "details" : "코오롱 호텔에 들어있던 골프가든을 별개로 빼 새로 제작하였습니다.\n이로인해 새로 골프 예약 시스템을 개발하고 적용하였습니다.",
+        "img" : ["./img/kolon/kolongolf/kolongolf.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "TEDDY X",
+        "year": "2023",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "TEDDY X 전체 리뉴얼",
+        "shorts" : "기업 홈페이지 전체 리뉴얼",
+        "details" : "홈페이지를 전부 리뉴얼 하여서 깔끔한 분위기를 주고 가독성을 높였습니다.",
+        "img" : ["./img/teddyx/teddyx01.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "HANA",
+        "year": "2023",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "하나손해보험 해외여행자보험 페이지 퍼블리싱",
+        "shorts" : "하나손해보험 가입 프로세스 페이지 퍼블리싱",
+        "details" : "반응형으로 제작된 하나손해보험 가입 프로세스 페이지입니다.",
+        "img" : ["./img/hana/overseas/hana-overseas.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "HANA",
+        "year": "2023",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "하나손해보험 장기체류보험 페이지 퍼블리싱",
+        "shorts" : "하나손해보험 가입 프로세스 페이지 퍼블리싱",
+        "details" : "반응형으로 제작된 하나손해보험 가입 프로세스 페이지입니다.",
+        "img" : ["./img/hana/long/hana-long.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "UTOMO",
+        "year": "2023",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "UTOMO 홈페이지 퍼블리싱",
+        "shorts" : "기업 소개 홈페이지",
+        "details" : "스크롤 이벤트로 애니메이션이 들어간 홈페이지입니다.",
+        "img" : ["./img/utomo/utomo01.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "ADDWARD"
+    },
+    {
+        "brand": "ZIPPLE",
+        "year": "2024",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "부동산 사이트 제작",
+        "shorts" : "부동산 중개 매치 사이트",
+        "details" : "REACT와 TAILWIND CSS를 사용하여 사이드 프로젝트로 참여한 사이트입니다.",
+        "img" : ["./img/zipple/pc.png"],
+        "code" : [
+            "REACT",
+            "TAILWIND CSS"
+        ],
+        "company" : "SIDE1"
+    },
+    {
+        "brand": "GOLFZON",
+        "year": "2024",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "ERP 사용 메뉴얼 페이지 제작",
+        "shorts" : "ERP 사용자를 위한 메뉴얼 가이드 페이지",
+        "details" : "스크롤 시 위치에 맞게 왼쪽 네비게이션에 표시되고\n검색어를 입력하여 원하는 페이지가 검색되게 개발하였습니다.",
+        "img" : ["./img/golfzon/manual/1.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "GOLFZON"
+    },
+    {
+        "brand": "GOLFZON",
+        "year": "2025",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "웹 ERP 제작",
+        "shorts" : "웹에서 사용하는 ERP시스템 구축",
+        "details" : "Realgrid, Chart.js 등의 라이브러리를 사용하여 구축한 웹 ERP시스템.\n골프장 예약과 객실, 회원, POS등 모든 기능이 들어갔습니다.",
+        "img" : ["./img/golfzon/erp/pc.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "GOLFZON"
+    },
+    {
+        "brand": "GOLFZON",
+        "year": "2025",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "오픈향 웹 ERP 제작",
+        "shorts" : "웹에서 사용하는 ERP시스템 구축",
+        "details" : "Realgrid, Chart.js 등의 라이브러리를 사용하여 구축한 웹 ERP시스템.\n골프장 예약과 객실, 회원, POS등 모든 기능이 들어갔습니다.",
+        "img" : ["./img/golfzon/open/7.pos.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "GOLFZON"
+    },
+    {
+        "brand": "GOLFZON",
+        "year": "2025",
+        "devices" : [
+            "MO"
+        ],
+        "title" : "모바일 웹 ERP 제작",
+        "shorts" : "모바일 웹에서 사용하는 ERP시스템 구축",
+        "details" : "Realgrid, Chart.js 등의 라이브러리를 사용하여 구축한 웹 ERP시스템.\n골프장 예약과 객실, 회원, POS등 모든 기능이 들어갔습니다.",
+        "img" : ["./img/golfzon/mobile/3.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "GOLFZON"
+    },
+    {
+        "brand": "GOLFZON",
+        "year": "2025",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "다국어 웹 ERP 제작",
+        "shorts" : "웹에서 사용하는 ERP시스템 구축",
+        "details" : "Realgrid, Chart.js 등의 라이브러리를 사용하여 구축한 웹 ERP시스템.\n골프장 예약과 객실, 회원, POS등 모든 기능이 들어갔습니다.",
+        "img" : ["./img/golfzon/global/2.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "GOLFZON"
+    },
+    {
+        "brand": "METLIFE",
+        "year": "2025",
+        "devices" : [
+            "MO"
+        ],
+        "title" : "자사몰 오류 수정",
+        "shorts" : "마크업 오류 수정",
+        "details" : "모바일 자사몰 웹 마크업 오류 수정을 도와드렸습니다.",
+        "img" : ["./img/metlife/mo.png"],
+        "code" : [
+            "HTML",
+            "CSS"
+        ],
+        "company" : "FREE1"
+    },
+    {
+        "brand": "2PIZZA 1CHICKEN",
+        "year": "2025",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "브랜드 홈페이지 리뉴얼",
+        "shorts" : "아임웹을 활용한 브랜드 홈페이지 리뉴얼 작업",
+        "details" : "홈페이지 웹빌더인 아임웹 사용하여 작업한 브랜드 홈페이지 리뉴얼 작업입니다.\n웹빌더 기능에만 의존하지 않고 직접 코드를 삽입하여 좀 더 섬세하고 풍부한 작업을 추가로 하였습니다.",
+        "img" : ["./img/2p1c/pc.png"],
+        "code" : [
+            "IMWEB",
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "FREE1"
+    },
+    {
+        "brand": "BEEN",
+        "year": "2025",
+        "devices" : [
+            "PC",
+            "MO"
+        ],
+        "title" : "이벤트 배너 제작",
+        "shorts" : "코드를 활용한 이벤트 팝업 배너 퍼블리싱",
+        "details" : "팝업 이벤트로 활용할 배너에 애니메이션을 넣어 작업했습니다.",
+        "img" : ["./img/been/1.png"],
+        "code" : [
+            "HTML",
+            "CSS"
+        ],
+        "company" : "FREE1"
+    },
+    {
+        "brand": "COWAY",
+        "year": "2025",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "이벤트 페이지",
+        "shorts" : "코웨이 이벤트 랜딩 페이지",
+        "details" : "이미지가 들어간 간단한 퍼블리싱 작업입니다.",
+        "img" : ["./img/coway/pc.png"],
+        "code" : [
+            "HTML",
+            "CSS"
+        ],
+        "company" : "FREE1"
+    },
+    {
+        "brand": "K&T",
+        "year": "2025",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "브랜드 홈페이지 리뉴얼",
+        "shorts" : "워드프레스를 활용한 브랜드 홈페이지 리뉴얼",
+        "details" : "홈페이지 웹빌더인 워드프레스를 사용하여 작업한 브랜드 홈페이지 리뉴얼 작업입니다.\n웹빌더 기능에만 의존하지 않고 직접 코드를 삽입하여 좀 더 섬세하고 풍부한 작업을 추가로 하였습니다.",
+        "img" : ["./img/k&t/1.png"],
+        "code" : [
+            "WORDPRESS",
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "FREE1"
+    },
+    {
+        "brand": "SANCHOME",
+        "year": "2025",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "브랜드 홈페이지 제작",
+        "shorts" : "워드프레스를 활용한 브랜드 홈페이지 리뉴얼",
+        "details" : "홈페이지 웹빌더인 워드프레스를 사용하여 작업한 브랜드 홈페이지 리뉴얼 작업입니다.\n웹빌더 기능에만 의존하지 않고 직접 코드를 삽입하여 좀 더 섬세하고 풍부한 작업을 추가로 하였습니다.",
+        "img" : ["./img/sanchome/1.png"],
+        "code" : [
+            "WORDPRESS",
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "FREE1"
+    },
+    {
+        "brand": "POSCO",
+        "year": "2025",
+        "devices" : [
+            "MO"
+        ],
+        "title" : "이벤트 홈페이지 제작",
+        "shorts" : "외부 행사에서 사용될 이벤트 홈페이지 제작",
+        "details" : "구글 시트와 연동하여 감상평을 받을 수 있게 설정하고 랜덤한 문구가 튀어나오는 포츈쿠키, QR코드를 찍으면 스탬프가 찍히도록 개발한 스탬프까지 외부 행사에서 사용될 이벤트 페이지를 제작하였습니다.",
+        "img" : ["./img/posco/1.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "FREE1"
+    },
+    {
+        "brand": "VETERAN CXO",
+        "year": "2025",
+        "devices" : [
+            "PC"
+        ],
+        "title" : "홈페이지 퍼블리싱",
+        "shorts" : "마크업 오류 수정",
+        "details" : "마크업 오류와 고객님의 요청에 맞게 퍼블리싱 작업해드렸습니다.",
+        "img" : ["./img/veteran/screencapture-veterancxo-2026-05-28-20_37_35.png"],
+        "code" : [
+            "CSS"
+        ],
+        "company" : "FREE1"
+    },
+    {
+        "brand": "MINEHAIR",
+        "year": "2025",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "브랜드 홈페이지 제작",
+        "shorts" : "REACT를 활용한 브랜드 홈페이지 제작",
+        "details" : "홈페이지와 관리자 페이지를 제작하여 API를 통한 데이터 바인딩 작업을 모두 완료하였습니다.\n페이지의 유실로 남은 이미지로만 대체했습니다.",
+        "img" : ["./img/minehair/1.png"],
+        "code" : [
+            "REACT"
+        ],
+        "company" : "FREE1"
+    },
+    {
+        "brand": "Studio Bara",
+        "year": "2025",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "홈페이지 제작",
+        "shorts" : "연주자 크루 소개 홈페이지 제작",
+        "details" : "홈페이지 웹빌더인 워드프레스를 사용하여 작업한 브랜드 홈페이지 리뉴얼 작업입니다.\n웹빌더 기능에만 의존하지 않고 직접 코드를 삽입하여 좀 더 섬세하고 풍부한 작업을 추가로 하였습니다.",
+        "img" : ["./img/studiobara/1.png"],
+        "code" : [
+            "WORDPRESS",
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "FREE1"
+    },
+    {
+        "brand": "국민의료복지네트워크",
+        "year": "2025",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "홈페이지 수정",
+        "shorts" : "고객님의 요청에 따른 홈페이지 마크업 수정",
+        "details" : "홈페이지 웹빌더인 워드프레스를 사용하여 작업한 브랜드 홈페이지 리뉴얼 작업입니다.\n웹빌더 기능에만 의존하지 않고 직접 코드를 삽입하여 좀 더 섬세하고 풍부한 작업을 추가로 하였습니다.",
+        "img" : ["./img/kihwe/1.png"],
+        "code" : [
+            "WORDPRESS",
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "FREE1"
+    },
+    {
+        "brand": "LAWDMAP",
+        "year": "2025",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "브랜드 홈페이지 리뉴얼",
+        "shorts" : "고객님의 요청에 따른 홈페이지 마크업 수정",
+        "details" : "홈페이지 웹빌더인 윅스 사용하여 작업한 브랜드 홈페이지 리뉴얼 작업입니다.\n웹빌더 기능에만 의존하지 않고 직접 코드를 삽입하여 좀 더 섬세하고 풍부한 작업을 추가로 하였습니다.",
+        "img" : ["./img/lawdmap/1.png"],
+        "code" : [
+            "WIX",
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "FREE1"
+    },
+    {
+        "brand": "PlexVET",
+        "year": "2026",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "프론트엔드 개발",
+        "shorts" : "반려동물 검사 관련 프론트엔드 개발 작업",
+        "details" : "백신 주문, 병원 관리 등 각종 기능 개발에 참여하였습니다.",
+        "img" : ["./img/plexvet/1.png"],
+        "code" : [
+            "REACT",
+            "TAILWIND CSS"
+        ],
+        "company" : "FREE1"
+    },
+    {
+        "brand": "ANUNBA",
+        "year": "2026",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "홈페이지 제작 및 AI연동",
+        "shorts" : "워드프레스를 사용한 홈페이지 제작 및 CHAT GPT 연동 작업",
+        "details" : "워드프레스로 홈페이지를 제작하고 VERCEL에 서버를 구축하여 CHAT GPT를 연동하는 작업을 하였습니다.",
+        "img" : ["./img/anunba/1.png"],
+        "code" : [
+            "WORDPRESS",
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "FREE1"
+    },
+    {
+        "brand": "부산은행",
+        "year": "2026",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "태블릿 환경 최적화",
+        "shorts" : "태블릿 환경에 맞게 퍼블리싱",
+        "details" : "태블릿 환경에 맞는 퍼블리싱이 미흡하여 HTML파일을 받아 작업하고 전달해주는 방식으로 진행했습니다.",
+        "img" : ["./img/bnk/1.png"],
+        "code" : [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "FREE1"
+    },
+    {
+        "brand": "코코바둑",
+        "year": "2026",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "브랜드 홈페이지 리뉴얼",
+        "shorts" : "REACT 환경에서 데이터들을 불러와 홈페이지 리뉴얼 작업",
+        "details" : "해당 홈페이지는 내용물들을 모두 json 처리하여 불러오는 방식으로 제작된 홈페이지입니다.",
+        "img" : ["./img/cocobaduk/1.png"],
+        "code" : [
+            "REACT",
+            "TAILWIND CSS"
+        ],
+        "company" : "FREE1"
+    },
+    {
+        "brand": "Ludara Studio",
+        "year": "2026",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "브랜드 홈페이지 리뉴얼",
+        "shorts" : "고객님의 요청에 따른 홈페이지 마크업 수정",
+        "details" : "홈페이지 웹빌더인 워드프레스를 사용하여 작업한 브랜드 홈페이지 리뉴얼 작업입니다.\n웹빌더 기능에만 의존하지 않고 직접 코드를 삽입하여 좀 더 섬세하고 풍부한 작업을 추가로 하였습니다.",
+        "img" : ["./img/ludara/1.png"],
+        "code" : [
+            "WORDPRESS",
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "FREE1"
+    },
+    {
+        "brand": "ONDO",
+        "year": "2026",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "브랜드 홈페이지 리뉴얼",
+        "shorts" : "고객님의 요청에 따른 홈페이지 마크업 수정",
+        "details" : "홈페이지 웹빌더인 워드프레스를 사용하여 작업한 브랜드 홈페이지 리뉴얼 작업입니다.\n웹빌더 기능에만 의존하지 않고 직접 코드를 삽입하여 좀 더 섬세하고 풍부한 작업을 추가로 하였습니다.",
+        "img" : ["./img/ondo/1.png"],
+        "code" : [
+            "WORDPRESS",
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "FREE1"
+    },
+    {
+        "brand": "ECOSTRUN",
+        "year": "2026",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "브랜드 홈페이지 리뉴얼",
+        "shorts" : "고객님의 요청에 따른 홈페이지 마크업 수정",
+        "details" : "홈페이지 웹빌더인 워드프레스를 사용하여 작업한 브랜드 홈페이지 리뉴얼 작업입니다.\n웹빌더 기능에만 의존하지 않고 직접 코드를 삽입하여 좀 더 섬세하고 풍부한 작업을 추가로 하였습니다.",
+        "img" : ["./img/ecosturn-homepage/1.png"],
+        "code" : [
+            "WORDPRESS",
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "FREE1"
+    },
+    {
+        "brand": "ECOSTRUN",
+        "year": "2026",
+        "devices" : [
+            "Responsive"
+        ],
+        "title" : "쇼핑몰 구축",
+        "shorts" : "고객님의 요청에 따른 홈페이지 마크업 수정",
+        "details" : "홈페이지 웹빌더인 쇼피파이를 사용하여 작업한 브랜드 홈페이지 리뉴얼 작업입니다.\n기능을 구현하기 위해 쇼피파이 자체 언어인 Liquid를 사용하여 작업하였고\n멤버쉽별 가격 책정, 원하는 브랜드만 노출 등 고객사가 필요한 기능을 직접 개발하였습니다.",
+        "img" : ["./img/ecosturn-shopify/1.png"],
+        "code" : [
+            "SHOPIFY",
+            "LIQUID",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company" : "FREE1"
+    }
+]

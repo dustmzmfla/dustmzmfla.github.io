@@ -1,0 +1,37 @@
+[
+    {
+        "category": "Code",
+        "tags": [
+            "React",
+            "TypeScript",
+            "Vue",
+            "TailwindCSS",
+            "Real Grid",
+            "Chart.js",
+            "Liquid",
+            "Jquery",
+            "Java Script",
+            "PHP",
+            "HTML",
+            "CSS",
+            "SSAS"
+        ]
+    },
+    {
+        "category": "Tools",
+        "tags": [
+            "Git",
+            "IntelliJ",
+            "Docker",
+            "Zira",
+            "Figma",
+            "Teams",
+            "Shopify",
+            "Wordpress",
+            "Imweb",
+            "Wix",
+            "Adobe XD",
+            "Photoshop"
+        ]
+    }
+]
