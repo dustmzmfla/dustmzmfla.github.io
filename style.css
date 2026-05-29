@@ -542,6 +542,7 @@ section { padding: 100px 40px; }
   transition: all 0.2s;
   gap: 10px;
   width: 100%;
+  margin-top: 2px;
 }
 .more-btn:hover { background: var(--bg3); color: var(--accent); }
 .more-btn span { font-size: 18px; transition: transform 0.2s; }
