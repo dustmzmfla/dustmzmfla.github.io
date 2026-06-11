@@ -427,7 +427,7 @@
         ],
         "code": [
             "REACT",
-            "SASS",
+            "CSS",
             "JAVASCRIPT"
         ],
         "company": "ADDWARD"
@@ -446,7 +446,7 @@
         ],
         "code": [
             "REACT",
-            "SASS",
+            "CSS",
             "JAVASCRIPT"
         ],
         "company": "ADDWARD"
@@ -541,7 +541,7 @@
         ],
         "code": [
             "REACT",
-            "SASS",
+            "CSS",
             "JAVASCRIPT"
         ],
         "company": "ADDWARD"
@@ -724,7 +724,7 @@
             "Responsive"
         ],
         "title": "TEDDY X 전체 리뉴얼",
-        "shorts": "가독성과 브랜드 일관성을 강화한 기업 홈페이지 전면 리뉴얼",
+        "shorts": "가독성과 브랜드 일관성을 강화한 홈페이지 전면 리뉴얼",
         "details": "TEDDY X 기업 홈페이지의 전면 리뉴얼 프로젝트입니다.\n기존 사이트의 복잡한 레이아웃을 정리하고 브랜드 컬러와 타이포그래피를 재정립해 깔끔하고 가독성 높은 홈페이지로 탈바꿈했습니다.",
         "img": [
             "./img/teddyx/teddyx01.png"
@@ -818,7 +818,7 @@
             "Responsive"
         ],
         "title": "ERP 사용 메뉴얼 페이지 제작",
-        "shorts": "스크롤 연동 네비게이션과 실시간 검색 기능을 갖춘 ERP 가이드 페이지",
+        "shorts": "스크롤 연동 네비게이션과 실시간 검색 기능을 갖춘 ERP 가이드 페이지 단독 제작",
         "details": "골프존 클라우드 ERP 사용자를 위한 온라인 메뉴얼 가이드 페이지입니다.\n스크롤 위치에 따라 좌측 네비게이션이 자동으로 활성화되고, 키워드 검색으로 원하는 항목에 즉시 이동할 수 있는 기능을 직접 개발했습니다.",
         "img": [
             "./img/golfzon/manual/1.png"
@@ -951,8 +951,8 @@
             "PC",
             "MO"
         ],
-        "title": "이벤트 배너 제작",
-        "shorts": "CSS 애니메이션으로 시선을 사로잡는 팝업 이벤트 배너 제작",
+        "title": "SSG 이벤트 배너 제작",
+        "shorts": "CSS 애니메이션으로 시선을 사로잡는 팝업 이벤트 배너 코딩 제작",
         "details": "팝업 형태로 노출되는 이벤트 배너에 CSS 키프레임 애니메이션을 적용해 시각적 주목도를 높였습니다.\nPC·모바일 양쪽에서 동일한 퀄리티로 표시되도록 반응형으로 제작했습니다.",
         "img": [
             "./img/been/1.png"
@@ -1007,14 +1007,14 @@
         "devices": [
             "Responsive"
         ],
-        "title": "SANCHOME · WordPress 브랜드 홈페이지 신규 제작",
-        "shorts": "WordPress 커스터마이징으로 브랜드 감성을 살린 홈페이지 신규 제작",
+        "title": "SANCHOME · IMWEB 브랜드 홈페이지 신규 제작",
+        "shorts": "Imweb 커스터마이징으로 브랜드 감성을 살린 홈페이지 신규 제작",
         "details": "SANCHOME 브랜드 홈페이지 신규 제작 프로젝트입니다.\n워드프레스 기반으로 제작하되 브랜드 아이덴티티에 맞는 세밀한 스타일과 인터랙션을 커스텀 코드로 직접 구현했습니다.",
         "img": [
             "./img/sanchome/1.png"
         ],
         "code": [
-            "WORDPRESS",
+            "IMWEB",
             "HTML",
             "CSS",
             "JAVASCRIPT"
@@ -1148,6 +1148,7 @@
         ],
         "code": [
             "REACT",
+            "TYPE SCRIPT",
             "TAILWIND CSS"
         ],
         "company": "FREE1"
@@ -1216,8 +1217,8 @@
             "Responsive"
         ],
         "title": "Ludara Studio · WordPress 스튜디오 홈페이지 리뉴얼",
-        "shorts": "WordPress 커스터마이징으로 스튜디오 브랜드 감성을 살린 홈페이지 리뉴얼",
-        "details": "Ludara Studio의 브랜드 홈페이지 리뉴얼 작업입니다.\n워드프레스 테마를 기반으로 스튜디오의 감성과 작업물을 효과적으로 소개하는 레이아웃을 구성하고, 세밀한 부분은 커스텀 코드로 보완했습니다.",
+        "shorts": "WordPress 커스터마이징으로 브랜드 감성을 살린 홈페이지 리뉴얼",
+        "details": "Ludara Studio의 브랜드 홈페이지 리뉴얼 작업입니다.\n워드프레스 테마를 기반으로 브랜드 감성과 작업물을 효과적으로 소개하는 레이아웃을 구성하고, 세밀한 부분은 커스텀 코드로 보완했습니다.",
         "img": [
             "./img/ludara/1.png"
         ],
