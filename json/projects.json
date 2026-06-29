@@ -76,66 +76,6 @@
         "company": "ADDWARD"
     },
     {
-        "brand": "KYOBO",
-        "year": "2021",
-        "devices": [
-            "PC",
-            "MO"
-        ],
-        "title": "괜찮아요 암보험",
-        "shorts": "스크롤 연동 애니메이션이 적용된 적응형 보험 소개 페이지",
-        "details": "교보생명 암보험 상품 소개를 위한 PC·모바일 적응형 페이지입니다.\n섹션별 스크롤 진입 시 요소가 순차적으로 등장하는 애니메이션을 적용해 정보 전달의 흐름을 자연스럽게 연출했습니다.",
-        "img": [
-            "./img/kyobo/ok-cancer/kyobo-okCancer-pc.png"
-        ],
-        "code": [
-            "HTML",
-            "CSS",
-            "JAVASCRIPT"
-        ],
-        "company": "ADDWARD"
-    },
-    {
-        "brand": "KYOBO",
-        "year": "2021",
-        "devices": [
-            "PC",
-            "MO"
-        ],
-        "title": "종신보험",
-        "shorts": "동적 애니메이션으로 상품 가치를 전달하는 적응형 보험 페이지",
-        "details": "교보생명 종신보험 상품 안내를 위한 PC·모바일 적응형 페이지입니다.\n핵심 수치와 보장 내용이 스크롤 시점에 맞춰 강조 표시되도록 구성해 사용자 주목도를 높였습니다.",
-        "img": [
-            "./img/kyobo/life/kyobo-life-pc.png"
-        ],
-        "code": [
-            "HTML",
-            "CSS",
-            "JAVASCRIPT"
-        ],
-        "company": "ADDWARD"
-    },
-    {
-        "brand": "KYOBO",
-        "year": "2021",
-        "devices": [
-            "PC",
-            "MO"
-        ],
-        "title": "암케어보험",
-        "shorts": "보장 항목을 시각적으로 풀어낸 적응형 암보험 소개 페이지",
-        "details": "교보생명 암케어보험 안내 페이지로 PC·모바일 적응형으로 제작되었습니다.\n복잡한 보장 내용을 아이콘과 애니메이션 요소로 단순화해 직관적으로 전달할 수 있도록 구성했습니다.",
-        "img": [
-            "./img/kyobo/cancer-care/kyobo-cancer-pc.png"
-        ],
-        "code": [
-            "HTML",
-            "CSS",
-            "JAVASCRIPT"
-        ],
-        "company": "ADDWARD"
-    },
-    {
         "brand": "KOLON",
         "year": "2021",
         "devices": [
@@ -265,6 +205,66 @@
         "details": "용량 문제로 영상 삽입이 어려운 환경에서 이미지를 프레임 단위로 분할·순환시켜 영상처럼 보이는 효과를 구현한 자사 홈페이지 리뉴얼 프로젝트입니다.\n리뉴얼 제안부터 기획·개발·납품까지 전 과정을 주도했습니다.",
         "img": [
             "./img/addward/addward01.png"
+        ],
+        "code": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company": "ADDWARD"
+    },
+    {
+        "brand": "KYOBO",
+        "year": "2022",
+        "devices": [
+            "PC",
+            "MO"
+        ],
+        "title": "마이데이터A",
+        "shorts": "군인 타겟 맞춤형 마이데이터 서비스 홍보 랜딩 페이지",
+        "details": "군인 고객을 주요 타겟으로 한 교보생명 마이데이터 서비스 홍보 페이지입니다.\n군 복무 중 재테크·보험 관리에 대한 니즈를 반영한 콘텐츠 구성과 직관적인 CTA 배치로 서비스 가입을 유도합니다.",
+        "img": [
+            "./img/kyobo/my-data/A/kyobo-mydataA-pc.png"
+        ],
+        "code": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company": "ADDWARD"
+    },
+    {
+        "brand": "KYOBO",
+        "year": "2022",
+        "devices": [
+            "PC",
+            "MO"
+        ],
+        "title": "마이데이터B",
+        "shorts": "Swiper.js 풀페이지 슬라이드 방식의 마이데이터 홍보 페이지",
+        "details": "교보생명 마이데이터 서비스의 기능과 혜택을 소개하는 홍보 페이지입니다.\nSwiper.js를 활용해 스크롤 시 한 섹션씩 전환되는 풀페이지 방식을 구현, 콘텐츠 집중도를 높였습니다.",
+        "img": [
+            "./img/kyobo/my-data/B/kyobo-mydataB-pc.png"
+        ],
+        "code": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company": "ADDWARD"
+    },
+    {
+        "brand": "KYOBO",
+        "year": "2022",
+        "devices": [
+            "PC",
+            "MO"
+        ],
+        "title": "마이데이터C",
+        "shorts": "이벤트 참여 유도에 최적화된 마이데이터 프로모션 페이지",
+        "details": "교보생명 마이데이터 서비스 가입 촉진을 위한 이벤트성 프로모션 페이지입니다.\n혜택 강조 요소와 참여 유도 UI를 중심으로 구성했으며, 단기 집중 노출 목적에 맞게 임팩트 있는 비주얼로 제작했습니다.",
+        "img": [
+            "./img/kyobo/my-data/C/kyobo-mydataC-pc.png"
         ],
         "code": [
             "HTML",
@@ -1076,6 +1076,66 @@
         "company": "ADDWARD"
     },
     {
+        "brand": "KYOBO",
+        "year": "2021",
+        "devices": [
+            "PC",
+            "MO"
+        ],
+        "title": "괜찮아요 암보험",
+        "shorts": "스크롤 연동 애니메이션이 적용된 적응형 보험 소개 페이지",
+        "details": "교보생명 암보험 상품 소개를 위한 PC·모바일 적응형 페이지입니다.\n섹션별 스크롤 진입 시 요소가 순차적으로 등장하는 애니메이션을 적용해 정보 전달의 흐름을 자연스럽게 연출했습니다.",
+        "img": [
+            "./img/kyobo/ok-cancer/kyobo-okCancer-pc.png"
+        ],
+        "code": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company": "ADDWARD"
+    },
+    {
+        "brand": "KYOBO",
+        "year": "2021",
+        "devices": [
+            "PC",
+            "MO"
+        ],
+        "title": "종신보험",
+        "shorts": "동적 애니메이션으로 상품 가치를 전달하는 적응형 보험 페이지",
+        "details": "교보생명 종신보험 상품 안내를 위한 PC·모바일 적응형 페이지입니다.\n핵심 수치와 보장 내용이 스크롤 시점에 맞춰 강조 표시되도록 구성해 사용자 주목도를 높였습니다.",
+        "img": [
+            "./img/kyobo/life/kyobo-life-pc.png"
+        ],
+        "code": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company": "ADDWARD"
+    },
+    {
+        "brand": "KYOBO",
+        "year": "2021",
+        "devices": [
+            "PC",
+            "MO"
+        ],
+        "title": "암케어보험",
+        "shorts": "보장 항목을 시각적으로 풀어낸 적응형 암보험 소개 페이지",
+        "details": "교보생명 암케어보험 안내 페이지로 PC·모바일 적응형으로 제작되었습니다.\n복잡한 보장 내용을 아이콘과 애니메이션 요소로 단순화해 직관적으로 전달할 수 있도록 구성했습니다.",
+        "img": [
+            "./img/kyobo/cancer-care/kyobo-cancer-pc.png"
+        ],
+        "code": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company": "ADDWARD"
+    },
+    {
         "brand": "SAMSUNG",
         "year": "2022",
         "devices": [
@@ -1127,66 +1187,6 @@
         "details": "삼성화재 자녀보험 안내 페이지로 PC·모바일 적응형으로 제작되었습니다.\n출생부터 성인까지 성장 단계별 보장 내용을 스토리텔링 방식으로 구성하고 애니메이션으로 생동감을 더했습니다.",
         "img": [
             "./img/samsung/superstar/samsung-superstar-pc.png"
-        ],
-        "code": [
-            "HTML",
-            "CSS",
-            "JAVASCRIPT"
-        ],
-        "company": "ADDWARD"
-    },
-    {
-        "brand": "KYOBO",
-        "year": "2022",
-        "devices": [
-            "PC",
-            "MO"
-        ],
-        "title": "마이데이터A",
-        "shorts": "군인 타겟 맞춤형 마이데이터 서비스 홍보 랜딩 페이지",
-        "details": "군인 고객을 주요 타겟으로 한 교보생명 마이데이터 서비스 홍보 페이지입니다.\n군 복무 중 재테크·보험 관리에 대한 니즈를 반영한 콘텐츠 구성과 직관적인 CTA 배치로 서비스 가입을 유도합니다.",
-        "img": [
-            "./img/kyobo/my-data/A/kyobo-mydataA-pc.png"
-        ],
-        "code": [
-            "HTML",
-            "CSS",
-            "JAVASCRIPT"
-        ],
-        "company": "ADDWARD"
-    },
-    {
-        "brand": "KYOBO",
-        "year": "2022",
-        "devices": [
-            "PC",
-            "MO"
-        ],
-        "title": "마이데이터B",
-        "shorts": "Swiper.js 풀페이지 슬라이드 방식의 마이데이터 홍보 페이지",
-        "details": "교보생명 마이데이터 서비스의 기능과 혜택을 소개하는 홍보 페이지입니다.\nSwiper.js를 활용해 스크롤 시 한 섹션씩 전환되는 풀페이지 방식을 구현, 콘텐츠 집중도를 높였습니다.",
-        "img": [
-            "./img/kyobo/my-data/B/kyobo-mydataB-pc.png"
-        ],
-        "code": [
-            "HTML",
-            "CSS",
-            "JAVASCRIPT"
-        ],
-        "company": "ADDWARD"
-    },
-    {
-        "brand": "KYOBO",
-        "year": "2022",
-        "devices": [
-            "PC",
-            "MO"
-        ],
-        "title": "마이데이터C",
-        "shorts": "이벤트 참여 유도에 최적화된 마이데이터 프로모션 페이지",
-        "details": "교보생명 마이데이터 서비스 가입 촉진을 위한 이벤트성 프로모션 페이지입니다.\n혜택 강조 요소와 참여 유도 UI를 중심으로 구성했으며, 단기 집중 노출 목적에 맞게 임팩트 있는 비주얼로 제작했습니다.",
-        "img": [
-            "./img/kyobo/my-data/C/kyobo-mydataC-pc.png"
         ],
         "code": [
             "HTML",
