@@ -755,7 +755,7 @@ footer {
 .c6 { background: linear-gradient(135deg, #061a0e 0%, #082a14 100%); }
 
 @media (max-width: 768px) {
-  nav { padding: 16px 20px; }
+  nav { display: none; }
   #hero { padding: 0 20px 50px; }
   .hero-sub-row { flex-direction: column; gap: 24px; }
   .hero-stats { justify-content: flex-start; }

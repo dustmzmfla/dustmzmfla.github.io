@@ -812,101 +812,6 @@
         "company": "SIDE1"
     },
     {
-        "brand": "GOLFZON",
-        "year": "2024",
-        "devices": [
-            "Responsive"
-        ],
-        "title": "ERP 사용 메뉴얼 페이지 제작",
-        "shorts": "스크롤 연동 네비게이션과 실시간 검색 기능을 갖춘 ERP 가이드 페이지 단독 제작",
-        "details": "골프존 클라우드 ERP 사용자를 위한 온라인 메뉴얼 가이드 페이지입니다.\n스크롤 위치에 따라 좌측 네비게이션이 자동으로 활성화되고, 키워드 검색으로 원하는 항목에 즉시 이동할 수 있는 기능을 직접 개발했습니다.",
-        "img": [
-            "./img/golfzon/manual/1.png"
-        ],
-        "code": [
-            "HTML",
-            "CSS",
-            "JAVASCRIPT"
-        ],
-        "company": "GOLFZON"
-    },
-    {
-        "brand": "GOLFZON",
-        "year": "2025",
-        "devices": [
-            "Responsive"
-        ],
-        "title": "웹 ERP 제작",
-        "shorts": "골프장 전 업무를 아우르는 대규모 웹 ERP 시스템 신규 구축",
-        "details": "예약·객실·회원·POS 등 골프장 운영에 필요한 모든 기능을 포함한 웹 ERP 시스템입니다.\nRealgrid를 활용한 대용량 데이터 그리드 처리와 Chart.js 기반의 통계 시각화를 구현했으며, 국내향 버전을 기준으로 전체 시스템 구조를 설계·개발했습니다.",
-        "img": [
-            "./img/golfzon/erp/pc.png"
-        ],
-        "code": [
-            "HTML",
-            "CSS",
-            "JAVASCRIPT"
-        ],
-        "company": "GOLFZON"
-    },
-    {
-        "brand": "GOLFZON",
-        "year": "2025",
-        "devices": [
-            "Responsive"
-        ],
-        "title": "오픈향 웹 ERP 제작",
-        "shorts": "국내향 ERP를 기반으로 한 외부 공급용 오픈향 버전 개발",
-        "details": "국내향 ERP를 베이스로 외부 골프장 공급을 위한 오픈향 버전을 별도 개발했습니다.\n고객사별 커스터마이징 요소를 유연하게 적용할 수 있도록 구조를 분리하고, POS·예약·객실 등 핵심 기능의 안정성을 강화했습니다.",
-        "img": [
-            "./img/golfzon/open/7.pos.png"
-        ],
-        "code": [
-            "HTML",
-            "CSS",
-            "JAVASCRIPT"
-        ],
-        "company": "GOLFZON"
-    },
-    {
-        "brand": "GOLFZON",
-        "year": "2025",
-        "devices": [
-            "MO"
-        ],
-        "title": "모바일 웹 ERP 제작",
-        "shorts": "현장 운영 직원을 위한 모바일 최적화 ERP 시스템 개발",
-        "details": "골프장 현장 직원이 스마트폰으로 예약 조회·체크인·POS 처리를 할 수 있는 모바일 전용 ERP입니다.\nPC ERP와 동일한 데이터를 공유하면서도 모바일 UX에 맞게 화면 구조와 인터랙션을 완전히 재설계했습니다.",
-        "img": [
-            "./img/golfzon/mobile/3.png"
-        ],
-        "code": [
-            "HTML",
-            "CSS",
-            "JAVASCRIPT"
-        ],
-        "company": "GOLFZON"
-    },
-    {
-        "brand": "GOLFZON",
-        "year": "2025",
-        "devices": [
-            "Responsive"
-        ],
-        "title": "다국어 웹 ERP 제작",
-        "shorts": "글로벌 시장 진출을 위한 다국어 지원 ERP 시스템 개발",
-        "details": "해외 골프장 공급을 위해 다국어(한국어·영어 등)를 지원하는 글로벌향 ERP 시스템입니다.\n언어 전환 시 레이아웃 깨짐 없이 자연스럽게 전환되도록 i18n 구조를 적용했으며, 국가별 통화·날짜 포맷 차이도 반영했습니다.",
-        "img": [
-            "./img/golfzon/global/2.png"
-        ],
-        "code": [
-            "HTML",
-            "CSS",
-            "JAVASCRIPT"
-        ],
-        "company": "GOLFZON"
-    },
-    {
         "brand": "METLIFE",
         "year": "2025",
         "devices": [
@@ -1289,5 +1194,100 @@
             "JAVASCRIPT"
         ],
         "company": "FREE1"
+    },
+    {
+        "brand": "GOLFZON",
+        "year": "2024",
+        "devices": [
+            "Responsive"
+        ],
+        "title": "ERP 사용 메뉴얼 페이지 제작",
+        "shorts": "스크롤 연동 네비게이션과 실시간 검색 기능을 갖춘 ERP 가이드 페이지 단독 제작",
+        "details": "골프존 클라우드 ERP 사용자를 위한 온라인 메뉴얼 가이드 페이지입니다.\n스크롤 위치에 따라 좌측 네비게이션이 자동으로 활성화되고, 키워드 검색으로 원하는 항목에 즉시 이동할 수 있는 기능을 직접 개발했습니다.",
+        "img": [
+            "./img/golfzon/manual/1.png"
+        ],
+        "code": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company": "GOLFZON"
+    },
+    {
+        "brand": "GOLFZON",
+        "year": "2025",
+        "devices": [
+            "Responsive"
+        ],
+        "title": "웹 ERP 제작",
+        "shorts": "골프장 전 업무를 아우르는 대규모 웹 ERP 시스템 신규 구축",
+        "details": "예약·객실·회원·POS 등 골프장 운영에 필요한 모든 기능을 포함한 웹 ERP 시스템입니다.\nRealgrid를 활용한 대용량 데이터 그리드 처리와 Chart.js 기반의 통계 시각화를 구현했으며, 국내향 버전을 기준으로 전체 시스템 구조를 설계·개발했습니다.",
+        "img": [
+            "./img/golfzon/erp/pc.png"
+        ],
+        "code": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company": "GOLFZON"
+    },
+    {
+        "brand": "GOLFZON",
+        "year": "2025",
+        "devices": [
+            "Responsive"
+        ],
+        "title": "오픈향 웹 ERP 제작",
+        "shorts": "국내향 ERP를 기반으로 한 외부 공급용 오픈향 버전 개발",
+        "details": "국내향 ERP를 베이스로 외부 골프장 공급을 위한 오픈향 버전을 별도 개발했습니다.\n고객사별 커스터마이징 요소를 유연하게 적용할 수 있도록 구조를 분리하고, POS·예약·객실 등 핵심 기능의 안정성을 강화했습니다.",
+        "img": [
+            "./img/golfzon/open/7.pos.png"
+        ],
+        "code": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company": "GOLFZON"
+    },
+    {
+        "brand": "GOLFZON",
+        "year": "2025",
+        "devices": [
+            "MO"
+        ],
+        "title": "모바일 웹 ERP 제작",
+        "shorts": "현장 운영 직원을 위한 모바일 최적화 ERP 시스템 개발",
+        "details": "골프장 현장 직원이 스마트폰으로 예약 조회·체크인·POS 처리를 할 수 있는 모바일 전용 ERP입니다.\nPC ERP와 동일한 데이터를 공유하면서도 모바일 UX에 맞게 화면 구조와 인터랙션을 완전히 재설계했습니다.",
+        "img": [
+            "./img/golfzon/mobile/3.png"
+        ],
+        "code": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company": "GOLFZON"
+    },
+    {
+        "brand": "GOLFZON",
+        "year": "2025",
+        "devices": [
+            "Responsive"
+        ],
+        "title": "다국어 웹 ERP 제작",
+        "shorts": "글로벌 시장 진출을 위한 다국어 지원 ERP 시스템 개발",
+        "details": "해외 골프장 공급을 위해 다국어(한국어·영어 등)를 지원하는 글로벌향 ERP 시스템입니다.\n언어 전환 시 레이아웃 깨짐 없이 자연스럽게 전환되도록 i18n 구조를 적용했으며, 국가별 통화·날짜 포맷 차이도 반영했습니다.",
+        "img": [
+            "./img/golfzon/global/2.png"
+        ],
+        "code": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company": "GOLFZON"
     }
 ]
