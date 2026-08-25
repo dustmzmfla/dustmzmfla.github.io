@@ -1314,8 +1314,8 @@
         "devices": [
             "Responsive"
         ],
-        "title": "신한투자증권 자사 홈페이지 및 이벤트 페이지 퍼블리싱",
-        "shorts": "자사 홈페이지 및 신규 이벤트 제작",
+        "title": "신한투자증권 퍼블리싱",
+        "shorts": "SVN, CMS 형상관리를 통한 자사 홈페이지 유지 보수 및 신규 이벤트 페이지 퍼블리싱에 참여",
         "details": "SVN, CMS 형상관리를 통한 자사 홈페이지 유지 보수 및 신규 이벤트 페이지 퍼블리싱에 참여",
         "img": [
             "./img/shinhan/homepage.png"
