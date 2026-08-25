@@ -1289,5 +1289,42 @@
             "JAVASCRIPT"
         ],
         "company": "GOLFZON"
+    },
+    {
+        "brand": "SANGCHEONRU",
+        "year": "2026",
+        "devices": [
+            "Responsive"
+        ],
+        "title": "체험형 공간 '상천루' 사이트 신규 제작 ",
+        "shorts": "Next.js 기반의 홍보용 브랜드 홈페이지",
+        "details": "Next.js와 Tailwind CSS를 사용하여 처음 세팅부터 퍼블리싱 및 프론트엔드 개발을 수행",
+        "img": [
+            "./img/sangcheonru/sangcheonru.png"
+        ],
+        "code": [
+            "Next.js",
+            "TAILWIND CSS"
+        ],
+        "company": "SANGCHEONRU"
+    },
+    {
+        "brand": "SHINHAN",
+        "year": "2026",
+        "devices": [
+            "Responsive"
+        ],
+        "title": "신한투자증권 자사 홈페이지 및 이벤트 페이지 퍼블리싱",
+        "shorts": "자사 홈페이지 및 신규 이벤트 제작",
+        "details": "SVN, CMS 형상관리를 통한 자사 홈페이지 유지 보수 및 신규 이벤트 페이지 퍼블리싱에 참여",
+        "img": [
+            "./img/shinhan/homepage.png"
+        ],
+        "code": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "company": "SHINHAN"
     }
 ]
